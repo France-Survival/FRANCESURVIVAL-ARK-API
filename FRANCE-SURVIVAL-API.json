@@ -2,49 +2,2138 @@
   "dinosaurs": [
     {
       "name": "Achatina",
-      "description": "Petite créature ressemblant à un escargot, connue pour sa lenteur.",
+      "description": "Description fictive de l'Achatina.",
       "level": 1,
-      "size": "Small",
+      "size": "Petit",
       "torpor": "Low",
       "food": {
         "useSanguineElixir": false,
         "Sweet Vegetable Cake": {
-          "amount": 5
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
         }
       },
       "category": "Herbivore",
-      "type": "Land",
+      "type": "Terrestre",
       "tamable": true,
-      "behavior": "Aggressive",
-      "habitat": "Plains",
+      "behavior": "Passif",
+      "habitat": "Forêt",
       "period": "Jurassic"
     },
     {
-      "name": "Allosaurus",
+      "name": "Allosaure",
       "description": "Grand prédateur redoutable aux dents acérées.",
       "level": 1,
-      "size": "Large",
+      "size": "Grand",
       "torpor": "Medium",
       "food": {
         "useSanguineElixir": false,
         "Superior Kibble": {
-          "amount": 5
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
         },
         "Raw Mutton": {
-          "amount": 5
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
         },
         "Raw Prime Meat": {
-          "amount": 5
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
         },
         "Cooked Lamb Chop": {
-          "amount": 5
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
         }
       },
-      "category": "Carnivore",
-      "type": "Land",
+      "category": "Herbivore",
+      "type": "Terrestre",
       "tamable": true,
-      "behavior": "Aggressive",
-      "habitat": "Plains",
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Ammonite",
+      "description": "Description fictive de l'Ammonite.",
+      "level": 1,
+      "size": "Moyen",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": false,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Anglerfish",
+      "description": "Description fictive de l'Anglerfish.",
+      "level": 1,
+      "size": "Moyen",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Ankylosaurus",
+      "description": "Description fictive de l'Ankylosaurus.",
+      "level": 1,
+      "size": "Grand",
+      "torpor": "High",
+      "food": {
+        "useSanguineElixir": false,
+        "Berries": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Ankylosaurus",
+      "description": "Description fictive de l'Ankylosaurus.",
+      "level": 1,
+      "size": "Grand",
+      "torpor": "High",
+      "food": {
+        "useSanguineElixir": false,
+        "Berries": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Araneo",
+      "description": "Description fictive de l'Araneo.",
+      "level": 1,
+      "size": "Petit",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Insects": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Archeopteryx",
+      "description": "Description fictive de l'Archeopteryx.",
+      "level": 1,
+      "size": "Petit",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Fruits": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Argentavis",
+      "description": "Description fictive de l'Argentavis.",
+      "level": 1,
+      "size": "Grand",
+      "torpor": "High",
+      "food": {
+        "useSanguineElixir": false,
+        "Raw Meat": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Arthropluera",
+      "description": "Description fictive de l'Arthropluera.",
+      "level": 1,
+      "size": "Moyen",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Rotting Meat": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Baryonyx",
+      "description": "Description fictive du Baryonyx.",
+      "level": 1,
+      "size": "Grand",
+      "torpor": "Medium",
+      "food": {
+        "useSanguineElixir": false,
+        "Fish": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Basilosaurus",
+      "description": "Description fictive du Basilosaurus.",
+      "level": 1,
+      "size": "Très grand",
+      "torpor": "High",
+      "food": {
+        "useSanguineElixir": false,
+        "Marine Fauna": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Beelzebufo",
+      "description": "Description fictive du Beelzebufo.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Brontosaurus",
+      "description": "Description fictive du Brontosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Carbonemys",
+      "description": "Description fictive du Carbonemys.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Carnotaurus",
+      "description": "Description fictive du Carnotaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Castoroides",
+      "description": "Description fictive du Castoroides.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Chalicotherium",
+      "description": "Description fictive du Chalicotherium.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Cnidaria",
+      "description": "Description fictive du Cnidaria.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": false,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Coelacanth",
+      "description": "Description fictive du Coelacanth.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Compy",
+      "description": "Description fictive du Compy.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Daeodon",
+      "description": "Description fictive du Daeodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dilophosaur",
+      "description": "Description fictive du Dilophosaur.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dimetrodon",
+      "description": "Description fictive du Dimetrodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dimorphodon",
+      "description": "Description fictive du Dimorphodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Diplocaulus",
+      "description": "Description fictive du Diplocaulus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Diplodocus",
+      "description": "Description fictive du Diplodocus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dire Bear",
+      "description": "Description fictive du Dire Bear.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Direwolf",
+      "description": "Description fictive du Direwolf.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dodo",
+      "description": "Description fictive du Dodo.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Doedicurus",
+      "description": "Description fictive du Doedicurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dung Beetle",
+      "description": "Description fictive du Dung Beetle.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dunkleosteus",
+      "description": "Description fictive du Dunkleosteus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Electrophorus",
+      "description": "Description fictive du Electrophorus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Equus",
+      "description": "Description fictive du Equus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Eurypterid",
+      "description": "Description fictive du Eurypterid.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Gallimimus",
+      "description": "Description fictive du Gallimimus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Giant Bee",
+      "description": "Description fictive du Giant Bee.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Giganotosaurus",
+      "description": "Description fictive du Giganotosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Gigantopithecus",
+      "description": "Description fictive du Gigantopithecus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Hesperornis",
+      "description": "Description fictive du Hesperornis.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Hyaenodon",
+      "description": "Description fictive du Hyaenodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Ichthyosaurus",
+      "description": "Description fictive du Ichthyosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Iguanodon",
+      "description": "Description fictive du Iguanodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Kairuku",
+      "description": "Description fictive du Kairuku.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Kaprosuchus",
+      "description": "Description fictive du Kaprosuchus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Kentrosaurus",
+      "description": "Description fictive du Kentrosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Leech",
+      "description": "Description fictive du Leech.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Leedsichthys",
+      "description": "Description fictive du Leedsichthys.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Liopluerodon",
+      "description": "Description fictive du Liopluerodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Lystrosaurus",
+      "description": "Description fictive du Lystrosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Mammoth",
+      "description": "Description fictive du Mammoth.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Manta",
+      "description": "Description fictive du Manta.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Megalania",
+      "description": "Description fictive du Megalania.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Megaloceros",
+      "description": "Description fictive du Megaloceros.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Megalodon",
+      "description": "Description fictive du Megalodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Megalosaurus",
+      "description": "Description fictive du Megalosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Meganuera",
+      "description": "Description fictive du Meganuera.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Mesopithecus",
+      "description": "Description fictive du Mesopithecus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Microraptor",
+      "description": "Description fictive du Microraptor.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Mosasaurus",
+      "description": "Description fictive du Mosasaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Moschops",
+      "description": "Description fictive du Moschops.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Onyc",
+      "description": "Description fictive du Onyc.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Otter",
+      "description": "Description fictive du Otter.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Oviraptor",
+      "description": "Description fictive du Oviraptor.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Ovis",
+      "description": "Description fictive du Ovis.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pachy",
+      "description": "Description fictive du Pachy.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pachyrhinosaurus",
+      "description": "Description fictive du Pachyrhinosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Paraceratherium",
+      "description": "Description fictive du Paraceratherium.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Parasaur",
+      "description": "Description fictive du Parasaur.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pegomastax",
+      "description": "Description fictive du Pegomastax.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pelagornis",
+      "description": "Description fictive du Pelagornis.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Phiomia",
+      "description": "Description fictive du Phiomia.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Piranha",
+      "description": "Description fictive du Piranha.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pleosiosaur",
+      "description": "Description fictive du Pleosiosaur.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Procoptodon",
+      "description": "Description fictive du Procoptodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pteranodon",
+      "description": "Description fictive du Pteranodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pulomonoscorpius",
+      "description": "Description fictive du Pulomonoscorpius.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Purlovia",
+      "description": "Description fictive du Purlovia.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Quetzal",
+      "description": "Description fictive du Quetzal.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Raptor",
+      "description": "Description fictive du Raptor.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Rex",
+      "description": "Description fictive du Rex.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Rhyniogatha",
+      "description": "Description fictive du Rhyniogatha.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Sabertooth",
+      "description": "Description fictive du Sabertooth.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Sabertooth Salmon",
+      "description": "Description fictive du Sabertooth Salmon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Sarco",
+      "description": "Description fictive du Sarco.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Spino",
+      "description": "Description fictive du Spino.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Stegosaurus",
+      "description": "Description fictive du Stegosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Tapejara",
+      "description": "Description fictive du Tapejara.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Terror Bird",
+      "description": "Description fictive du Terror Bird.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Therizinosaur",
+      "description": "Description fictive du Therizinosaur.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Thylaceo",
+      "description": "Description fictive du Thylaceo.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Titanoboa",
+      "description": "Description fictive du Titanoboa.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Titanomyrma",
+      "description": "Description fictive du Titanomyrma.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Titanosaur",
+      "description": "Description fictive du Titanosaur.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Triceratops",
+      "description": "Description fictive du Triceratops.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Trilobite",
+      "description": "Description fictive du Trilobite.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Troodon",
+      "description": "Description fictive du Troodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Tusoteuthis",
+      "description": "Description fictive du Tusoteuthis.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Woolly Rhino",
+      "description": "Description fictive du Woolly Rhino.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Yutryannus",
+      "description": "Description fictive du Yutryannus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
       "period": "Jurassic"
     }
   ]
