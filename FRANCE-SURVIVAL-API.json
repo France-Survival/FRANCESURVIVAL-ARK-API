@@ -2,6 +2,7 @@
   "dinosaurs": [
     {
       "name": "Achatina",
+      "description": "Petite créature ressemblant à un escargot, connue pour sa lenteur.",
       "level": 1,
       "size": "Small",
       "torpor": "Low",
@@ -10,10 +11,17 @@
         "Sweet Vegetable Cake": {
           "amount": 5
         }
-      }
+      },
+      "category": "Herbivore",
+      "type": "Land",
+      "tamable": true,
+      "behavior": "Aggressive",
+      "habitat": "Plains",
+      "period": "Jurassic"
     },
     {
       "name": "Allosaurus",
+      "description": "Grand prédateur redoutable aux dents acérées.",
       "level": 1,
       "size": "Large",
       "torpor": "Medium",
@@ -31,7 +39,13 @@
         "Cooked Lamb Chop": {
           "amount": 5
         }
-      }
+      },
+      "category": "Carnivore",
+      "type": "Land",
+      "tamable": true,
+      "behavior": "Aggressive",
+      "habitat": "Plains",
+      "period": "Jurassic"
     }
   ]
 }
