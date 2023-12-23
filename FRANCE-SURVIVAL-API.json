@@ -1802,43 +1802,87 @@
     },
     {
       "name": "Sarco",
-      "description": "Description fictive du Sarco.",
-      "level": 1,
-      "size": "unknown",
-      "torpor": "unknown",
-      "food": {
-        "useSanguineElixir": false,
-        "Preferred Food": {
-          "amount": 5,
-          "time": "unknown",
-          "effectivness": "unknown"
-        }
-      },
-      "category": "Herbivore",
+      "description": "Contrairement à certaines espèces aquatiques, le Sarcosuchus Excubitor est une machine à tuer d'une patience à toute épreuve. Il passe le plus clair de son temps à attendre dans l'eau qu'une proie s'approche. Cela dit, il lui arrive de revenir sur la terre ferme pour chasser lorsque la faim se fait sentir. La plupart des dinosaures étant lents dans l'eau, y plonger est un bon moyen de leur échapper. Ce n'est bien évidemment pas le cas avec un Sarcosuchus, qui est beaucoup plus rapide dans l'eau que sur terre.",
+      "tamed":"Bien qu'il soit plutôt présent dans les rivières, le Sarcosuchus semble très à l'aise dans l'océan. Certains groupes les utilisent comme montures pour se débarrasser des Mégalodons ou accéder à certaines ressources.",
+      "category": "Carnivore",
       "type": "Terrestre",
       "tamable": true,
-      "behavior": "Passif",
-      "habitat": "Forêt",
-      "period": "Jurassic"
+      "ridable":true,
+      "behavior": "Aggressif",
+      "habitat": "Riviére",
+      "period": "N/A",
+      "size": "N/A",
+      "level": 1,
+      "torpor": 400,
+      "food": {
+        "useSanguineElixir": false,
+        "Croquette Réguliere": {
+          "amount": 1,
+          "time": 261600,
+          "effectivness": 99.9
+        }, 
+        "Poisson de Qualité supérieure crue":{
+          "amount": 2,
+          "time": 138000,
+          "effectivness": 99.7
+        },
+        "Viande de mouton": {
+          "amount": 2,
+          "time": 300000,
+          "effectivness": 99.7
+        },
+        "Viande crue supérieure": {
+          "amount": 2,
+          "time": 300000,
+          "effectivness": 99.7
+        },
+        "Côtelette d’agneau cuite":{
+          "amount": 3,
+          "time": 438000,
+          "effectivness": 99.2
+        }
+      }
     },
     {
       "name": "Spino",
-      "description": "Description fictive du Spino.",
-      "category": "Herbivore",
+      "description": "Parmi les quelques carnivores de l'île qui peuvent égaler les Tyrannosaures, Spinosaurus aquareliga n'égal pas sa férocité. Les quatre pattes du Spinosaurus et sa grande voile le rendent assez rapide sur terre et incroyablement rapide dans l'eau. Il est capable de changer de position en passant du quadrupède au bipède. La créature est visuellement distinguée par sa voile spectaculaire. Dans mes voyages j'ai vu beaucoup de voiles différentes et colorées, car chaque Spinosaurus semble avoir une palette légèrement différente. Le seul fait réconfortant à propos de Spinosaurus est qu'il semble plus à la maison près de l'eau. Bien que la créature soit plus puissante, plus rapide, agile et insatiable lorsqu'elle est dans l'eau, elle tend à devenir moins hostile à mesure qu'elle s'en éloigne. À une occasion, je n'ai échappé à un Spinosaurus qu'en m'éloignant suffisamment de son lac pour qu'il se désintéresse.",
+      "tamed":"Spinosaurus est un grand carnivore incroyablement bien équilibré. Plus rapide qu'un Tyrannosaure dans l'eau et capable de voyager sur terre contrairement à un Megalodon, sa polyvalence tout-terrain peut être inégalée. Bien que sa vitesse de déplacement soit plus lente dans une position de bipède, il acquiert une force d'attaque et une mobilité considérables sous cette forme. Pour les chasseurs qui souhaitent avoir une monture bien équilibrée, Spinosaurus peut être le choix idéal, s'ils arrivent à en acquérir un.",
+      "category": "Carnivore",
       "type": "Terrestre",
       "tamable": true,
-      "behavior": "Passif",
-      "habitat": "Forêt",
-      "period": "Jurassic",
+      "ridable":true,
+      "behavior": "Aggressif",
+      "habitat": "Riviére",
+      "period": "N/A",
+      "size": "N/A",
       "level": 1,
-      "size": "unknown",
-      "torpor": "unknown",
+      "torpor": 850,
       "food": {
         "useSanguineElixir": false,
-        "Preferred Food": {
-          "amount": 5,
-          "time": "unknown",
-          "effectivness": "unknown"
+        "Croquette Exceptionnelle": {
+          "amount": 1,
+          "time": 261600 ,
+          "effectivness": 100
+        }, 
+        "Viande de mouton": {
+          "amount": 2,
+          "time": 313800   ,
+          "effectivness": 99.8
+        },
+        "Poisson de Qualité supérieure crue":{
+          "amount": 2,
+          "time": 145200 ,
+          "effectivness": 99.8
+        },
+        "Viande crue supérieure": {
+          "amount": 3,
+          "time": 483000  ,
+          "effectivness": 99.7
+        },
+        "Côtelette d’agneau cuite":{
+          "amount": 4,
+          "time": 627000 ,
+          "effectivness": 99.4
         }
       }
     },
