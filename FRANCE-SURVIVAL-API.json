@@ -1,37 +1,2324 @@
 {
-    "dinosaurs": [
-      {
-        "name": "Achatina",
-        "level": 1,
-        "size": "Small",
-        "torpor": "Low",
-        "food": {
-          "useSanguineElixir": false,
-          "Sweet Vegetable Cake": {
-            "amount": null
-          }
+  "dinosaurs": [
+    {
+      "name": "Achatina",
+      "description": "Description fictive de l'Achatina.",
+      "level": 1,
+      "size": "Petit",
+      "torpor": "Low",
+      "food": {
+        "useSanguineElixir": false,
+        "Sweet Vegetable Cake": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
         }
       },
-      {
-        "name": "Allosaurus",
-        "level": 1,
-        "size": "Large",
-        "torpor": "Medium",
-        "food": {
-          "useSanguineElixir": false,
-          "Superior Kibble": {
-            "amount": 1
-          },
-          "Raw Mutton": {
-            "amount": null
-          },
-          "Raw Prime Meat": {
-            "amount": null
-          },
-          "Cooked Lamb Chop": {
-            "amount": null
-          }
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Allosaure",
+      "description": "Grand prédateur redoutable aux dents acérées.",
+      "level": 1,
+      "size": "Grand",
+      "torpor": "Medium",
+      "food": {
+        "useSanguineElixir": false,
+        "Superior Kibble": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        },
+        "Raw Mutton": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        },
+        "Raw Prime Meat": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        },
+        "Cooked Lamb Chop": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Ammonite",
+      "description": "Description fictive de l'Ammonite.",
+      "level": 1,
+      "size": "Moyen",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": false,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Anglerfish",
+      "description": "Description fictive de l'Anglerfish.",
+      "level": 1,
+      "size": "Moyen",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Ankylosaurus",
+      "description": "Description fictive de l'Ankylosaurus.",
+      "level": 1,
+      "size": "Grand",
+      "torpor": "High",
+      "food": {
+        "useSanguineElixir": false,
+        "Berries": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Ankylosaurus",
+      "description": "Description fictive de l'Ankylosaurus.",
+      "level": 1,
+      "size": "Grand",
+      "torpor": "High",
+      "food": {
+        "useSanguineElixir": false,
+        "Berries": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Araneo",
+      "description": "Description fictive de l'Araneo.",
+      "level": 1,
+      "size": "Petit",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Insects": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Archeopteryx",
+      "description": "Description fictive de l'Archeopteryx.",
+      "level": 1,
+      "size": "Petit",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Fruits": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Argentavis",
+      "description": "Description fictive de l'Argentavis.",
+      "level": 1,
+      "size": "Grand",
+      "torpor": "High",
+      "food": {
+        "useSanguineElixir": false,
+        "Raw Meat": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Arthropluera",
+      "description": "Description fictive de l'Arthropluera.",
+      "level": 1,
+      "size": "Moyen",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Rotting Meat": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Baryonyx",
+      "description": "Description fictive du Baryonyx.",
+      "level": 1,
+      "size": "Grand",
+      "torpor": "Medium",
+      "food": {
+        "useSanguineElixir": false,
+        "Fish": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Basilosaurus",
+      "description": "Description fictive du Basilosaurus.",
+      "level": 1,
+      "size": "Très grand",
+      "torpor": "High",
+      "food": {
+        "useSanguineElixir": false,
+        "Marine Fauna": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Beelzebufo",
+      "description": "Description fictive du Beelzebufo.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Brontosaurus",
+      "description": "Description fictive du Brontosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Carbonemys",
+      "description": "Description fictive du Carbonemys.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Carnotaurus",
+      "description": "Description fictive du Carnotaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Castoroides",
+      "description": "Description fictive du Castoroides.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Chalicotherium",
+      "description": "Description fictive du Chalicotherium.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Cnidaria",
+      "description": "Description fictive du Cnidaria.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": false,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Coelacanth",
+      "description": "Description fictive du Coelacanth.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Compy",
+      "description": "Description fictive du Compy.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Daeodon",
+      "description": "Description fictive du Daeodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dilophosaur",
+      "description": "Description fictive du Dilophosaur.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dimetrodon",
+      "description": "Description fictive du Dimetrodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dimorphodon",
+      "description": "Description fictive du Dimorphodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Diplocaulus",
+      "description": "Description fictive du Diplocaulus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Diplodocus",
+      "description": "Description fictive du Diplodocus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dire Bear",
+      "description": "Description fictive du Dire Bear.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Direwolf",
+      "description": "Description fictive du Direwolf.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dodo",
+      "description": "Description fictive du Dodo.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Doedicurus",
+      "description": "Description fictive du Doedicurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dung Beetle",
+      "description": "Description fictive du Dung Beetle.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Dunkleosteus",
+      "description": "Description fictive du Dunkleosteus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Electrophorus",
+      "description": "Description fictive du Electrophorus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Equus",
+      "description": "Description fictive du Equus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Eurypterid",
+      "description": "Description fictive du Eurypterid.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Gallimimus",
+      "description": "Description fictive du Gallimimus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Giant Bee",
+      "description": "Description fictive du Giant Bee.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Giganotosaurus",
+      "description": "Description fictive du Giganotosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Gigantopithecus",
+      "description": "Description fictive du Gigantopithecus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Hesperornis",
+      "description": "Description fictive du Hesperornis.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Hyaenodon",
+      "description": "Description fictive du Hyaenodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Ichthyosaurus",
+      "description": "Description fictive du Ichthyosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Iguanodon",
+      "description": "Description fictive du Iguanodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Kairuku",
+      "description": "Description fictive du Kairuku.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Kaprosuchus",
+      "description": "Description fictive du Kaprosuchus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Kentrosaurus",
+      "description": "Description fictive du Kentrosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Leech",
+      "description": "Description fictive du Leech.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Leedsichthys",
+      "description": "Description fictive du Leedsichthys.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Liopluerodon",
+      "description": "Description fictive du Liopluerodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Lystrosaurus",
+      "description": "Description fictive du Lystrosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Mammoth",
+      "description": "Description fictive du Mammoth.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Manta",
+      "description": "Description fictive du Manta.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Megalania",
+      "description": "Description fictive du Megalania.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Megaloceros",
+      "description": "Description fictive du Megaloceros.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Megalodon",
+      "description": "Description fictive du Megalodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Megalosaurus",
+      "description": "Description fictive du Megalosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Meganuera",
+      "description": "Description fictive du Meganuera.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Mesopithecus",
+      "description": "Description fictive du Mesopithecus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Microraptor",
+      "description": "Description fictive du Microraptor.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Mosasaurus",
+      "description": "Description fictive du Mosasaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Moschops",
+      "description": "Description fictive du Moschops.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Onyc",
+      "description": "Description fictive du Onyc.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Otter",
+      "description": "Description fictive du Otter.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Oviraptor",
+      "description": "Description fictive du Oviraptor.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Ovis",
+      "description": "Description fictive du Ovis.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pachy",
+      "description": "Description fictive du Pachy.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pachyrhinosaurus",
+      "description": "Description fictive du Pachyrhinosaurus.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Paraceratherium",
+      "description": "Description fictive du Paraceratherium.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Parasaur",
+      "description": "Description fictive du Parasaur.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pegomastax",
+      "description": "Description fictive du Pegomastax.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pelagornis",
+      "description": "Description fictive du Pelagornis.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Phiomia",
+      "description": "Description fictive du Phiomia.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Piranha",
+      "description": "Description fictive du Piranha.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pleosiosaur",
+      "description": "Description fictive du Pleosiosaur.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Procoptodon",
+      "description": "Description fictive du Procoptodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pteranodon",
+      "description": "Description fictive du Pteranodon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Pulomonoscorpius",
+      "description": "Description fictive du Pulomonoscorpius.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Purlovia",
+      "description": "Description fictive du Purlovia.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Quetzal",
+      "description": "Description fictive du Quetzal.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Raptor",
+      "description": "Description fictive du Raptor.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Rex",
+      "description": "Description fictive du Rex.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Rhyniogatha",
+      "description": "Description fictive du Rhyniogatha.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Sabertooth",
+      "description": "Description fictive du Sabertooth.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Sabertooth Salmon",
+      "description": "Description fictive du Sabertooth Salmon.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Sarco",
+      "description": "Description fictive du Sarco.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Spino",
+      "description": "Description fictive du Spino.",
+      "level": 1,
+      "size": "unknown",
+      "torpor": "unknown",
+      "food": {
+        "useSanguineElixir": false,
+        "Preferred Food": {
+          "amount": 5,
+          "time": "unknown",
+          "effectivness": "unknown"
+        }
+      },
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic"
+    },
+    {
+      "name": "Stegosaurus",
+      "description": "Le Stegosaurus Regium possède une double rangée de 16 plaques osseuses sur son dos et de 6 autres sur sa queue, contrairement au motif alterné des fossiles que l'on trouve en musée. Le Stégosaure est une créature très commune sur l'île. Sans surprise, le Stégosaure utilise les piques ornant sa queue pour se défendre. Bien que passif, le Stégosaure viendra au secours de ses congénères à proximité.",
+      "tamed":"Le Stégosaure permet de transporter de grandes quantités de ressources. Ses plaques peuvent servir de couvertures contre les flèches. Les piques sur sa queue permettent de récupérer énormément de baies et de repousser les ennemis.",
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "ridable":true,
+      "behavior": "Neutre",
+      "habitat": {"1":"Forêt","2":"Plaine"},
+      "period": "N/A",
+      "level": 1,
+      "size": "Grand",
+      "torpor": 500,
+      "food": {
+        "useSanguineElixir": false,
+        "Croquette Réguliere": {
+          "amount": 2,
+          "time": 140400  ,
+          "effectivness": 100
+        },
+        "Légumes": {
+          "amount": 14,
+          "time": 494400 ,
+          "effectivness": 99.7
+        },
+        "Mejoberry": {
+          "amount": 18,
+          "time": 480000 ,
+          "effectivness": 99.5
+        },
+        "Baies": {
+          "amount": 27,
+          "time": 480000 ,
+          "effectivness": 98.9
         }
       }
-    ]
-  }
+      
+    },
+    {
+      "name": "Tapejara",
+      "description": "Le Tapejara Imperator est une merveille à regarder dans la nature. Il a une agilité étonnante par rapport à d'autres dinosaures volants de l'île en grande partie grâce à sa crête qui lui sert de gouvernail. Sa crête est en fait une sorte d'organe sensoriel. Elle lui fait non seulement, diminuer le rayon de braquage du Tapejara mais aussi lui fait prendre des vitesses élevées. Elle fournit également au Tapejara des informations supplémentaires pour l'aider à voler dans les airs avec une grâce incomparable. Ses griffes acérées lui permettent de s'accrocher aux troncs de grands Séquoia par exemple.",
+      "tamed":"Les tribus semblent considérer le Tapejara comme l'équivalent d'un avion à réaction polyvalent, capable de changer de position rapidement et avec une agilité remarquable. Lorsqu'il est domestiqué, le Tapejara est généralement équipé d'une selle unique à double passager, ce qui permet à un passager de manier des armes alors que le pilote prend les rênes. Et quand le Tapejara est accroché, à la fois le passager et le pilote sont en mesure de tirer. En revanche, il manque fortement d'endurance et ne peut porter de lourdes charges de par sa constitution.",
+      "category": "Herbivore",
+      "type": "Volant",
+      "tamable": true,
+      "ridable":true,
+      "behavior": "Passif",
+      "habitat": {"1":"Forêt","2":"Plaine"},
+      "period": "N/A",
+      "size": "Moyen",
+      "level": 1,
+      "torpor": 450,
+      "food": {
+        "useSanguineElixir": false,
+        "Croquette Supérieure": {
+          "amount": 1,
+          "time": 249600,
+          "effectivness": 99.9
+        }, 
+        "Viande de mouton": {
+          "amount": 1,
+          "time": 300600  ,
+          "effectivness": 99.9
+        },
+        "Viande crue supérieure": {
+          "amount": 2,
+          "time": 300600 ,
+          "effectivness": 99.7
+        },
+        "Côtelette d’agneau cuite":{
+          "amount": 2,
+          "time": 180000,
+          "effectivness": 99.5
+        },
+        " Viande cuite supérieure":{
+          "amount": 3,
+          "time": 438600 ,
+          "effectivness": 99
+        }
+      }
+    },
+    {
+      "name": "Terror Bird",
+      "description": "Pouvant faire une taille allant de 2, 5 mètres à 3, 5 mètres, le Phorusrhacidae Rapidesultor est un volatile très agressif qui est tout juste capable de \"planer\" très brièvement. En contrepartie, il utilise ses ailes pour s'équilibrer lorsqu'il sprinte très vite. Le vole du Phorusrhacidae est en fait plus proche d'un saut prolongé ou d'un vol plané qu'il prolonge en battant des ailes. Le Phorusrhacidae montre d'intéressants traits communs avec les théropodes tels que l'Utahraptor, le Carnotaurus et le Tyranosaurus. Il possède des traits similaires tels que la forme générale et les marques de prédation, mais ses attaques se résument à de légères frappes et à des coups avec élan.",
+      "tamed":"Le Phorusrhacidae est une excellente monture de combat, plus particulièrement pour harceler et faire de la reconnaissance. Les cavaliers de Phorusrhacidae ont l'avantage d'un théropode rapide, mobile au sol tout en ayant une certaine liberté de mouvement dans les airs, en supposant que le cavalier puisse amadouer le Phorusrhacidae afin qu'il reste dans les airs pendant un long vol plané.",
+      "category": "Carnivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "ridable":true,
+      "behavior": "Aggressif",
+      "habitat": "Forêt",
+      "period": "N/A",
+      "size": "N/A",
+      "level": 1,
+      "torpor": 300,
+      "food": {
+        "useSanguineElixir": false,
+        "Croquette Réguliere": {
+          "amount": 1,
+          "time": 140400,
+          "effectivness": 99.9
+        }, 
+        "Viande de mouton": {
+          "amount": 1,
+          "time": 78600  ,
+          "effectivness": 99.9
+        },
+        "Viande crue supérieure": {
+          "amount": 1,
+          "time": 78600 ,
+          "effectivness": 99.9
+        },
+        "Côtelette d’agneau cuite":{
+          "amount": 2,
+          "time": 180000,
+          "effectivness": 99.6
+        },
+        " Viande cuite supérieure":{
+          "amount": 2,
+          "time": 180000,
+          "effectivness": 99.4
+        }
+      }
+      
+    },
+    {
+      "name": "Therizinosaur",
+      "description": "Je ne suis pas complètement sûr de comment le Therizinosaurus Multiensis arrive à peupler l'île. Il est étonnamment lent pour sa taille et c'est un prolifique solitaire (donc pas de groupe pour couvrir ses arrières). Je suppose que le fait que sa simple force brute rivalise avec celle du Tyrannosaurus est la seule chose qui permet à cet herbivore agressif de taille moyenne de prospérer sur l'île. Les griffes du Thérizinosaure sont parmi les outils biologiques les plus polyvalents que j'ai pu rencontrer, tant elles permettent d'écarter les arbres et le feuillage qui se trouvent sur son chemin que de percer l'épaisse carapace et la peau des créatures les plus défensives de l'île, si combat il y a.",
+      "tamed":"Un Thérizinosaure apprivoisé est l'une des montures les plus polyvalentes qu'un survivant puisse avoir. Il peut être entraîné à utiliser ses griffes violemment ou délicatement, permettant au cavalier de récolter principalement ce dont il ou elle a besoin, avec énormément de ressources dont il ou elle a besoin, avec une efficacité hors du commun. Et en combat, ces mêmes griffes peuvent passer droit au travers de la plus robuste des armures. Cette flexibilité compense largement son incapacité à porter de grosses charges.",
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "ridable":true,
+      "behavior": "Aggressif",
+      "habitat": {"1":"Forêt","2":"Plaine"},
+      "period": "N/A",
+      "size": "N/A",
+      "level": 1,
+      "torpor": 925,
+      "food": {
+        "useSanguineElixir": false,
+        "Croquette Exceptionnelle": {
+          "amount": 2,
+          "time": 390000 ,
+          "effectivness": 100
+        },
+        "Légumes": {
+          "amount": 15,
+          "time": 1440000,
+          "effectivness": 99.8
+        },
+        "Mejoberry": {
+          "amount": 20,
+          "time": 1440000,
+          "effectivness": 99.7
+        },
+        "Baies": {
+          "amount": 39,
+          "time": 1388400,
+          "effectivness": 99.3
+        }
+      }
+    },
+    {
+      "name": "Thylaceo",
+      "description": "Le Thylacoleo Furtimorsus est un grand marsupial puissant qui peut souvent être trouvé en chasse autour des arbres. Ses longues griffes en font un grimpeur de qualité. Il les utilise également à son avantage pendant la chasse. Il grimpe aux arbres et attend, pour tendre une embuscade aux proies qui passent en se jetant sur eux. Lorsqu'une chose aussi grande saute sur eux, la cible devient abasourdie et n'a plus aucune chance. Le Thylacoleo est connu pour la qualité de ses combats et de ses mâchoires puissantes. Une fois qu'il mord sa proie, il verrouille sa mâchoire qui peut contenir la plupart des petites créatures en place. Le Thylacoleo va ensuite déchirer sa proie sauvagement avec ses griffes acérées. Si il a besoin de s'échapper d'un combat, le Thylacoleo utilise ses pattes postérieures pour revenir en sécurité dans les arbres.",
+      "tamed":"Le Thylacoleo est une monture modérément forte, et sa capacité à grimper aux arbres. Les petits raids sont particulièrement favorables avec le Thylacoleo, car il est bien adapté à des embuscades et des combats injustes.",
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "ridable":true,
+      "behavior": "Aggressif",
+      "habitat": "Forêt",
+      "period": "N/A",
+      "size": "N/A",
+      "level": 1,
+      "torpor": 700,
+      "food": {
+        "useSanguineElixir": false,
+        "Croquette Extraordinaire": {
+          "amount": 1,
+          "time": 187200,
+          "effectivness": 99.9
+        },
+        "Viande de mouton Cuite": {
+          "amount": 5,
+          "time": 553200,
+          "effectivness": 97.3
+        },
+        " Viande cuite supérieure": {
+          "amount": 6,
+          "time": 669000,
+          "effectivness": 95.7
+        },
+        "Viande de mouton Crue": {
+          "amount": 8,
+          "time": 900000,
+          "effectivness": 92.2
+        },
+        "Viande Cuite": {
+          "amount": 10,
+          "time": 553800,
+          "effectivness": 88.4
+        }
+      }
+    },
+    {
+      "name": "Titanoboa",
+      "description": "Le Titanoboa Exornantur est une créature agressive vivant dans les grottes et marais. Ce serpent massif n'étouffe pas ses proies, bien qu'il fasse partie de la famille des Titanoboas. Cette caractéristique doit être due à sa cohabitation avec les insectes géants. Le Titanoboa peut étrangement cohabiter avec les créatures vivants dans les grottes. Étant immunisé contre les tranquillisants et étant incapable de percer la chitine épaisse des insectes, les espèces ont appris à coexister. Ils chassent même souvent de grandes proies ensemble.",
+      "tamed":"Comme il est immunisé contre les tranquillisants, le Titanoboa Exornantur ne peut être mis KO, il faudra donc essayer une autre technique .",
+      "category": "Ovipare",
+      "type": "Terrestre",
+      "tamable": true,
+      "ridable":false,
+      "behavior": "Aggressif",
+      "habitat":  {"1":"Marais","2":"Rivers"},
+      "period": "N/A",
+      "size": "N/A",
+      "level": 1,
+      "torpor": 175,
+      "food": {
+        "useSanguineElixir": false,
+        "Oeuf de Tricératops": {
+          "amount": 5,
+          "time": 12600,
+          "effectivness": 99.5
+        },
+        "Oeuf d'Argentavis": {
+          "amount": 3,
+          "time": 24600,
+          "effectivness": 98.9
+        },
+        "Oeuf de Parasaur": {
+          "amount": 4,
+          "time": 60600,
+          "effectivness": 98.1
+        },
+        "Oeuf de pteranodon": {
+          "amount": 5,
+          "time": 72600 ,
+          "effectivness": 96.8
+        },
+        "Oeuf de dodo": {
+          "amount": 6,
+          "time": 84600,
+          "effectivness": 95.5
+        }
+      }
+    },
+    {
+      "name": "Titanomyrma",
+      "description": "Étant l'une des plus petites créatures de l'île, la Titanomyrma fait tout de même la taille d'un chien. Ce carnivore se déplace en groupe, n'attaquant que pour se défendre. Lorsqu'elle se sent menacée, elle dégage une substance chimique, alertant ainsi ses congénères aux alentours. On différencie 2 types de Titanomyrma : les ouvrières et les légionnaires. Les ouvrières sont petites, rapides et récoltent les ressources. Les légionnaires quant à elle sont plus grandes et plus lentes mais possèdent des ailes leur permettant de défendre le groupe. Il est fort probable que des reines Titanomyrma existent.",
+      "tamed":"La Titanomyrma étant très soudée à son groupe, elle ne peut être apprivoisée. Sa petite taille en fait un cible facile et une bonne quantité de Chitine peut être récupérée sur sa carcasse, à condition de ne pas tomber sur un essaim.",
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": false,
+      "ridable": false,
+      "behavior": "Aggressif",
+      "habitat": {"1":"Forêt","2":"Plaine"},
+      "period": "N/A",
+      "size": "N/A",
+      "level": 1,
+      "torpor": 50
+    },
+    {
+      "name": "Titanosaur",
+      "description": "Aujourd'hui, j'ai été le témoin d'une chose extraordinaire. J'ai aperçu le très rare Titanosaurus Vagacastrum. Une vraie montagne sur pattes, c'est un sauropode absolument énorme qui a développé des protubérances osseuses sur tout le corps faisant office d'armure. nEntre ces plaques et sa taille encore inégalée, le Titanosaure est extrêmement difficile à vaincre. En plus de cela, le Titanosaure semble être comme immunisé contre n'importe quelle sorte d'effet narcotique. Ils écrasent également souvent des créatures proches d'eux avec leurs pieds, à chaque pas qu'ils font. Tandis que la plupart des sauropodes ignorent les créatures non hostiles, le Titanosaure cause des soucis à toutes les créatures qui envahissent son espace personnel. Ceci provient probablement du fait qu'ils se goinfrent de toutes les plantes qu'ils peuvent trouver. Le Titanosaure se nourrit constamment, ce qui l'aide certainement à rapidement récupérer sa santé, même après un combat avec plusieurs carnivores comme le Giganotosaure.",
+      "tamed":"Je présume qu'un Titanosaure, par rapport à sa taille, est excessif pour un seul cavalier. Au contraire, pour les tribus qualifiées qui sont assez puissantes pour contrôler un de ces titans, la créature épique peut être employée comme une super forteresse mobile, capable de convoyer des quantités astronomiques de structures, défenses, et de créatures à travers l'île. La plupart des tribus nomades ont même leur base principale sur le dos d'un Titanosaure!",
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "habitat": {"1":"Forêt", "2":"Plaine","3":"Montagne"},
+      "period": "N/A",
+      "size": "N/A",
+      "level": 1,
+      "torpor": 25000,
+      "plateform":{
+        "Boulet de Canon":21,
+        "M.S.C.M":4,
+        "Fusée Grenade propulsée":63,
+        "Rocher":4167
+      }
+    },
+    {
+      "name": "Triceratops",
+      "description": "Apparemment, un croisement d'un Tricératops et d'un Styracosaure, le Triceratops styrax a à la fois la face caractéristique à trois cornes du Tricératops et l'arête cornue proéminente de Styracosaure. Normalement un animal de pâturage très docile, Tricératops devient agressif une fois en colère. Tricératops chassera les prédateurs potentiels (et les voleurs d'oeufs) avec des préjugés incroyables. Fuir les tricératops est plus difficile qu'il n'y paraît en raison de sa capacité à charger et à éperonner sa cible. J'ai vu le Tricératops avoir une réaction particulièrement hostile face au Tyrannosaure, avec des troupeaux attaquant en masse. Bien qu'ils ne soient pas très rapides, ils sont mortels en groupe.",
+      "tamed":"Une monture commune pour ceux qui chevauchent des dinosaures, le Tricératops se double d'un animal de meute et d'un dinosaure de combat. La crête osseuse du Tricératops fonctionne parfaitement comme couverture contre une attaque frontale, et la charge du dinosaure est incroyablement dangereuse. Il est très protecteur de ses semblables s'il se sens en danger. En présence de carnivores plus gros qui apparaissent comme une menace, Le Tricératops devient plus fort et se joint à l'effort des autres herbivores. Il est également capable de récolter une quantité considérable de ressources avec ses cornes en déchiquetant les fruits des feuilles, ce qui en fait un compagnon de travail très utile pour les petites tribus.",
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "habitat": {"1":"Forêt" , "2":"Plaine"},
+      "period": "N/A",
+      "size": "N/A",
+      "level": 1,
+      "torpor": 250,
+      "food": {
+        "useSanguineElixir": false,
+        "Croquette Simple": {
+          "amount": 1,
+          "time": 67200,
+          "effectivness": 100
+        },
+        "Légumes": {
+          "amount": 7,
+          "time": 247800,
+          "effectivness": 99.7
+        },
+        "Mejoberry": {
+          "amount": 9,
+          "time": 242400,
+          "effectivness": 99.5
+        },
+        "Baies": {
+          "amount": 14,
+          "time": 247800,
+          "effectivness": 98.8
+        }
+      }
+    },
+    {
+      "name": "Trilobite",
+      "description": "Le Trilobite Conchadurus est un carnivore opportuniste qui se nourrit de tout ce qui est plus petit que lui. Sa carapace incroyablement résistante semble être sa seule défense, ce qui est le cas chez la plupart des créatures assez lentes. Le Trilobite est trop petit pour être une source de nourriture viable, on ne trouve rien d'autre que des tripes sous sa carapace. C'est cependant une bonne chose pour lui car les prédateurs n'y prêtent pas attention.",
+      "tamed": "Le Trilobite ne peut être apprivoisé mais ce n'est pas pour autant qu'il n'a pas d'utilité. C'est une bonne source de Chitine pour n'importe quel aventurier peu courageux.",
+      "category":"Herbivore",
+      "type": "Marin",
+      "tamable": false,
+      "ridable":false,
+      "behavior": "Passif",
+      "habitat": {"1":"Océan", "2":"Plage"},
+      "period": "N/A",
+      "size": "N/A",
+      "level": 1,
+      "torpor": 0     
+    },
+    {
+      "name": "Troodon",
+      "description": "Sûrement la créature non humaine la plus intelligente de l'île, le Troodon Magnanimus apprend très vite. Il comprend les choses importantes beaucoup plus rapidement que les autres créatures (y compris les humains), et sa nature sociable signifie qu'il enseigne aussi à ses congénères, les rendant ainsi plus intelligents. Si l'habileté du Troodon n'est pas son atout principal, en revanche, ses tactiques et son anatomie le sont. Il chasse particulièrement de nuit quand nous sommes les plus vulnérables et voit l'homme comme sa principale proie. Son audace le rend particulièrement dangereux à cause du poison de ses crocs acérés, qui draine l'endurance de toute créature, et paralyse purement et simplement les humains. Heureusement, le Troodon est assez petit. S'il était plus grand, il pourrait bien devenir la créature dominante de son écosystème",
+      "tamed":"J'ai toujours pensé que le Troodon ne pouvait simplement pas être apprivoisé, jusqu'à ce que je vois enfin une survivante solitaire en compagnie d'un. Elle m'a dit qu'elle a laissé \"Troody\" chasser quelques petites créatures de sa tribu pour le sport, et il a en fait commencé à la suivre partout. Il semble que, bien que le Troodon soit trop intelligent pour tomber dans la combine habituelle de la domestication classique, il peut à la place gagner petit à petit en loyauté par une approche sociable qui lui permet de chasser. Depuis ce jour, je me suis demandée quels étaient les avantages qu'une meute de Troodons ultra-intelligents nés pour la guerre pouvait apporter à une tribu assez courageuse pour gagner les faveurs de ces carnivores malins.",
+      "category": "Carnivore",
+      "type": "Terrestre",
+      "tamable": false,
+      "ridable":false,
+      "behavior": "Aggressif",
+      "habitat": {"1":"Forêt" ,"2":"Plaine"},
+      "period": "N/A",
+      "size": "N/A",
+      "level": 1,
+      "torpor": 0
+    },
+    {
+      "name": "Tusoteuthis",
+      "description": "Le Tusoteuthis Vampyrus est un prédateur aquatique très agressif. Mesurant environ 9 mètres, le Tusoteuthis est une terreur des profondeurs. Lorsqu'il chasse, il écrase sa proie avec ses tentacules tout en siphonnant son sang à l'aide de ses deux crochets. Le Tusoteuthis est un adversaire terrifiant pour plusieurs raisons. Tout d'abord, son étreinte rend lentement sa victime inconsciente. Ensuite, il régénère sa santé lorsqu'il absorbe le sang de celle-ci. Et enfin, si le Tusoteuthis se sent en position de faiblesse, il envoie un nuage d'encre couvrant ainsi sa fuite.",
+      "tamed":"L'un des plus grands avantages à apprivoiser un Tusoteuthis est la récolte de son encre. Contrairement à l'encre normale, l'encre du Tusoteuthis est très grasse et peut être raffinée en essence. Entre ça et ses capacités de combat, le Tusoteuthis est une excellente créature aquatique, malgré sa faible vitesse.",
+      "category": "Carnivore",
+      "type": "Marin",
+      "tamable": true,
+      "ridable":true,
+      "behavior": "Aggressif",
+      "habitat": "Océan",
+      "period": "N/A",
+      "size": "N/A",
+      "level": 1,
+      "torpor": 1800,
+      "food": {
+        "useSanguineElixir": false,
+        "50 Perle Noire": {
+          "amount": 1,
+          "time": 0,
+          "effectivness": 100
+        },
+        "30 Viande de Qualité Cuite": {
+          "amount": 30,
+          "time": 3318000,
+          "effectivness": 99.9
+        },
+        "20 Viande Crue": {
+          "amount": 11,
+          "time": 2221800,
+          "effectivness": 99.3
+        },
+        "30 Poisson de Qualité Cuite": {
+          "amount": 12,
+          "time": 4698000,
+          "effectivness": 99.2
+        },
+        "30 Viande Cuite": {
+          "amount": 15,
+          "time": 5828400,
+          "effectivness": 98.8
+        }
+      }
+    },
+    {
+      "name": "Woolly Rhino",
+      "description": "Le Coelodonta utiliserro est un herbivore amical, familier de la toundra et des régions herbeuses de l'île. C'est une créature imposante et dangereuse même s'il semble plutôt confiant de la faune autour de lui. Une fois qu'il est attaqué, le Coelodonta fonce tout droit sur son ennemi. Sa puissance augmente quand il charge, et dépendant de sa vitesse à l'impact, le résultat peut être terrifiant. Avec suffisamment d'espace pour charger, il peut même embrocher la plus grosse des créatures avec un seul coup de corne ! Malgré la puissance du Coelodonta, beaucoup de tribus le chassent intensivement pour ses ressources uniques. Ses cornes peuvent être moulues en une poutre très stimulante, et son épaisse fourrure peut habiller de nombreux équipements isolants, faisant du Coelodonta une créature très recherchée. Même les tribus les moins évoluées chassent en groupe pour les abattre, à leurs plus grands risques.",
+      "tamed":"Quand il n'est pas chassé pour ses cornes, le Coelodonta fait une excellente bête de somme. Sa capacité à affronter des ennemis bien plus gros que lui ainsi que sa capacité à porter du poids assez considérable en font un plus pour tout échange commercial ou expédition de récolte.",
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "ridable":true,
+      "behavior": "Neutre",
+      "habitat": "Montagne",
+      "period": "N/A",
+      "size": "N/A",
+      "level": 1,
+      "torpor": 600,
+      "food": {
+        "useSanguineElixir": false,
+        "Croquette Supérieure": {
+          "amount": 1,
+          "time": 180600,
+          "effectivness": 100
+        },
+        "Légumes": {
+          "amount": 8,
+          "time": 669600,
+          "effectivness": 98
+        },
+        "Mejoberry": {
+          "amount": 10,
+          "time": 620400,
+          "effectivness": 96.6
+        },
+        "Baies": {
+          "amount": 15,
+          "time": 620400,
+          "effectivness": 92.7
+        }
+      }
+      
+    },
+    {
+      "name": "Yutryannus",
+      "description": "Le Yutyrannus Saevus possède un lien de parenté avec le Tyrannosaurus Rex mais il est nettement différent à première vue. Les créatures à plumes ne sont pas nécessairement perçues comme de dangereux prédateurs. Cependant, le Yutyrannus induit la peur même chez les chasseurs les plus habiles de l'île. Peu de prédateurs sont capables de chasser au côté du Carnotaurus comme le fait le Yutyrannus. C'est aussi la seule créature que j'ai vue qui provoque systématiquement un état de panique chez ceux qui entendent son rugissement.",
+      "tamed":"Un Yutyrannus domestiqué peut être un atout offensif ou défensif considérable. Avec son rugissement puissant, il peut paralyser de peur les créatures ennemies. Il peut être également renforcer confiance de vos alliés, voire même attirer l'attention d'un Carnotaurus sauvage. Ces qualités uniques de « Meneur » font du Yutyrannus une créature indispensable lors de confrontations à grande échelle !",
+      "category": "Carnivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "ridable":true,
+      "behavior": "Aggressif",
+      "habitat": "N/A",
+      "size": "N/A",
+      "level": 1,
+      "torpor": 1550,
+      "food": {
+        "useSanguineElixir": false,
+        "Croquette Extraordinaire": {
+          "amount": 3,
+          "time": 195000,
+          "effectivness": 100
+        },
+        "Viande de mouton": {
+          "amount": 6,
+          "time": 240000 ,
+          "effectivness": 99.9
+        },
+        "Viande crue supérieure": {
+          "amount": 3,
+          "time": 360000,
+          "effectivness": 99.8
+        },
+        "Côtelette d’agneau cuite":{
+          "amount": 4,
+          "time": 480000,
+          "effectivness": 99.6
+        },
+        " Viande cuite supérieure":{
+          "amount": 5,
+          "time": 600000,
+          "effectivness": 99.3
+        }
+      }
+    }
+  ]
+}

@@ -99,3 +99,36 @@ Troodon	Yes	No
 Tusoteuthis	Yes	Yes
 Woolly Rhino	Yes	Yes
 Yutryannus	Yes	Yes
+
+
+
+    {
+      "name": "",
+      "level":1,
+      "size":"",
+      "torpor":"",
+      "food":{
+        "useSanguineElixir":false,
+        "kibble":{
+          "amount": 5
+        },
+        "":{
+          "amount":0
+        },
+        "":{
+          "amount":0
+        },
+        "":{
+          "amount":0
+        },
+        "":{
+          "amount":0
+        }
+      },
+      "category":"",
+      "type":"",
+      "tamable":"",
+      "behavior":"",
+      "habitat":"",
+      "period":""
+    }
