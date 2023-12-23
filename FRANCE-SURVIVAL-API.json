@@ -1824,6 +1824,12 @@
     {
       "name": "Spino",
       "description": "Description fictive du Spino.",
+      "category": "Herbivore",
+      "type": "Terrestre",
+      "tamable": true,
+      "behavior": "Passif",
+      "habitat": "Forêt",
+      "period": "Jurassic",
       "level": 1,
       "size": "unknown",
       "torpor": "unknown",
@@ -1834,13 +1840,7 @@
           "time": "unknown",
           "effectivness": "unknown"
         }
-      },
-      "category": "Herbivore",
-      "type": "Terrestre",
-      "tamable": true,
-      "behavior": "Passif",
-      "habitat": "Forêt",
-      "period": "Jurassic"
+      }
     },
     {
       "name": "Stegosaurus",
@@ -1859,7 +1859,7 @@
       "food": {
         "useSanguineElixir": false,
         "Croquette Réguliere": {
-          "amount": 2,
+          "amount": 2, 
           "time": 140400  ,
           "effectivness": 100
         },
