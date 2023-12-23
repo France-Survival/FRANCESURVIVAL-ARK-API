@@ -1,37 +1,37 @@
 {
-    "dinosaurs": [
-      {
-        "name": "Achatina",
-        "level": 1,
-        "size": "Small",
-        "torpor": "Low",
-        "food": {
-          "useSanguineElixir": false,
-          "Sweet Vegetable Cake": {
-            "amount": null
-          }
-        }
-      },
-      {
-        "name": "Allosaurus",
-        "level": 1,
-        "size": "Large",
-        "torpor": "Medium",
-        "food": {
-          "useSanguineElixir": false,
-          "Superior Kibble": {
-            "amount": 1
-          },
-          "Raw Mutton": {
-            "amount": null
-          },
-          "Raw Prime Meat": {
-            "amount": null
-          },
-          "Cooked Lamb Chop": {
-            "amount": null
-          }
+  "dinosaurs": [
+    {
+      "name": "Achatina",
+      "level": 1,
+      "size": "Small",
+      "torpor": "Low",
+      "food": {
+        "useSanguineElixir": false,
+        "Sweet Vegetable Cake": {
+          "amount": 5
         }
       }
-    ]
-  }
+    },
+    {
+      "name": "Allosaurus",
+      "level": 1,
+      "size": "Large",
+      "torpor": "Medium",
+      "food": {
+        "useSanguineElixir": false,
+        "Superior Kibble": {
+          "amount": 5
+        },
+        "Raw Mutton": {
+          "amount": 5
+        },
+        "Raw Prime Meat": {
+          "amount": 5
+        },
+        "Cooked Lamb Chop": {
+          "amount": 5
+        }
+      }
+    }
+  ]
+}
