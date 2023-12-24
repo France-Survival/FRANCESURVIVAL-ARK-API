@@ -1,5 +1,6 @@
 {
-  "DINOSAURS_SPAWNS_AREAS": {
+  "DINOSAURS_SPAWNS_ZONES": {
+  "0": "N/A",
   "1": "Forêt",
   "2": "Marais",
   "3": "Grotte",
@@ -10,11 +11,13 @@
   "8": "Plaine"
 },
 "DINOSAURS_TYPES": {
+  "0": "N/A",
   "1": "Terrestre",
   "2": "Volant",
   "3": "Aquatique"
 },
 "DINOSAURS_CATEGORIES": {
+  "0": "N/A",
   "1": "Herbivore",
   "2": "Carnivore",
   "3": "Insectivore",
@@ -65,12 +68,7 @@
           "food": {
             "useSanguineElixir": false,
             "items": [
-              {
-                "name": "Délicieux gâteau aux légumes",
-                "amount": 3,
-                "time": 378600,
-                "effectiveness": 100
-              }
+              {"name": "Délicieux gâteau aux légumes","amount": 3,"time": 378600,"effectiveness": 100}
             ]
           }
         },
@@ -85,7 +83,6 @@
           {"type": "Fléchette tranquillisante améliorer", "quantity": 1},
           {"type": "Arc", "quantity": 1},
           {"type": "Arbalète", "quantity": 1},
-          {"type": "Arc Tek", "quantity": 1},
           {"type": "Arc a Poulie", "quantity": 1},
           {"type": "Harpon", "quantity": 1}
         ]
@@ -105,7 +102,7 @@
         "stats": {
           "level": 1,
           "torpor": 1000,
-          "torporDrain": 0.3,
+          "torporDrain": 0.8,
           "torporPerLevel": 60
         },
         "taming": {
@@ -114,30 +111,10 @@
           "food": {
             "useSanguineElixir": false,
             "items": [
-              {
-                "name": "Croquette Supérieure",
-                "amount": 2,
-                "time": 499200,
-                "effectiveness": 99.8
-              },
-              {
-                "name": "Viande de Mouton Crue",
-                "amount": 4,
-                "time": 499200,
-                "effectiveness": 99
-              },
-              {
-                "name": "Viande crue supérieure",
-                "amount": 5,
-                "time": 738000,
-                "effectiveness": 98.5
-              },
-              {
-                "name": "Côtelette d’agneau cuite",
-                "amount": 5,
-                "time": 1037400,
-                "effectiveness": 96.8
-              }
+              {"name": "Croquette Supérieure","amount": 2,"time": 499200,"effectiveness": 99.8},
+              {"name": "Viande de Mouton Crue","amount": 4,"time": 499200,"effectiveness": 99},
+              {"name": "Viande crue supérieure","amount": 5,"time": 738000,"effectiveness": 98.5},
+              {"name": "Côtelette d’agneau cuite","amount": 5,"time": 1037400,"effectiveness": 96.8}
             ]
           },
           "sedatives": [
@@ -147,13 +124,12 @@
             {"type": "Biotoxine", "quantity": 0}
           ],
           "ammunitions": [
-            {"type": "Fléchette tranquillisante", "quantity": 5},
-            {"type": "Fléchette tranquillisante améliorer", "quantity": 3},
-            {"type": "Arc", "quantity": 12},
-            {"type": "Arbalète", "quantity": 7},
-            {"type": "Arc Tek", "quantity": 3},
-            {"type": "Arc a Poulie", "quantity": 9},
-            {"type": "Harpon", "quantity": 4}
+            {"type": "Fléchette tranquillisante", "quantity": 0},
+            {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
+            {"type": "Arc", "quantity": 0},
+            {"type": "Arbalète", "quantity": 0},
+            {"type": "Arc a Poulie", "quantity": 0},
+            {"type": "Harpon", "quantity": 0}
           ]
         }
       },
@@ -161,9 +137,9 @@
       "name": "Ammonite",
       "description": "On la trouve habituellement dans les parties les plus profondes de l'eau autour de l'île, elle a une étrange relation avec les autres créatures des profondeurs. Sa présence doit leur être bénéfique car chaque créature aquatique à proximité défend l'Ammonite quand elle est attaquée.",
       "utility": "Comme la plupart des créatures de l'océan indomptables, l'Ammonite a un intérêt pour être une cible de chasse précieuse. Si une tribu est prête à risquer la colère des défenseurs près de lui, la bile peut être récoltée à partir des entrailles de son cadavre.",
-      "zone": ["1", "2", "3"],
-      "type": ["1"],
-      "category": ["6"],
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
       "tamable": false,
       "ridable": false,
       "behavior": "Neutre",
@@ -177,8 +153,11 @@
     },
     {
       "name": "Baudroie Abyssale",
-      "description": "Que sa taille soit due à une adaptation aux autres habitants de l'île ou à un croisement avec une autre espèce plus grande, Melanocetus angerlpescum est la plus grande forme de baudroie dont j'ai jamais entendu parler. Présente généralement dans les étendues les plus profondes et les plus sombres de l'océan, cette créature se nourrit de poissons plus petits tout en constituant une excellente source de nourriture pour les plus gros prédateurs.",
-      "utility": "Explorer les profondeurs de l’océan peut être difficile. Le froid, le manque d’air et l’absence choquante de lumière se combinent pour rendre les voyages très dangereux. Une baudroie apprivoisée peut utiliser la lumière naturelle au bout de ses tiges pour éclairer les profondeurs, rendant l'exploration non seulement plus sûre mais plus lucrative, car j'ai entendu certains survivants utiliser cette créature pour récolter les perles de silice trouvées dans les profondeurs de l'océan !",
+      "description": "Melanocetus angerlpescum, une grande forme de baudroie, se trouve dans les profondeurs sombres de l'océan, se nourrissant de petits poissons tout en étant une source de nourriture pour les plus grands prédateurs.",
+      "utility": "Une Baudroie Abyssale apprivoisée peut éclairer les profondeurs avec sa lumière naturelle, facilitant l'exploration et la récolte des perles de silice.",
+      "zone": ["6"],
+      "type": ["3"],
+      "category": ["5"],
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
@@ -190,64 +169,45 @@
         "torporPerLevel": 54
       },
       "taming": {
-        "type":"K.O",
+        "type": "K.O",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
-          "Croquette Régulière": {
-            "amount": 2,
-            "time": 608400,
-            "effectivness": 99.7
-          },
-          "Viande de Mouton Crue": {
-            "amount": 3,
-            "time": 540000,
-            "effectivness": 99
-          },
-          "Viande crue supérieure": {
-            "amount": 4,
-            "time": 720000,
-            "effectivness": 98.4
-          },
-          "Côtelette d’agneau cuite": {
-            "amount": 5,
-            "time": 900000,
-            "effectivness": 97
-          }
+          "items": [
+            {"name": "Croquette Régulière","amount": 2,"time": 608400,"effectiveness": 99.7},
+            {"name": "Viande de Mouton Crue","amount": 3,"time": 540000,"effectiveness": 99},
+            {"name": "Viande crue supérieure","amount": 4,"time": 720000,"effectiveness": 98.4},
+            {"name": "Côtelette d’agneau cuite","amount": 5,"time": 900000,"effectiveness": 97}
+          ]
         },
         "sedative": {
-          "Narcotique": {"quantity": 17, "torpor": 40, "time": 8},
-          "Narcoberry": {"quantity": 63, "torpor": 7.5, "time": 3},
-          "Champignons aserbiques": {"quantity": 34, "torpor": 25, "time": 2},
-          "Biotoxine": {"quantity": 9, "torpor": 80, "time": 16}
+          "items": [
+            {"name": "Narcotique","quantity": 0},
+            {"name": "Narcoberry","quantity": 0},
+            {"name": "Champignons aserbiques","quantity": 0},
+            {"name": "Biotoxine","quantity": 0}
+          ]
         },
-        "ammunition": {
-          "Fléchette tranquillisante": {"quantity": 5, "torpor": 100},
-          "Fléchette tranquillisante améliorer": {"quantity": 3, "torpor": 150},
-          "Arc": {"quantity": 10, "torpor": 111},
-          "Arbalète": {"quantity": 6, "torpor": 64},
-          "Arc Tek": {"quantity": 3, "torpor": 30},
-          "Arc a Poulie": {"quantity": 8, "torpor": 60},
-          "Harpon": {"quantity": 3, "torpor": 120}
-        }
+        "ammunitions": [
+          {"type": "Fléchette tranquillisante","quantity": 5},
+          {"type": "Fléchette tranquillisante améliorer","quantity": 3},
+          {"type": "Arc","quantity": 10},
+          {"type": "Arbalète","quantity": 6},
+          {"type": "Arc a Poulie","quantity": 8},
+          {"type": "Harpon","quantity": 3}
+        ]
       }
     },
     {
       "name": "Ankylosaurus",
       "description": "Contrairement à la plupart des troupeaux de l’île, l’Ankylosaurus crassacutis a tendance à vivre en petits groupes familiaux. Je crois qu’ils se permettent de rester en petit nombre grâce à leur peau incroyablement épaisse, qui leur a valu leur nom. Bien que n’étant pas parmi les plus grands herbivores de l’île, l’Ankylosaure est l’une des créatures les plus difficiles à abattre.",
       "utility": "Sans aucun doute, le meilleur atout d’un Ankylosaure dressé est son énorme et lourde queue. Sa queue est assez puissante pour rapidement briser les rochers pleins de ressources. Les tribus les plus riches de l'île utilisent l'Ankylosaure dans leurs mines et leurs carrières.",
-      "category": {
-        "1":"Herbivore"
-      },
-      "type":  {
-        "1":"Terrestre"
-      },
+      "zone": ["1","4","5","8"],
+      "type": ["1"],
+      "category": ["1"],
       "tamable": true,
       "ridable": true,
       "behavior": "Neutre",
-      "zone": {
-        "1":"Montagne", "2":"Plaine"
-      },
       "period": "Crétacé supérieur",
       "size": 8,
       "stats": {
@@ -260,60 +220,39 @@
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
-          "Croquette Régulière": {
-            "amount": 2,
-            "time": 304200,
-            "effectivness": 100
-          },
-          "Légume": {
-            "amount": 20,
-            "time": 1440600,
-            "effectivness": 97.6
-          },
-          "Mejoberry": {
-            "amount": 40,
-            "time": 1451400,
-            "effectivness": 95.7
-          },
-          "Berries": {
-            "amount": 40,
-            "time": 1440600,
-            "effectivness": 90.9
-          }
+          "items": [
+            {"name": "Croquette Régulière","amount": 2,"time": 304200,"effectiveness": 100},
+            {"name": "Viande de Mouton Crue","amount": 20,"time": 1440600,"effectiveness": 97.6},
+            {"name": "Viande crue supérieure","amount": 40,"time": 1451400,"effectiveness": 95.7},
+            {"name": "Côtelette d’agneau cuite","amount": 40,"time": 1440600,"effectiveness": 90.9}
+          ]
         },
-        "sedative": {
-          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
-          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
-          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
-          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
-        },
-        "ammunition": {
-          "Fléchette tranquillisante": {"quantity": 2, "torpor": 100},
-          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
-          "Arc": {"quantity": 5, "torpor": 111},
-          "Arbalète": {"quantity": 3, "torpor": 64},
-          "Arc Tek": {"quantity": 2, "torpor": 30},
-          "Arc a Poulie": {"quantity": 4, "torpor": 60},
-          "Harpon": {"quantity": 2, "torpor": 120}
-        }
+        "sedatives": [
+          {"type": "Narcotique", "quantity": 0},
+          {"type": "Narcoberry", "quantity": 0},
+          {"type": "Champignons aserbiques", "quantity": 0},
+          {"type": "Biotoxine", "quantity": 0}
+        ],
+        "ammunitions": [
+          {"type": "Fléchette tranquillisante", "quantity": 0},
+          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
+          {"type": "Arc", "quantity": 0},
+          {"type": "Arbalète", "quantity": 0},
+          {"type": "Arc a Poulie", "quantity": 0},
+          {"type": "Harpon", "quantity": 0}
+        ]
       }
     },
     {
       "name": "Araneo",
       "description": "L'Araneomorphus Amalgotantibus partage les caractéristiques de bon nombre d'espèces. Elle lance des toiles comme une araignée Bolas, crache du venin comme une araignée-lynx et elle peut voir dans le noir en détectant les vibrations. Pour couronner le tout, l'Araneomorphus est plus grande qu'un homme adulte. Comme si cela ne suffisait pas, je soupçonne les Araneomorphus d'avoir creusé quelques unes des grottes présentent sur l'île.",
       "utility": "L'Araneomorphus, une fois domestiquée, s'avère être un fidèle compagnon. Sa toile permet de ralentir les proies les plus rapides, ce qui s'avère très utile pour la chasse. Elles sont cependant trop petites pour être des montures très habiles.",
-      "category": {
-        "1":"Détritivore"
-      },
-      "type":  {
-        "1":"Terrestre"
-      },
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
-      "zone": {
-        "1":"Grotte"
-      },
       "period": "Ére Mésozoïque",
       "size": 0.7,
       "stats": {
@@ -342,39 +281,32 @@
             "effectivness": 3.2
           }
         },
-        "sedative": {
-          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
-          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
-          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
-          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
-        },
-        "ammunition": {
-          "Fléchette tranquillisante": {"quantity": 1, "torpor": 100},
-          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
-          "Arc": {"quantity": 1, "torpor": 111},
-          "Arbalète": {"quantity": 1, "torpor": 64},
-          "Arc Tek": {"quantity": 1, "torpor": 30},
-          "Arc a Poulie": {"quantity": 1, "torpor": 60},
-          "Harpon": {"quantity": 1, "torpor": 120}
-        }
+        "sedatives": [
+          {"type": "Narcotique", "quantity": 0},
+          {"type": "Narcoberry", "quantity": 0},
+          {"type": "Champignons aserbiques", "quantity": 0},
+          {"type": "Biotoxine", "quantity": 0}
+        ],
+        "ammunitions": [
+          {"type": "Fléchette tranquillisante", "quantity": 0},
+          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
+          {"type": "Arc", "quantity": 0},
+          {"type": "Arbalète", "quantity": 0},
+          {"type": "Arc a Poulie", "quantity": 0},
+          {"type": "Harpon", "quantity": 0}
+        ]
       }
     },
     {
       "name": "Archeopteryx",
       "description": "Mesurant approximativement un mètre de long, le Archaeopteryx Magnamilvum est un proto-oiseau principalement arboricole. Il évite le plus possible de se poser au sol, préférant rester en sécurité dans les arbres, là où peu de prédateurs sont en mesure de l'atteindre. Je n'ai pas encore vu d'Archaeopteryx voler franchement, il est donc possible qu'ils ne puissent pas générer assez de puissance pour pourvoir voler sur de longues distances au lieu de se déplacer de branches en branches.",
       "utility": "Bien qu'il ne soit pas assez grand pour transporter le poids total d'un humain adulte, l'Archaeopteryx est tout de même très utile. Malgré son incapacité à voler, ses ailes ont une force suffisante pour réduire la vitesse de chute d'une personne si celle-ci se cramponne à l'Archaeopteryx pendant la descente. Apprivoiser un Archaeopteryx peut être assez déroutant, étant donné qu'il refuse de se nourrir des denrées alimentaires les plus courantes, et qu'il fuit se mettre à l'abri au moindre signe de la présence d'un intrus.",
-      "category": {
-        "1":"Insectivore", "2":"Carnivore"
-      },
-      "type":  {
-        "1":"Volant"
-      },
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
       "tamable": true,
       "ridable": false,
       "behavior": "Passif",
-      "zone": {
-        "1":"Forêt"
-      },
       "period": "Jurassique",
       "size": 0.5,
       "stats": {
@@ -398,39 +330,32 @@
             "effectivness": 98
           }
         },
-        "sedative": {
-          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
-          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
-          "Champignons aserbiques": {"quantity": 0, "torpor": 25},
-          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
-        },
-        "ammunition": {
-          "Fléchette tranquillisante": {"quantity": 1, "torpor": 100},
-          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
-          "Arc": {"quantity": 1, "torpor": 111},
-          "Arbalète": {"quantity": 1, "torpor": 64},
-          "Arc Tek": {"quantity": 1, "torpor": 30},
-          "Arc a Poulie": {"quantity": 1, "torpor": 60, "time": 2},
-          "Harpon": {"quantity": 1, "torpor": 120}
-        }
+        "sedatives": [
+          {"type": "Narcotique", "quantity": 0},
+          {"type": "Narcoberry", "quantity": 0},
+          {"type": "Champignons aserbiques", "quantity": 0},
+          {"type": "Biotoxine", "quantity": 0}
+        ],
+        "ammunitions": [
+          {"type": "Fléchette tranquillisante", "quantity": 0},
+          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
+          {"type": "Arc", "quantity": 0},
+          {"type": "Arbalète", "quantity": 0},
+          {"type": "Arc a Poulie", "quantity": 0},
+          {"type": "Harpon", "quantity": 0}
+        ]
       }
     },
     {
       "name": "Argentavis",
       "description": "Dominant les cieux de l'île, Argentavis Atrocollum a peu de rivaux dans les airs. C'est donc une légère consolation, pour les autres créatures volantes, que l'Argentavis n'ait que peu d'intérêt pour tout ce qui est vivant. L'Argentavis n'a pas le cou voûté typique des buses et vautours modernes. On ignore s'il a adapté son cou, le rendant plus puissant pour tenir tête aux prédateurs de l'île, ou si sa lignée remonte à avant que le cou tordu soit la norme chez les oiseaux charognards.",
       "utility": "L'Argentavis est plus lent que le plus répandu Ptéranodon, mais il est bien plus endurant, et peut voler environ trois fois plus longtemps. Cela en fait la meilleure créature de l'île dès lors qu'il s'agit de voyager ou de transporter des charges sur de longues distances.",
-      "category": {
-        "1":"Charognard", "2":"Carnivore"
-      },
-      "type":  {
-        "1":"Volant"
-      },
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
-      "zone": {
-        "1":"Montagne", "2":"Forêt"
-      },
       "period": "Miocène supérieur",
       "size": 7,
       "stats": {
@@ -464,39 +389,32 @@
             "effectivness": 97.3
           }
         },
-        "sedative": {
-          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
-          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
-          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
-          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
-        },
-        "ammunition": {
-          "Fléchette tranquillisante": {"quantity": 2, "torpor": 100},
-          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
-          "Arc": {"quantity": 5, "torpor": 111},
-          "Arbalète": {"quantity": 3, "torpor": 64},
-          "Arc Tek": {"quantity": 2, "torpor": 30},
-          "Arc a Poulie": {"quantity": 4, "torpor": 60},
-          "Harpon": {"quantity": 2, "torpor": 120}
-        }
+        "sedatives": [
+          {"type": "Narcotique", "quantity": 0},
+          {"type": "Narcoberry", "quantity": 0},
+          {"type": "Champignons aserbiques", "quantity": 0},
+          {"type": "Biotoxine", "quantity": 0}
+        ],
+        "ammunitions": [
+          {"type": "Fléchette tranquillisante", "quantity": 0},
+          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
+          {"type": "Arc", "quantity": 0},
+          {"type": "Arbalète", "quantity": 0},
+          {"type": "Arc a Poulie", "quantity": 0},
+          {"type": "Harpon", "quantity": 0}
+        ]
       }
     },
     {
       "name": "Arthropluera",
       "description": "Le fait que cette créature existe suffit à me donner des cauchemars. Comme les autres Arthropodes de l'île, l'Arthropleura Felsanguis est devenu bien plus grand que je ne l'aurais imaginé. C'est un chasseur très agressif, mais il préfère manger de la viande avariée depuis quelque temps et va chercher ce délice sans relâche. Le sang de l'Arthropleura a un pH très bas, à tel point qu'il peut dissoudre beaucoup de matériaux. Ce sang acide éclabousse tout ce qui l'attaque directement, affaiblissant la résistance des armes et blessant les assaillants. Par conséquent, beaucoup de créatures refusent de chasser l'Arthropleura, apeurées par cette défense unique.",
       "utility": "Comme la plupart des arthropodes de l'île, l'Arthropleura est simple d'esprit et relativement facile à apprivoiser. Il est surtout utile pour les attaques à distance. Grâce à ses défenses uniques, que ce soit la chasse ou la guerre, l'Arthropleura est généralement à l'abri de toutes les créatures sauf les plus grandes.",
-      "category": {
-        "1":"Charognard"
-      },
-      "type":  {
-        "1":"Terrestre"
-      },
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
-      "zone": {
-        "1":"Grotte", "2":"Marais"
-      },
       "period": "Permien inférieur",
       "size": 3,
       "stats": {
@@ -525,39 +443,32 @@
             "effectivness": 53.3
           }
         },
-        "sedative": {
-          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
-          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
-          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
-          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
-        },
-        "ammunition": {
-          "Fléchette tranquillisante": {"quantity": 1, "torpor": 100},
-          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
-          "Arc": {"quantity": 2, "torpor": 111},
-          "Arbalète": {"quantity": 2, "torpor": 64},
-          "Arc Tek": {"quantity": 1, "torpor": 30},
-          "Arc a Poulie": {"quantity": 2, "torpor": 60},
-          "Harpon": {"quantity": 1, "torpor": 120}
-        }
+        "sedatives": [
+          {"type": "Narcotique", "quantity": 0},
+          {"type": "Narcoberry", "quantity": 0},
+          {"type": "Champignons aserbiques", "quantity": 0},
+          {"type": "Biotoxine", "quantity": 0}
+        ],
+        "ammunitions": [
+          {"type": "Fléchette tranquillisante", "quantity": 0},
+          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
+          {"type": "Arc", "quantity": 0},
+          {"type": "Arbalète", "quantity": 0},
+          {"type": "Arc a Poulie", "quantity": 0},
+          {"type": "Harpon", "quantity": 0}
+        ]
       }
     },
     {
       "name": "Baryonyx",
       "description": "Comme le Carnotaure, le Baryonyx Aqua fulgur est sur la plus petite extrémité de la rangée des grands prédateurs. Bien qu'il ne soit pas aussi puissant que certains prédateurs de haute mer ou le Spinosaure, le Baryonyx est un nageur très rapide qui est encore assez agile pour menacer la plupart des créatures de l'île. Et pourtant, en dépit d'être un jeune dinosaure dangereux, le Baryonyx ne mange presque exclusivement que des poissons ou d'autres habitants marins. Le métabolisme très spécifique du Baryonyx semble lui permettre de guérir les blessures presque surnaturellement en se nourrissant de chair de poisson. Peut-être est-ce la raison des rares attaques terrestres du Baryonyx.",
       "utility": "Le Baryonyx affuté naturellement pour la prédation aquatique signifie qu'une fois apprivoisé, il apprendra à tuer les habitants de l'océan encore plus efficacement. Avec sa vitesse et sa puissance, le Baryonyx représente un choix idéal pour toute personne amenée à se déplacer fréquemment entre l'eau et la terre avec facilité.",
-      "category": {
-        "1":"Piscivore"
-      },
-      "type":  {
-        "1":"Terrestre", "2":"Aquatique"
-      },
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
-      "zone": {
-        "1":"Grotte", "2":"Marais", "3": "Rivière"
-      },
       "period": "Crétacé inférieur",
       "size": 10,
       "stats": {
@@ -591,39 +502,32 @@
             "effectivness": 48.7
           }
         },
-        "sedative": {
-          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
-          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
-          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
-          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
-        },
-        "ammunition": {
-          "Fléchette tranquillisante": {"quantity": 2, "torpor": 100},
-          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
-          "Arc": {"quantity": 5, "torpor": 111},
-          "Arbalète": {"quantity": 3, "torpor": 64},
-          "Arc Tek": {"quantity": 2, "torpor": 30},
-          "Arc a Poulie": {"quantity": 4, "torpor": 60},
-          "Harpon": {"quantity": 2, "torpor": 120}
-        }
+        "sedatives": [
+          {"type": "Narcotique", "quantity": 0},
+          {"type": "Narcoberry", "quantity": 0},
+          {"type": "Champignons aserbiques", "quantity": 0},
+          {"type": "Biotoxine", "quantity": 0}
+        ],
+        "ammunitions": [
+          {"type": "Fléchette tranquillisante", "quantity": 0},
+          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
+          {"type": "Arc", "quantity": 0},
+          {"type": "Arbalète", "quantity": 0},
+          {"type": "Arc a Poulie", "quantity": 0},
+          {"type": "Harpon", "quantity": 0}
+        ]
       }
     },
     {
       "name": "Basilosaurus",
       "description": "Le Basilosaurus Solatiumfecit est l'une des créatures les plus étranges des eaux entourant l'île. Il est un nageur puissant qui s'est adapté aux bas-fonds. Il récupère rapidement de ses blessures dès qu'il remonte à la surface de l'eau. A l'inverse, il est vulnérable à la pression des profondeurs. Le Basilosaure est généralement suivi de près par d'autres petites créatures car ses habitudes alimentaires laissent une grande quantité de déchets pour ces petits charognards. C'est une créature amicale envers les humains, et heureusement car il prend sa nourriture directement auprès d'eux. Cependant, les créatures qui suivent le Basilosaure ont tendance à devenir dangereuse chaque fois que cela se produit, car il ne laisse pas de restes pour eux.",
       "utility": "Malgré les dégâts que peuvent provoquer les petites créatures qui le suivent, de nombreuses tribus tentent encore d'apprivoiser le Basilosaure, comme mammifère à sang chaud d'un confort parfait à la fois au chaud et au froid. Alternativement, le Basilosaure est chassé pour sa graisse spéciale, qui peut être raffinée et être beaucoup plus efficace que l'essence !",
-      "category": {
-        "1":"Piscivore"
-      },
-      "type":  {
-        "1":"Aquatique"
-      },
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
       "tamable": true,
       "ridable": true,
       "behavior": "Passif",
-      "zone": {
-        "1":"Océan"
-      },
       "period": "Éocène supérieur",
       "size": 20,
       "stats": {
@@ -657,39 +561,32 @@
             "effectivness": 95.9
           }
         },
-        "sedative": {
-          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
-          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
-          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
-          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
-        },
-        "ammunition": {
-          "Fléchette tranquillisante": {"quantity": 12, "torpor": 100},
-          "Fléchette tranquillisante améliorer": {"quantity": 6, "torpor": 150},
-          "Arc": {"quantity": 28, "torpor": 111},
-          "Arbalète": {"quantity": 16, "torpor": 64},
-          "Arc Tek": {"quantity": 8, "torpor": 30},
-          "Arc a Poulie": {"quantity": 21, "torpor": 60},
-          "Harpon": {"quantity": 9, "torpor": 120}
-        }
+        "sedatives": [
+          {"type": "Narcotique", "quantity": 0},
+          {"type": "Narcoberry", "quantity": 0},
+          {"type": "Champignons aserbiques", "quantity": 0},
+          {"type": "Biotoxine", "quantity": 0}
+        ],
+        "ammunitions": [
+          {"type": "Fléchette tranquillisante", "quantity": 0},
+          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
+          {"type": "Arc", "quantity": 0},
+          {"type": "Arbalète", "quantity": 0},
+          {"type": "Arc a Poulie", "quantity": 0},
+          {"type": "Harpon", "quantity": 0}
+        ]
       }
     },
     {
       "name": "Beelzebufo",
       "description": "Beelzebufo Palucocus est la plus grande grenouille que je n'ai jamais vu. Si grand qu'il pourrait porter un humain sur son dos. Cela peut néanmoins s'avérer dangereux car la peau et la salive du Beelzebufo ont un effet tranquillisant. Comme la plupart des grenouilles, le Beelzebufo raffole des insectes. Grâce à son incroyablement longue langue, il peut tuer ses proies à distance d'un seul coup. Grâce aux substances sécrétées par son système digestif, il transforme naturellement la Chitine qu'il absorbe en Ciment.",
       "utility": "Les avis divergent en ce qui concerne les Beelzebufo apprivoisés. Certains n'en voient pas l'utilité, mais d'autres apprécient le fait qu'ils puissent faire de grands bonds, leur permettant d'accéder facilement à certaines zones. Sans oublier son aptitude à créer du Ciment rapidement en chassant des insectes.",
-      "category": {
-        "1":"Piscivore"
-      },
-      "type":  {
-        "1":"Terrestre", "2":"Aquatique"
-      },
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
       "tamable": true,
       "ridable": true,
       "behavior": "Passif",
-      "zone": {
-        "1":"Marais"
-      },
       "period": "Crétacé supérieur",
       "size": 0.40,
       "stats": {
@@ -723,39 +620,32 @@
             "effectivness": 99.5
           }
         },
-        "sedative": {
-          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
-          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
-          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
-          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
-        },
-        "ammunition": {
-          "Fléchette tranquillisante": {"quantity": 1, "torpor": 100},
-          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
-          "Arc": {"quantity": 3, "torpor": 111},
-          "Arbalète": {"quantity": 2, "torpor": 64},
-          "Arc Tek": {"quantity": 1, "torpor": 30},
-          "Arc a Poulie": {"quantity": 2, "torpor": 60},
-          "Harpon": {"quantity": 1, "torpor": 120}
-        }
+        "sedatives": [
+          {"type": "Narcotique", "quantity": 0},
+          {"type": "Narcoberry", "quantity": 0},
+          {"type": "Champignons aserbiques", "quantity": 0},
+          {"type": "Biotoxine", "quantity": 0}
+        ],
+        "ammunitions": [
+          {"type": "Fléchette tranquillisante", "quantity": 0},
+          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
+          {"type": "Arc", "quantity": 0},
+          {"type": "Arbalète", "quantity": 0},
+          {"type": "Arc a Poulie", "quantity": 0},
+          {"type": "Harpon", "quantity": 0}
+        ]
       }
     },
     {
       "name": "Brontosaurus",
       "description": "Brontosaurus Lazarus est le plus gros sauropode dont j'ai entendu parler. Il est tellement grand qu'il ne remarque même pas la plupart des autres créatures. J'ai même vu un groupe de Raptors en train de dévorer des petits dinosaures sans que cela ne semble déranger le Brontosaurus qui mangeait à quelques mètres de là.",
       "utility": "Grâce à sa nature si docile, le Brontosaure est un animal important dans un tribu. Les plus pacifiques l'utilisent pour transporter d'incroyables quantités de ressources, tandis que d'autres s'en servent comme base d'opérations mobile. Malheureusement, son gigantisme implique l'utilisation d'une plus grande dose de tranquillisants pour l'apprivoiser.",
-      "category": {
-        "1":"Herbivore"
-      },
-      "type":  {
-        "1":"Terrestre"
-      },
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
       "tamable": true,
       "ridable": true,
       "behavior": "Neutre",
-      "zone": {
-        "1":"Plaine", "2": "Plage"
-      },
       "period": "Crétacé supérieur",
       "size": 23,
       "stats": {
@@ -789,39 +679,32 @@
             "effectivness": 91
           }
         },
-        "sedative": {
-          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
-          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
-          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
-          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
-        },
-        "ammunition": {
-          "Fléchette tranquillisante": {"quantity": 10, "torpor": 100},
-          "Fléchette tranquillisante améliorer": {"quantity": 5, "torpor": 150},
-          "Arc": {"quantity": 23, "torpor": 111},
-          "Arbalète": {"quantity": 13, "torpor": 64},
-          "Arc Tek": {"quantity": 6, "torpor": 30},
-          "Arc a Poulie": {"quantity": 17, "torpor": 60},
-          "Harpon": {"quantity": 7, "torpor": 120}
-        }
+        "sedatives": [
+          {"type": "Narcotique", "quantity": 0},
+          {"type": "Narcoberry", "quantity": 0},
+          {"type": "Champignons aserbiques", "quantity": 0},
+          {"type": "Biotoxine", "quantity": 0}
+        ],
+        "ammunitions": [
+          {"type": "Fléchette tranquillisante", "quantity": 0},
+          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
+          {"type": "Arc", "quantity": 0},
+          {"type": "Arbalète", "quantity": 0},
+          {"type": "Arc a Poulie", "quantity": 0},
+          {"type": "Harpon", "quantity": 0}
+        ]
       }
     },
     {
       "name": "Carbonemys",
       "description": "La Carbonemys Obibimus est une des créatures les moins agressives de l'île. Si l'île était moins peuplée de prédateurs, elle passerait ses journées à manger et dormir au soleil. La Carbonemys mène une vie solitaire des plus simples, ce qui en fait un animal très pacifique. Les seules caractéristiques qui compensent sa très faible vitesse sur terre sont son aptitude à être un bon nageur et sa carapace incroyablement épaisse. Une Carbonemys dans sa coquille serait selon moi à l'abri de la plupart des prédateurs.",
       "utility": "Sa grande aptitude à la nage, sa morsure puissante et l'absence de vraie menace font des Carbonemys une bonne monture marine, idéale pour les tribus côtières majoritairement pacifiques. Elles permettent d'atteindre rapidement certaines ressources aquatiques et ne présentent pas de réels dangers à l'état sauvage.",
-      "category": {
-        "1":"Herbivore"
-      },
-      "type":  {
-        "1":"Terrestre", "2":"Aquatique"
-      },
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
       "tamable": true,
       "ridable": true,
       "behavior": "Neutre",
-      "zone": {
-        "1": "Plage", "2": "Océan"
-      },
       "period": "Paléocène",
       "size": 2.5,
       "stats": {
@@ -855,21 +738,20 @@
             "effectivness": 90.9
           }
         },
-        "sedative": {
-          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
-          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
-          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
-          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
-        },
-        "ammunition": {
-          "Fléchette tranquillisante": {"quantity": 2, "torpor": 100},
-          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
-          "Arc": {"quantity": 4, "torpor": 111},
-          "Arbalète": {"quantity": 2, "torpor": 64},
-          "Arc Tek": {"quantity": 1, "torpor": 30},
-          "Arc a Poulie": {"quantity": 3, "torpor": 60},
-          "Harpon": {"quantity": 1, "torpor": 120}
-        }
+        "sedatives": [
+          {"type": "Narcotique", "quantity": 0},
+          {"type": "Narcoberry", "quantity": 0},
+          {"type": "Champignons aserbiques", "quantity": 0},
+          {"type": "Biotoxine", "quantity": 0}
+        ],
+        "ammunitions": [
+          {"type": "Fléchette tranquillisante", "quantity": 0},
+          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
+          {"type": "Arc", "quantity": 0},
+          {"type": "Arbalète", "quantity": 0},
+          {"type": "Arc a Poulie", "quantity": 0},
+          {"type": "Harpon", "quantity": 0}
+        ]
       }
     },
     {
