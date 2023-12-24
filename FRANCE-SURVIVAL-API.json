@@ -14,8 +14,8 @@
       "zone": {
         "1":"Forêt", "2":"Marais", "3":"Grotte"
       },
-      "period":  "N/A",
-      "size":  "N/A",
+      "period":  "Inconnu",
+      "size":  0.5,
       "stats": {
         "level": 1,
         "torpor": 50,
@@ -64,14 +64,14 @@
         "1":"Forêt", "2":"Plaine", "3":"Montagne"
       },
       "period": "Jurassique supérieur",
-      "size": "N/A",
+      "size": 8.5,
       "stats": {
         "level": 1,
         "torpor": 1000,
         "torporPerLevel": 60
       },
       "taming": {
-        "type":"KO",
+        "type":"K.O",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
@@ -119,16 +119,16 @@
       "utility": "Comme la plupart des créatures de l'océan indomptables, l'Ammonite a un intérêt pour être une cible de chasse précieuse. Si une tribu est prête à risquer la colère des défenseurs près de lui, la bile peut être récoltée à partir des entrailles de son cadavre.",
       "category": "Détritivore",
       "type": {
-        "1":"Marin"
+        "1":"Aquatique"
       },
       "tamable": false,
       "ridable": false,
-      "behavior": "",
+      "behavior": "Neutre",
       "zone": {
         "1": "Océan"
       },
-      "period": "Dévonien",
-      "size": "N/A",
+      "period": "Crétacé-Tertiaire",
+      "size": 2,
       "stats": {
         "level": 1,
         "torpor": 250,
@@ -140,7 +140,7 @@
       "description": "Que sa taille soit due à une adaptation aux autres habitants de l'île ou à un croisement avec une autre espèce plus grande, Melanocetus angerlpescum est la plus grande forme de baudroie dont j'ai jamais entendu parler. Présente généralement dans les étendues les plus profondes et les plus sombres de l'océan, cette créature se nourrit de poissons plus petits tout en constituant une excellente source de nourriture pour les plus gros prédateurs.",
       "utility": "Explorer les profondeurs de l’océan peut être difficile. Le froid, le manque d’air et l’absence choquante de lumière se combinent pour rendre les voyages très dangereux. Une baudroie apprivoisée peut utiliser la lumière naturelle au bout de ses tiges pour éclairer les profondeurs, rendant l'exploration non seulement plus sûre mais plus lucrative, car j'ai entendu certains survivants utiliser cette créature pour récolter les perles de silice trouvées dans les profondeurs de l'océan !",
       "category": "Carnivore",
-      "type": "Marin",
+      "type": "Aquatique",
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
@@ -155,7 +155,7 @@
         "torporPerLevel": 54
       },
       "taming": {
-        "type":"KO",
+        "type":"K.O",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
@@ -217,7 +217,7 @@
         "torporPerLevel": 25.2
       },
       "taming": {
-        "type":"KO",
+        "type":"K.O",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
@@ -271,15 +271,15 @@
       "zone": {
         "1":"grotte"
       },
-      "period": "N/A",
-      "size": "N/A",
+      "period": "Ére Mésozoïque",
+      "size": 0.7,
       "stats": {
         "level": 1,
         "torpor": 80,
         "torporPerLevel": 4.8
       },
       "taming": {
-        "type":"KO",
+        "type":"K.O",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
@@ -434,7 +434,7 @@
       "tamed": "Le Baryonyx affuté naturellement pour la prédation aquatique signifie qu'une fois apprivoisé, il apprendra à tuer les habitants de l'océan encore plus efficacement. Avec sa vitesse et sa puissance, le Baryonyx représente un choix idéal pour toute personne amenée à se déplacer fréquemment entre l'eau et la terre avec facilité.",
       "category":"Piscivore",
       "type":  {
-        "1":"Terrestre", "2":"Marin"
+        "1":"Terrestre", "2":"Aquatique"
       },
       "tamable": true,
       "ridable": true,
@@ -476,7 +476,7 @@
       "tamed": "Malgré les dégâts que peuvent provoquer les petites créatures qui le suivent, de nombreuses tribus tentent encore d'apprivoiser le Basilosaure, comme mammifère à sang chaud d'un confort parfait à la fois au chaud et au froid. Alternativement, le Basilosaure est chassé pour sa graisse spéciale, qui peut être raffinée et être beaucoup plus efficace que l'essence !",
       "category":"Piscivore",
       "type":  {
-        "1":"Terrestre", "2":"Marin"
+        "1":"Terrestre", "2":"Aquatique"
       },
       "tamable": true,
       "ridable": true,
@@ -516,7 +516,7 @@
       "tamed": "Les avis divergent en ce qui concerne les Beelzebufo apprivoisés. Certains n'en voient pas l'utilité, mais d'autres apprécient le fait qu'ils puissent faire de grands bonds, leur permettant d'accéder facilement à certaines zones. Sans oublier son aptitude à créer du Ciment rapidement en chassant des insectes.",
       "category":"Carnivore",
       "type":  {
-        "1":"Terrestre", "2":"Marin"
+        "1":"Terrestre", "2":"Aquatique"
       },
       "tamable": true,
       "ridable": true,
