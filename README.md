@@ -27,6 +27,6 @@ Ce projet est distribué sous licence MIT, permettant une utilisation et une mod
 
 ---
 
-**Développeur**: [xamayca, Levy]
+**Développeur**: [ xamayca, Levy ]
 
 ---
