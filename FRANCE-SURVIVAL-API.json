@@ -1,138 +1,172 @@
 {
-  "DINOSAURS":[
+  "DINOSAURS_SPAWNS_AREAS": {
+  "1": "Forêt",
+  "2": "Marais",
+  "3": "Grotte",
+  "4": "Plage",
+  "5": "Montagne",
+  "6": "Océan",
+  "7": "Rivière",
+  "8": "Plaine"
+},
+"DINOSAURS_TYPES": {
+  "1": "Terrestre",
+  "2": "Volant",
+  "3": "Aquatique"
+},
+"DINOSAURS_CATEGORIES": {
+  "1": "Herbivore",
+  "2": "Carnivore",
+  "3": "Insectivore",
+  "4": "Détritivore",
+  "5": "Piscivore",
+  "6": "Charognard"
+},
+
+
+"SEDATIVES_TYPE": {
+  "Narcotique":{"torpor": 40, "time": 8},
+  "Narcoberry":{"torpor": 7.5, "time": 3},
+  "Champignons aserbiques":{"torpor": 25, "time": 2},
+  "Biotoxine":{"torpor": 80, "time": 16}
+},
+"AMMUNITIONS_TYPE": {
+  "Fléchette tranquillisante":{"damage":26,"torpor":156,"torporInTime":65,"time":5},
+  "Fléchette tranquillisante améliorer":{"damage":26,"torpor":312,"torporInTime":130,"time":5},
+  "Arc":{"damage":20,"torpor":40,"torporInTime":50,"time":4},
+  "Arbalète":{"damage":35,"torpor":70,"torporInTime":87.5,"time":4},
+  "Arc a Poulie":{"damage":27,"torpor":54,"torporInTime":67.5,"time":4},
+  "Harpon":{"damage":36,"torpor":216,"torporInTime":90,"time":4}
+},
+
+
+"DINOSAURS_LIST":[
     {
       "name": "Achatina",
       "description": "L'Achatina Limusegnis est un mollusque terrestre trouvé principalement dans les jungles et marécages. Étant très lent, il constitue probablement la source de viande et de chitine la plus facile à récolter. Le système digestif de l'Achatina est très différent des autres créatures. Il rejette ses excréments sous la forme d'une substance collante et épaisse, que l'on peut apercevoir derrière lui pendant un court instant.",
       "utility": "La substance gluante que sécrète l'Achatina est très similaire au ciment et au polymère organique utilisés pour les constructions. De nombreuses tribus les apprivoisent pour pouvoir la récolter naturellement à leur guise. La légende raconte que l'Achatina pourrait être apprivoisé avec un \"gâteau\" confectionné à partir de légumes.",
-      "category": {
-        "1":"Herbivore"
-      },
-      "type": {
-        "1":"Terrestre"
-      },
+      "zone": ["1", "2", "3"],
+      "type": ["1"],
+      "category": ["1"],
       "tamable": true,
       "ridable": true,
       "behavior": "Passif",
-      "zone": {
-        "1":"Forêt", "2":"Marais", "3":"Grotte"
-      },
-      "period":  "Inconnu",
+      "period":  "Inconnue",
       "size":  0.5,
       "stats": {
         "level": 1,
         "torpor": 50,
+        "torporDrain": 0.3,
         "torporPerLevel": 3
       },
       "taming": {
         "type":"Passif",
         "rates": 1,
-        "food": {
-          "useSanguineElixir": false,
-          "Délicieux gâteau aux légumes": {
-            "amount": 3,
-            "time": 378600,
-            "effectivness": 100
+          "food": {
+            "useSanguineElixir": false,
+            "items": [
+              {
+                "name": "Délicieux gâteau aux légumes",
+                "amount": 3,
+                "time": 378600,
+                "effectiveness": 100
+              }
+            ]
           }
         },
-        "sedative": {
-          "Narcotique": {"Quantity": 2, "TorporValue": 40},
-          "Narcoberry": {"Quantity": 9, "TorporValue": 7.5},
-          "Champignons aserbiques": {"Quantity": 3, "TorporValue": 25},
-          "Biotoxine": {"Quantity": 1, "TorporValue": 80}
+        "sedatives": [
+          {"type": "Narcotique", "quantity": 2},
+          {"type": "Narcoberry", "quantity": 9},
+          {"type": "Champignons aserbiques", "quantity": 3},
+          {"type": "Biotoxine", "quantity": 1}
+        ],
+        "ammunitions": [
+          {"type": "Fléchette tranquillisante", "quantity": 1},
+          {"type": "Fléchette tranquillisante améliorer", "quantity": 1},
+          {"type": "Arc", "quantity": 1},
+          {"type": "Arbalète", "quantity": 1},
+          {"type": "Arc Tek", "quantity": 1},
+          {"type": "Arc a Poulie", "quantity": 1},
+          {"type": "Harpon", "quantity": 1}
+        ]
+      },
+      {
+        "name": "Allosaure",
+        "description": "Plus petit mais plus rapide que le Tyrannosaure, plus grand mais plus lent que le Carnotosaure, l'Allosaurus Therotribus est le théropode de l'île qui chasse en groupe. L'Allosaure vit en groupe de 3-4 individus, avec un alpha dominant. Ses dents en forme de scie laissent ses proies en sang et mutilées.",
+        "utility": "Certains préfèrent l'Allosaure pour sa rapidité, tandis que d'autres choisissent le Carnotaure ou le Tyrannosaure pour d'autres attributs. L'Allosaure est efficace pour la chasse en groupe.",
+        "zone": ["1", "5", "8"],
+        "type": ["1"],
+        "category": ["2"],
+        "tamable": true,
+        "ridable": true,
+        "behavior": "Agressif",
+        "period": "Jurassique supérieur",
+        "size": 8.5,
+        "stats": {
+          "level": 1,
+          "torpor": 1000,
+          "torporDrain": 0.3,
+          "torporPerLevel": 60
         },
-        "ammunition": {
-          "Fléchette tranquillisante": {"Quantity": 45, "TorporValue": 100},
-          "Fléchette tranquillisante améliorer": {"Quantity": 23, "TorporValue": 150},
-          "Arc": {"Quantity": 1, "TorporValue": 111},
-          "Arbalète": {"Quantity": 1, "TorporValue": 64},
-          "Arc Tek": {"Quantity": 1, "TorporValue": 30},
-          "Arc a Poulie": {"Quantity": 1, "TorporValue": 60},
-          "Harpon": {"Quantity": 1, "TorporValue": 120}
+        "taming": {
+          "type": "K.O",
+          "rates": 1,
+          "food": {
+            "useSanguineElixir": false,
+            "items": [
+              {
+                "name": "Croquette Supérieure",
+                "amount": 2,
+                "time": 499200,
+                "effectiveness": 99.8
+              },
+              {
+                "name": "Viande de Mouton Crue",
+                "amount": 4,
+                "time": 499200,
+                "effectiveness": 99
+              },
+              {
+                "name": "Viande crue supérieure",
+                "amount": 5,
+                "time": 738000,
+                "effectiveness": 98.5
+              },
+              {
+                "name": "Côtelette d’agneau cuite",
+                "amount": 5,
+                "time": 1037400,
+                "effectiveness": 96.8
+              }
+            ]
+          },
+          "sedatives": [
+            {"type": "Narcotique", "quantity": 0},
+            {"type": "Narcoberry", "quantity": 0},
+            {"type": "Champignons aserbiques", "quantity": 0},
+            {"type": "Biotoxine", "quantity": 0}
+          ],
+          "ammunitions": [
+            {"type": "Fléchette tranquillisante", "quantity": 5},
+            {"type": "Fléchette tranquillisante améliorer", "quantity": 3},
+            {"type": "Arc", "quantity": 12},
+            {"type": "Arbalète", "quantity": 7},
+            {"type": "Arc Tek", "quantity": 3},
+            {"type": "Arc a Poulie", "quantity": 9},
+            {"type": "Harpon", "quantity": 4}
+          ]
         }
-      }
-    },
-    {
-      "name": "Allosaure",
-      "description": "Plus petit mais plus rapide que le Tyrannosaure, plus grand mais plus lent que le Carnotosaure, l'Allosaurus Therotribus est le théropode de l'île qui chasse en groupe. Alors que la plupart des théropodes agressifs sont plutôt des créatures solitaires, l'Allosaure vit en groupe de 3-4 individus. Un des Allosaures est l'alpha, et les autres sont ses partenaires ou des mâles beta.De même que les humains trouvent un intérêt à former des tribus, l'Allosaure a évolué pour chasser en groupe. Ses dents en forme de scie laisse ses proies en sang et mutilées, rendant leur fuite compliquée.",
-      "utility": "Tout le monde ne pense pas qu'un Allosaure apprivoisé est idéal. Ceux qui privilégient la rapidité apprivoisent généralement un Carnotaure, alors que ceux qui privilégient la force brute apprivoisent un Tyrannosaure.",
-      "category": {
-        "1":"Carnivore"
       },
-      "type": {
-        "1":"Terrestre"
-      },
-      "tamable": true,
-      "ridable": true,
-      "behavior": "Agressif",
-      "zone": {
-        "1":"Forêt", "2":"Plaine", "3":"Montagne"
-      },
-      "period": "Jurassique supérieur",
-      "size": 8.5,
-      "stats": {
-        "level": 1,
-        "torpor": 1000,
-        "torporPerLevel": 60
-      },
-      "taming": {
-        "type":"K.O",
-        "rates": 1,
-        "food": {
-          "useSanguineElixir": false,
-          "Croquette Supérieure": {
-            "amount": 2,
-            "time": 499200,
-            "effectivness": 99.8
-          },
-          "Viande de Mouton Crue": {
-            "amount": 4,
-            "time": 499200,
-            "effectivness": 99
-          },
-          "Viande crue supérieure": {
-            "amount": 5,
-            "time": 738000,
-            "effectivness": 98.5
-          },
-          "Côtelette d’agneau cuite": {
-            "amount": 5,
-            "time": 1037400,
-            "effectivness": 96.8
-          }
-        },
-        "sedative": {
-          "Narcotique": {"Quantity": 0, "TorporValue": 40},
-          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
-          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
-          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
-        },
-        "ammunition": {
-          "Fléchette tranquillisante": {"Quantity": 5, "TorporValue": 100},
-          "Fléchette tranquillisante améliorer": {"Quantity": 3, "TorporValue": 150},
-          "Arc": {"Quantity": 12, "TorporValue": 111},
-          "Arbalète": {"Quantity": 7, "TorporValue": 64},
-          "Arc Tek": {"Quantity": 3, "TorporValue": 30},
-          "Arc a Poulie": {"Quantity": 9, "TorporValue": 60},
-          "Harpon": {"Quantity": 4, "TorporValue": 120}
-        }
-      }
-    },
     {
       "name": "Ammonite",
       "description": "On la trouve habituellement dans les parties les plus profondes de l'eau autour de l'île, elle a une étrange relation avec les autres créatures des profondeurs. Sa présence doit leur être bénéfique car chaque créature aquatique à proximité défend l'Ammonite quand elle est attaquée.",
       "utility": "Comme la plupart des créatures de l'océan indomptables, l'Ammonite a un intérêt pour être une cible de chasse précieuse. Si une tribu est prête à risquer la colère des défenseurs près de lui, la bile peut être récoltée à partir des entrailles de son cadavre.",
-      "category": {
-        "1":"Détritivore"
-      },
-      "type": {
-        "1":"Aquatique"
-      },
+      "zone": ["1", "2", "3"],
+      "type": ["1"],
+      "category": ["6"],
       "tamable": false,
       "ridable": false,
       "behavior": "Neutre",
-      "zone": {
-        "1": "Océan"
-      },
       "period": "Crétacé-Tertiaire",
       "size": 2,
       "stats": {
@@ -145,18 +179,9 @@
       "name": "Baudroie Abyssale",
       "description": "Que sa taille soit due à une adaptation aux autres habitants de l'île ou à un croisement avec une autre espèce plus grande, Melanocetus angerlpescum est la plus grande forme de baudroie dont j'ai jamais entendu parler. Présente généralement dans les étendues les plus profondes et les plus sombres de l'océan, cette créature se nourrit de poissons plus petits tout en constituant une excellente source de nourriture pour les plus gros prédateurs.",
       "utility": "Explorer les profondeurs de l’océan peut être difficile. Le froid, le manque d’air et l’absence choquante de lumière se combinent pour rendre les voyages très dangereux. Une baudroie apprivoisée peut utiliser la lumière naturelle au bout de ses tiges pour éclairer les profondeurs, rendant l'exploration non seulement plus sûre mais plus lucrative, car j'ai entendu certains survivants utiliser cette créature pour récolter les perles de silice trouvées dans les profondeurs de l'océan !",
-      "category": {
-        "1":"Carnivore"
-      },
-      "type":  {
-        "1":"Aquatique"
-      },
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
-      "zone": {
-        "1":"Océan"
-      },
       "period": "Crétacé",
       "size": 0.20,
       "stats": {
@@ -191,19 +216,19 @@
           }
         },
         "sedative": {
-          "Narcotique": {"Quantity": 17, "TorporValue": 40},
-          "Narcoberry": {"Quantity": 63, "TorporValue": 7.5},
-          "Champignons aserbiques": {"Quantity": 34, "TorporValue": 25},
-          "Biotoxine": {"Quantity": 9, "TorporValue": 80}
+          "Narcotique": {"quantity": 17, "torpor": 40, "time": 8},
+          "Narcoberry": {"quantity": 63, "torpor": 7.5, "time": 3},
+          "Champignons aserbiques": {"quantity": 34, "torpor": 25, "time": 2},
+          "Biotoxine": {"quantity": 9, "torpor": 80, "time": 16}
         },
         "ammunition": {
-          "Fléchette tranquillisante": {"Quantity": 5, "TorporValue": 100},
-          "Fléchette tranquillisante améliorer": {"Quantity": 3, "TorporValue": 150},
-          "Arc": {"Quantity": 10, "TorporValue": 111},
-          "Arbalète": {"Quantity": 6, "TorporValue": 64},
-          "Arc Tek": {"Quantity": 3, "TorporValue": 30},
-          "Arc a Poulie": {"Quantity": 8, "TorporValue": 60},
-          "Harpon": {"Quantity": 3, "TorporValue": 120}
+          "Fléchette tranquillisante": {"quantity": 5, "torpor": 100},
+          "Fléchette tranquillisante améliorer": {"quantity": 3, "torpor": 150},
+          "Arc": {"quantity": 10, "torpor": 111},
+          "Arbalète": {"quantity": 6, "torpor": 64},
+          "Arc Tek": {"quantity": 3, "torpor": 30},
+          "Arc a Poulie": {"quantity": 8, "torpor": 60},
+          "Harpon": {"quantity": 3, "torpor": 120}
         }
       }
     },
@@ -257,19 +282,19 @@
           }
         },
         "sedative": {
-          "Narcotique": {"Quantity": 0, "TorporValue": 40},
-          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
-          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
-          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
+          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
+          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
+          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
+          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
         },
         "ammunition": {
-          "Fléchette tranquillisante": {"Quantity": 2, "TorporValue": 100},
-          "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
-          "Arc": {"Quantity": 5, "TorporValue": 111},
-          "Arbalète": {"Quantity": 3, "TorporValue": 64},
-          "Arc Tek": {"Quantity": 2, "TorporValue": 30},
-          "Arc a Poulie": {"Quantity": 4, "TorporValue": 60},
-          "Harpon": {"Quantity": 2, "TorporValue": 120}
+          "Fléchette tranquillisante": {"quantity": 2, "torpor": 100},
+          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
+          "Arc": {"quantity": 5, "torpor": 111},
+          "Arbalète": {"quantity": 3, "torpor": 64},
+          "Arc Tek": {"quantity": 2, "torpor": 30},
+          "Arc a Poulie": {"quantity": 4, "torpor": 60},
+          "Harpon": {"quantity": 2, "torpor": 120}
         }
       }
     },
@@ -318,19 +343,19 @@
           }
         },
         "sedative": {
-          "Narcotique": {"Quantity": 0, "TorporValue": 40},
-          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
-          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
-          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
+          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
+          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
+          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
+          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
         },
         "ammunition": {
-          "Fléchette tranquillisante": {"Quantity": 1, "TorporValue": 100},
-          "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
-          "Arc": {"Quantity": 1, "TorporValue": 111},
-          "Arbalète": {"Quantity": 1, "TorporValue": 64},
-          "Arc Tek": {"Quantity": 1, "TorporValue": 30},
-          "Arc a Poulie": {"Quantity": 1, "TorporValue": 60},
-          "Harpon": {"Quantity": 1, "TorporValue": 120}
+          "Fléchette tranquillisante": {"quantity": 1, "torpor": 100},
+          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
+          "Arc": {"quantity": 1, "torpor": 111},
+          "Arbalète": {"quantity": 1, "torpor": 64},
+          "Arc Tek": {"quantity": 1, "torpor": 30},
+          "Arc a Poulie": {"quantity": 1, "torpor": 60},
+          "Harpon": {"quantity": 1, "torpor": 120}
         }
       }
     },
@@ -374,19 +399,19 @@
           }
         },
         "sedative": {
-          "Narcotique": {"Quantity": 0, "TorporValue": 40},
-          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
-          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
-          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
+          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
+          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
+          "Champignons aserbiques": {"quantity": 0, "torpor": 25},
+          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
         },
         "ammunition": {
-          "Fléchette tranquillisante": {"Quantity": 1, "TorporValue": 100},
-          "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
-          "Arc": {"Quantity": 1, "TorporValue": 111},
-          "Arbalète": {"Quantity": 1, "TorporValue": 64},
-          "Arc Tek": {"Quantity": 1, "TorporValue": 30},
-          "Arc a Poulie": {"Quantity": 1, "TorporValue": 60},
-          "Harpon": {"Quantity": 1, "TorporValue": 120}
+          "Fléchette tranquillisante": {"quantity": 1, "torpor": 100},
+          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
+          "Arc": {"quantity": 1, "torpor": 111},
+          "Arbalète": {"quantity": 1, "torpor": 64},
+          "Arc Tek": {"quantity": 1, "torpor": 30},
+          "Arc a Poulie": {"quantity": 1, "torpor": 60, "time": 2},
+          "Harpon": {"quantity": 1, "torpor": 120}
         }
       }
     },
@@ -440,19 +465,19 @@
           }
         },
         "sedative": {
-          "Narcotique": {"Quantity": 0, "TorporValue": 40},
-          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
-          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
-          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
+          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
+          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
+          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
+          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
         },
         "ammunition": {
-          "Fléchette tranquillisante": {"Quantity": 2, "TorporValue": 100},
-          "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
-          "Arc": {"Quantity": 5, "TorporValue": 111},
-          "Arbalète": {"Quantity": 3, "TorporValue": 64},
-          "Arc Tek": {"Quantity": 2, "TorporValue": 30},
-          "Arc a Poulie": {"Quantity": 4, "TorporValue": 60},
-          "Harpon": {"Quantity": 2, "TorporValue": 120}
+          "Fléchette tranquillisante": {"quantity": 2, "torpor": 100},
+          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
+          "Arc": {"quantity": 5, "torpor": 111},
+          "Arbalète": {"quantity": 3, "torpor": 64},
+          "Arc Tek": {"quantity": 2, "torpor": 30},
+          "Arc a Poulie": {"quantity": 4, "torpor": 60},
+          "Harpon": {"quantity": 2, "torpor": 120}
         }
       }
     },
@@ -501,19 +526,19 @@
           }
         },
         "sedative": {
-          "Narcotique": {"Quantity": 0, "TorporValue": 40},
-          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
-          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
-          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
+          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
+          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
+          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
+          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
         },
         "ammunition": {
-          "Fléchette tranquillisante": {"Quantity": 1, "TorporValue": 100},
-          "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
-          "Arc": {"Quantity": 2, "TorporValue": 111},
-          "Arbalète": {"Quantity": 2, "TorporValue": 64},
-          "Arc Tek": {"Quantity": 1, "TorporValue": 30},
-          "Arc a Poulie": {"Quantity": 2, "TorporValue": 60},
-          "Harpon": {"Quantity": 1, "TorporValue": 120}
+          "Fléchette tranquillisante": {"quantity": 1, "torpor": 100},
+          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
+          "Arc": {"quantity": 2, "torpor": 111},
+          "Arbalète": {"quantity": 2, "torpor": 64},
+          "Arc Tek": {"quantity": 1, "torpor": 30},
+          "Arc a Poulie": {"quantity": 2, "torpor": 60},
+          "Harpon": {"quantity": 1, "torpor": 120}
         }
       }
     },
@@ -567,19 +592,19 @@
           }
         },
         "sedative": {
-          "Narcotique": {"Quantity": 0, "TorporValue": 40},
-          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
-          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
-          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
+          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
+          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
+          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
+          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
         },
         "ammunition": {
-          "Fléchette tranquillisante": {"Quantity": 2, "TorporValue": 100},
-          "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
-          "Arc": {"Quantity": 5, "TorporValue": 111},
-          "Arbalète": {"Quantity": 3, "TorporValue": 64},
-          "Arc Tek": {"Quantity": 2, "TorporValue": 30},
-          "Arc a Poulie": {"Quantity": 4, "TorporValue": 60},
-          "Harpon": {"Quantity": 2, "TorporValue": 120}
+          "Fléchette tranquillisante": {"quantity": 2, "torpor": 100},
+          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
+          "Arc": {"quantity": 5, "torpor": 111},
+          "Arbalète": {"quantity": 3, "torpor": 64},
+          "Arc Tek": {"quantity": 2, "torpor": 30},
+          "Arc a Poulie": {"quantity": 4, "torpor": 60},
+          "Harpon": {"quantity": 2, "torpor": 120}
         }
       }
     },
@@ -633,19 +658,19 @@
           }
         },
         "sedative": {
-          "Narcotique": {"Quantity": 0, "TorporValue": 40},
-          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
-          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
-          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
+          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
+          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
+          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
+          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
         },
         "ammunition": {
-          "Fléchette tranquillisante": {"Quantity": 12, "TorporValue": 100},
-          "Fléchette tranquillisante améliorer": {"Quantity": 6, "TorporValue": 150},
-          "Arc": {"Quantity": 28, "TorporValue": 111},
-          "Arbalète": {"Quantity": 16, "TorporValue": 64},
-          "Arc Tek": {"Quantity": 8, "TorporValue": 30},
-          "Arc a Poulie": {"Quantity": 21, "TorporValue": 60},
-          "Harpon": {"Quantity": 9, "TorporValue": 120}
+          "Fléchette tranquillisante": {"quantity": 12, "torpor": 100},
+          "Fléchette tranquillisante améliorer": {"quantity": 6, "torpor": 150},
+          "Arc": {"quantity": 28, "torpor": 111},
+          "Arbalète": {"quantity": 16, "torpor": 64},
+          "Arc Tek": {"quantity": 8, "torpor": 30},
+          "Arc a Poulie": {"quantity": 21, "torpor": 60},
+          "Harpon": {"quantity": 9, "torpor": 120}
         }
       }
     },
@@ -699,19 +724,19 @@
           }
         },
         "sedative": {
-          "Narcotique": {"Quantity": 0, "TorporValue": 40},
-          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
-          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
-          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
+          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
+          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
+          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
+          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
         },
         "ammunition": {
-          "Fléchette tranquillisante": {"Quantity": 1, "TorporValue": 100},
-          "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
-          "Arc": {"Quantity": 3, "TorporValue": 111},
-          "Arbalète": {"Quantity": 2, "TorporValue": 64},
-          "Arc Tek": {"Quantity": 1, "TorporValue": 30},
-          "Arc a Poulie": {"Quantity": 2, "TorporValue": 60},
-          "Harpon": {"Quantity": 1, "TorporValue": 120}
+          "Fléchette tranquillisante": {"quantity": 1, "torpor": 100},
+          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
+          "Arc": {"quantity": 3, "torpor": 111},
+          "Arbalète": {"quantity": 2, "torpor": 64},
+          "Arc Tek": {"quantity": 1, "torpor": 30},
+          "Arc a Poulie": {"quantity": 2, "torpor": 60},
+          "Harpon": {"quantity": 1, "torpor": 120}
         }
       }
     },
@@ -765,24 +790,87 @@
           }
         },
         "sedative": {
-          "Narcotique": {"Quantity": 0, "TorporValue": 40},
-          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
-          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
-          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
+          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
+          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
+          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
+          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
         },
         "ammunition": {
-          "Fléchette tranquillisante": {"Quantity": 10, "TorporValue": 100},
-          "Fléchette tranquillisante améliorer": {"Quantity": 5, "TorporValue": 150},
-          "Arc": {"Quantity": 23, "TorporValue": 111},
-          "Arbalète": {"Quantity": 13, "TorporValue": 64},
-          "Arc Tek": {"Quantity": 6, "TorporValue": 30},
-          "Arc a Poulie": {"Quantity": 17, "TorporValue": 60},
-          "Harpon": {"Quantity": 7, "TorporValue": 120}
+          "Fléchette tranquillisante": {"quantity": 10, "torpor": 100},
+          "Fléchette tranquillisante améliorer": {"quantity": 5, "torpor": 150},
+          "Arc": {"quantity": 23, "torpor": 111},
+          "Arbalète": {"quantity": 13, "torpor": 64},
+          "Arc Tek": {"quantity": 6, "torpor": 30},
+          "Arc a Poulie": {"quantity": 17, "torpor": 60},
+          "Harpon": {"quantity": 7, "torpor": 120}
         }
       }
     },
     {
-      "name": "Carbonemys"
+      "name": "Carbonemys",
+      "description": "La Carbonemys Obibimus est une des créatures les moins agressives de l'île. Si l'île était moins peuplée de prédateurs, elle passerait ses journées à manger et dormir au soleil. La Carbonemys mène une vie solitaire des plus simples, ce qui en fait un animal très pacifique. Les seules caractéristiques qui compensent sa très faible vitesse sur terre sont son aptitude à être un bon nageur et sa carapace incroyablement épaisse. Une Carbonemys dans sa coquille serait selon moi à l'abri de la plupart des prédateurs.",
+      "utility": "Sa grande aptitude à la nage, sa morsure puissante et l'absence de vraie menace font des Carbonemys une bonne monture marine, idéale pour les tribus côtières majoritairement pacifiques. Elles permettent d'atteindre rapidement certaines ressources aquatiques et ne présentent pas de réels dangers à l'état sauvage.",
+      "category": {
+        "1":"Herbivore"
+      },
+      "type":  {
+        "1":"Terrestre", "2":"Aquatique"
+      },
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "zone": {
+        "1": "Plage", "2": "Océan"
+      },
+      "period": "Paléocène",
+      "size": 2.5,
+      "stats": {
+        "level": 1,
+        "torpor": 275,
+        "torporPerLevel": 16.5
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "Croquette Régulière": {
+            "amount": 2,
+            "time": 140400,
+            "effectivness": 100
+          },
+          "Légume": {
+            "amount": 20,
+            "time": 720600,
+            "effectivness": 97.6
+          },
+          "Mejoberry": {
+            "amount": 27,
+            "time": 726000,
+            "effectivness": 95.7
+          },
+          "Berries": {
+            "amount": 40,
+            "time": 720600,
+            "effectivness": 90.9
+          }
+        },
+        "sedative": {
+          "Narcotique": {"quantity": 0, "torpor": 40, "time": 8},
+          "Narcoberry": {"quantity": 0, "torpor": 7.5, "time": 3},
+          "Champignons aserbiques": {"quantity": 0, "torpor": 25, "time": 2},
+          "Biotoxine": {"quantity": 0, "torpor": 80, "time": 16}
+        },
+        "ammunition": {
+          "Fléchette tranquillisante": {"quantity": 2, "torpor": 100},
+          "Fléchette tranquillisante améliorer": {"quantity": 1, "torpor": 150},
+          "Arc": {"quantity": 4, "torpor": 111},
+          "Arbalète": {"quantity": 2, "torpor": 64},
+          "Arc Tek": {"quantity": 1, "torpor": 30},
+          "Arc a Poulie": {"quantity": 3, "torpor": 60},
+          "Harpon": {"quantity": 1, "torpor": 120}
+        }
+      }
     },
     {
       "name": "Carnotaurus"
@@ -1044,3 +1132,4 @@
     }
   ]
 }
+
