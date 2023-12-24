@@ -112,7 +112,7 @@
             "useSanguineElixir": false,
             "items": [
               {"name": "Croquette Supérieure","amount": 2,"time": 499200,"effectiveness": 99.8},
-              {"name": "Viande de Mouton Crue","amount": 4,"time": 499200,"effectiveness": 99},
+              {"name": "Viande de Mouton crue","amount": 4,"time": 499200,"effectiveness": 99},
               {"name": "Viande crue supérieure","amount": 5,"time": 738000,"effectiveness": 98.5},
               {"name": "Côtelette d’agneau cuite","amount": 5,"time": 1037400,"effectiveness": 96.8}
             ]
@@ -174,8 +174,8 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette Régulière","amount": 2,"time": 608400,"effectiveness": 99.7},
-            {"name": "Viande de Mouton Crue","amount": 3,"time": 540000,"effectiveness": 99},
+            {"name": "Croquette régulière","amount": 2,"time": 608400,"effectiveness": 99.7},
+            {"name": "Viande de Mouton crue","amount": 3,"time": 540000,"effectiveness": 99},
             {"name": "Viande crue supérieure","amount": 4,"time": 720000,"effectiveness": 98.4},
             {"name": "Côtelette d’agneau cuite","amount": 5,"time": 900000,"effectiveness": 97}
           ]
@@ -221,8 +221,8 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette Régulière","amount": 2,"time": 304200,"effectiveness": 100},
-            {"name": "Viande de Mouton Crue","amount": 20,"time": 1440600,"effectiveness": 97.6},
+            {"name": "Croquette régulière","amount": 2,"time": 304200,"effectiveness": 100},
+            {"name": "Viande de Mouton crue","amount": 20,"time": 1440600,"effectiveness": 97.6},
             {"name": "Viande crue supérieure","amount": 40,"time": 1451400,"effectiveness": 95.7},
             {"name": "Côtelette d’agneau cuite","amount": 40,"time": 1440600,"effectiveness": 90.9}
           ]
@@ -265,21 +265,11 @@
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
-          "Viande Avariée": {
-            "amount": 11,
-            "time": 180600,
-            "effectivness": 89.6
-          },
-          "Viande Crue": {
-            "amount": 69,
-            "time": 363600,
-            "effectivness": 16.9
-          },
-          "Viande de Poisson Crue": {
-            "amount": 172,
-            "time": 441600,
-            "effectivness": 3.2
-          }
+          "items": [
+            {"name": "Viande Avariée","amount": 11,"time": 180600,"effectiveness": 89.6},
+            {"name": "Viande crue","amount": 69,"time": 363600,"effectiveness": 16.9},
+            {"name": "Viande de Poisson crue","amount": 172,"time": 441600,"effectiveness": 3.2}
+          ]
         },
         "sedatives": [
           {"type": "Narcotique", "quantity": 0},
@@ -319,16 +309,11 @@
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
-          "Croquette Simple": {
-            "amount": 1,
-            "time": 32400,
-            "effectivness": 99.9
-          },
-          "Chitine": {
-            "amount": 3,
-            "time": 84600,
-            "effectivness": 98
-          }
+          "items": [
+            {"name": "Croquette Simple","amount": 1,"time": 32400,"effectiveness": 99.9},
+            {"name": "Chitine","amount": 3,"time": 84600,"effectiveness": 98},
+            {"name": "Viande de Poisson crue","amount": 172,"time": 441600,"effectiveness": 3.2}
+          ]
         },
         "sedatives": [
           {"type": "Narcotique", "quantity": 0},
@@ -368,26 +353,12 @@
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
-          "Croquette Supérieure": {
-            "amount": 2,
-            "time": 444600,
-            "effectivness": 99.8
-          },
-          "Viande de Mouton Crue": {
-            "amount": 3,
-            "time": 387600,
-            "effectivness": 99.3
-          },
-          "Viande crue supérieure": {
-            "amount": 4,
-            "time": 540600,
-            "effectivness": 98.8
-          },
-          "Côtelette d’agneau cuite": {
-            "amount": 6,
-            "time": 798000,
-            "effectivness": 97.3
-          }
+          "items": [
+            {"name": "Croquette Supérieure","amount": 2,"time": 444600,"effectiveness": 99.8},
+            {"name": "Viande de Mouton crue","amount": 3,"time": 387600,"effectiveness": 99.3},
+            {"name": "Viande crue supérieure","amount": 4,"time": 540600,"effectiveness": 98.8},
+            {"name": "Côtelette d’agneau cuite","amount": 6,"time": 798000,"effectiveness": 97.3}
+          ]
         },
         "sedatives": [
           {"type": "Narcotique", "quantity": 0},
@@ -427,21 +398,11 @@
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
-          "Bouillon de connaissance": {
-            "amount": 1,
-            "time": 0,
-            "effectivness": 100
-          },
-          "Viande avariée": {
-            "amount": 5,
-            "time": 138600,
-            "effectivness": 98.1
-          },
-          "Viande crue": {
-            "amount": 33,
-            "time": 978600,
-            "effectivness": 53.3
-          }
+          "items": [
+            {"name": "Bouillon de connaissance","amount": 1,"time": 0,"effectiveness": 100},
+            {"name": "Viande avariée","amount": 5,"time": 138600,"effectiveness": 98.1},
+            {"name": "Viande crue","amount": 33,"time": 978600,"effectiveness": 53.3}
+          ]
         },
         "sedatives": [
           {"type": "Narcotique", "quantity": 0},
@@ -462,7 +423,7 @@
     {
       "name": "Baryonyx",
       "description": "Comme le Carnotaure, le Baryonyx Aqua fulgur est sur la plus petite extrémité de la rangée des grands prédateurs. Bien qu'il ne soit pas aussi puissant que certains prédateurs de haute mer ou le Spinosaure, le Baryonyx est un nageur très rapide qui est encore assez agile pour menacer la plupart des créatures de l'île. Et pourtant, en dépit d'être un jeune dinosaure dangereux, le Baryonyx ne mange presque exclusivement que des poissons ou d'autres habitants marins. Le métabolisme très spécifique du Baryonyx semble lui permettre de guérir les blessures presque surnaturellement en se nourrissant de chair de poisson. Peut-être est-ce la raison des rares attaques terrestres du Baryonyx.",
-      "utility": "Le Baryonyx affuté naturellement pour la prédation aquatique signifie qu'une fois apprivoisé, il apprendra à tuer les habitants de l'océan encore plus efficacement. Avec sa vitesse et sa puissance, le Baryonyx représente un choix idéal pour toute personne amenée à se déplacer fréquemment entre l'eau et la terre avec facilité.",
+      "utility": "Le Baryonyx affuté naturellement pour la prédation aquatique signifie qu'une fois apprivoisé, il apprendrarégulière à tuer les habitants de l'océan encore plus efficacement. Avec sa vitesse et sa puissance, le Baryonyx représente un choix idéal pour toute personne amenée à se déplacer fréquemment entre l'eau et la terre avec facilité.",
       "zone": ["0","0","0","0"],
       "type": ["0","0","0","0"],
       "category": ["0","0","0","0"],
@@ -481,26 +442,12 @@
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
-          "Croquette Régulière": {
-            "amount": 2,
-            "time": 150600,
-            "effectivness": 99.8
-          },
-          "Viande de Poisson Crue supérieure": {
-            "amount": 11,
-            "time": 261600,
-            "effectivness": 89.6
-          },
-          "Viande de poisson cuite supérieure": {
-            "amount": 22,
-            "time": 555600,
-            "effectivness": 68.2
-          },
-          "Viande de Poisson Crue": {
-            "amount": 65,
-            "time": 807600,
-            "effectivness": 48.7
-          }
+          "items": [
+            {"name": "Croquette régulière","amount": 2,"time": 150600, "effectiveness": 99.8},
+            {"name": "Viande de Poisson crue supérieure","amount": 11,"time": 261600, "effectiveness": 89.6},
+            {"name": "Viande de poisson cuite supérieure","amount": 33,"time": 555600, "effectiveness": 68.2},
+            {"name": "Viande de Poisson crue","amount": 65,"time": 807600, "effectiveness": 48.7}
+          ]
         },
         "sedatives": [
           {"type": "Narcotique", "quantity": 0},
@@ -545,17 +492,17 @@
             "time": 199200,
             "effectivness": 99.8
           },
-          "Viande de Mouton Crue": {
+          "Viande de Mouton crue": {
             "amount": 6,
             "time": 145800,
             "effectivness": 98.8
           },
-          "Viande Crue Supérieure": {
+          "Viande crue Supérieure": {
             "amount": 8,
             "time": 155400,
             "effectivness": 98
           },
-          "Viande de Poisson Crue": {
+          "Viande de Poisson crue": {
             "amount": 11,
             "time": 194400,
             "effectivness": 95.9
@@ -599,17 +546,17 @@
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
-          "Croquette Régulière": {
+          "Croquette régulière": {
             "amount": 3,
             "time": 130200,
             "effectivness": 100
           },
-          "Viande de Mouton Crue": {
+          "Viande de Mouton crue": {
             "amount": 3,
             "time": 120000,
             "effectivness": 98.8
           },
-          "Viande Crue Supérieure": {
+          "Viande crue Supérieure": {
             "amount": 4,
             "time": 144000,
             "effectivness": 99.7
@@ -717,7 +664,7 @@
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
-          "Croquette Régulière": {
+          "Croquette régulière": {
             "amount": 2,
             "time": 140400,
             "effectivness": 100
