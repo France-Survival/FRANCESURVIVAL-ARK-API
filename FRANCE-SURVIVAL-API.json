@@ -4,7 +4,9 @@
       "name": "Achatina",
       "description": "L'Achatina Limusegnis est un mollusque terrestre trouvé principalement dans les jungles et marécages. Étant très lent, il constitue probablement la source de viande et de chitine la plus facile à récolter. Le système digestif de l'Achatina est très différent des autres créatures. Il rejette ses excréments sous la forme d'une substance collante et épaisse, que l'on peut apercevoir derrière lui pendant un court instant.",
       "utility": "La substance gluante que sécrète l'Achatina est très similaire au ciment et au polymère organique utilisés pour les constructions. De nombreuses tribus les apprivoisent pour pouvoir la récolter naturellement à leur guise. La légende raconte que l'Achatina pourrait être apprivoisé avec un \"gâteau\" confectionné à partir de légumes.",
-      "category": "Herbivore",
+      "category": {
+        "1":"Herbivore"
+      },
       "type": {
         "1":"Terrestre"
       },
@@ -22,7 +24,7 @@
         "torporPerLevel": 3
       },
       "taming": {
-        "type":"passif",
+        "type":"Passif",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
@@ -32,13 +34,13 @@
             "effectivness": 100
           }
         },
-        "sedation": {
+        "sedative": {
           "Narcotique": {"Quantity": 2, "TorporValue": 40},
           "Narcoberry": {"Quantity": 9, "TorporValue": 7.5},
           "Champignons aserbiques": {"Quantity": 3, "TorporValue": 25},
           "Biotoxine": {"Quantity": 1, "TorporValue": 80}
         },
-        "munition": {
+        "ammunition": {
           "Fléchette tranquillisante": {"Quantity": 45, "TorporValue": 100},
           "Fléchette tranquillisante améliorer": {"Quantity": 23, "TorporValue": 150},
           "Arc": {"Quantity": 1, "TorporValue": 111},
@@ -53,7 +55,9 @@
       "name": "Allosaure",
       "description": "Plus petit mais plus rapide que le Tyrannosaure, plus grand mais plus lent que le Carnotosaure, l'Allosaurus Therotribus est le théropode de l'île qui chasse en groupe. Alors que la plupart des théropodes agressifs sont plutôt des créatures solitaires, l'Allosaure vit en groupe de 3-4 individus. Un des Allosaures est l'alpha, et les autres sont ses partenaires ou des mâles beta.De même que les humains trouvent un intérêt à former des tribus, l'Allosaure a évolué pour chasser en groupe. Ses dents en forme de scie laisse ses proies en sang et mutilées, rendant leur fuite compliquée.",
       "utility": "Tout le monde ne pense pas qu'un Allosaure apprivoisé est idéal. Ceux qui privilégient la rapidité apprivoisent généralement un Carnotaure, alors que ceux qui privilégient la force brute apprivoisent un Tyrannosaure.",
-      "category": "Carnivore",
+      "category": {
+        "1":"Carnivore"
+      },
       "type": {
         "1":"Terrestre"
       },
@@ -96,13 +100,13 @@
             "effectivness": 96.8
           }
         },
-        "sedation": {
+        "sedative": {
           "Narcotique": {"Quantity": 0, "TorporValue": 40},
           "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
           "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
           "Biotoxine": {"Quantity": 0, "TorporValue": 80}
         },
-        "munition": {
+        "ammunition": {
           "Fléchette tranquillisante": {"Quantity": 5, "TorporValue": 100},
           "Fléchette tranquillisante améliorer": {"Quantity": 3, "TorporValue": 150},
           "Arc": {"Quantity": 12, "TorporValue": 111},
@@ -117,7 +121,9 @@
       "name": "Ammonite",
       "description": "On la trouve habituellement dans les parties les plus profondes de l'eau autour de l'île, elle a une étrange relation avec les autres créatures des profondeurs. Sa présence doit leur être bénéfique car chaque créature aquatique à proximité défend l'Ammonite quand elle est attaquée.",
       "utility": "Comme la plupart des créatures de l'océan indomptables, l'Ammonite a un intérêt pour être une cible de chasse précieuse. Si une tribu est prête à risquer la colère des défenseurs près de lui, la bile peut être récoltée à partir des entrailles de son cadavre.",
-      "category": "Détritivore",
+      "category": {
+        "1":"Détritivore"
+      },
       "type": {
         "1":"Aquatique"
       },
@@ -139,8 +145,12 @@
       "name": "Baudroie Abyssale",
       "description": "Que sa taille soit due à une adaptation aux autres habitants de l'île ou à un croisement avec une autre espèce plus grande, Melanocetus angerlpescum est la plus grande forme de baudroie dont j'ai jamais entendu parler. Présente généralement dans les étendues les plus profondes et les plus sombres de l'océan, cette créature se nourrit de poissons plus petits tout en constituant une excellente source de nourriture pour les plus gros prédateurs.",
       "utility": "Explorer les profondeurs de l’océan peut être difficile. Le froid, le manque d’air et l’absence choquante de lumière se combinent pour rendre les voyages très dangereux. Une baudroie apprivoisée peut utiliser la lumière naturelle au bout de ses tiges pour éclairer les profondeurs, rendant l'exploration non seulement plus sûre mais plus lucrative, car j'ai entendu certains survivants utiliser cette créature pour récolter les perles de silice trouvées dans les profondeurs de l'océan !",
-      "category": "Carnivore",
-      "type": "Aquatique",
+      "category": {
+        "1":"Carnivore"
+      },
+      "type":  {
+        "1":"Aquatique"
+      },
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
@@ -180,13 +190,13 @@
             "effectivness": 97
           }
         },
-        "sedation": {
+        "sedative": {
           "Narcotique": {"Quantity": 17, "TorporValue": 40},
           "Narcoberry": {"Quantity": 63, "TorporValue": 7.5},
           "Champignons aserbiques": {"Quantity": 34, "TorporValue": 25},
           "Biotoxine": {"Quantity": 9, "TorporValue": 80}
         },
-        "munition": {
+        "ammunition": {
           "Fléchette tranquillisante": {"Quantity": 5, "TorporValue": 100},
           "Fléchette tranquillisante améliorer": {"Quantity": 3, "TorporValue": 150},
           "Arc": {"Quantity": 10, "TorporValue": 111},
@@ -201,13 +211,17 @@
       "name": "Ankylosaurus",
       "description": "Contrairement à la plupart des troupeaux de l’île, l’Ankylosaurus crassacutis a tendance à vivre en petits groupes familiaux. Je crois qu’ils se permettent de rester en petit nombre grâce à leur peau incroyablement épaisse, qui leur a valu leur nom. Bien que n’étant pas parmi les plus grands herbivores de l’île, l’Ankylosaure est l’une des créatures les plus difficiles à abattre.",
       "utility": "Sans aucun doute, le meilleur atout d’un Ankylosaure dressé est son énorme et lourde queue. Sa queue est assez puissante pour rapidement briser les rochers pleins de ressources. Les tribus les plus riches de l'île utilisent l'Ankylosaure dans leurs mines et leurs carrières.",
-      "category": "Herbivore",
-      "type": "Terrestre",
+      "category": {
+        "1":"Herbivore"
+      },
+      "type":  {
+        "1":"Terrestre"
+      },
       "tamable": true,
       "ridable": true,
       "behavior": "Neutre",
       "zone": {
-        "1":"montagne", "2":"plaine"
+        "1":"Montagne", "2":"Plaine"
       },
       "period": "Crétacé supérieur",
       "size": 8,
@@ -242,13 +256,13 @@
             "effectivness": 90.9
           }
         },
-        "sedation": {
+        "sedative": {
           "Narcotique": {"Quantity": 0, "TorporValue": 40},
           "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
           "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
           "Biotoxine": {"Quantity": 0, "TorporValue": 80}
         },
-        "munition": {
+        "ammunition": {
           "Fléchette tranquillisante": {"Quantity": 2, "TorporValue": 100},
           "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
           "Arc": {"Quantity": 5, "TorporValue": 111},
@@ -263,13 +277,17 @@
       "name": "Araneo",
       "description": "L'Araneomorphus Amalgotantibus partage les caractéristiques de bon nombre d'espèces. Elle lance des toiles comme une araignée Bolas, crache du venin comme une araignée-lynx et elle peut voir dans le noir en détectant les vibrations. Pour couronner le tout, l'Araneomorphus est plus grande qu'un homme adulte. Comme si cela ne suffisait pas, je soupçonne les Araneomorphus d'avoir creusé quelques unes des grottes présentent sur l'île.",
       "utility": "L'Araneomorphus, une fois domestiquée, s'avère être un fidèle compagnon. Sa toile permet de ralentir les proies les plus rapides, ce qui s'avère très utile pour la chasse. Elles sont cependant trop petites pour être des montures très habiles.",
-      "category": "Détritivore",
-      "type": "Terrestre",
+      "category": {
+        "1":"Détritivore"
+      },
+      "type":  {
+        "1":"Terrestre"
+      },
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
       "zone": {
-        "1":"grotte"
+        "1":"Grotte"
       },
       "period": "Ére Mésozoïque",
       "size": 0.7,
@@ -299,13 +317,13 @@
             "effectivness": 3.2
           }
         },
-        "sedation": {
+        "sedative": {
           "Narcotique": {"Quantity": 0, "TorporValue": 40},
           "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
           "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
           "Biotoxine": {"Quantity": 0, "TorporValue": 80}
         },
-        "munition": {
+        "ammunition": {
           "Fléchette tranquillisante": {"Quantity": 1, "TorporValue": 100},
           "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
           "Arc": {"Quantity": 1, "TorporValue": 111},
@@ -315,243 +333,453 @@
           "Harpon": {"Quantity": 1, "TorporValue": 120}
         }
       }
-    }
-  ]
-}
-
-
-
-    
-
-
     },
     {
       "name": "Archeopteryx",
       "description": "Mesurant approximativement un mètre de long, le Archaeopteryx Magnamilvum est un proto-oiseau principalement arboricole. Il évite le plus possible de se poser au sol, préférant rester en sécurité dans les arbres, là où peu de prédateurs sont en mesure de l'atteindre. Je n'ai pas encore vu d'Archaeopteryx voler franchement, il est donc possible qu'ils ne puissent pas générer assez de puissance pour pourvoir voler sur de longues distances au lieu de se déplacer de branches en branches.",
-      "tamed": "Bien qu'il ne soit pas assez grand pour transporter le poids total d'un humain adulte, l'Archaeopteryx est tout de même très utile. Malgré son incapacité à voler, ses ailes ont une force suffisante pour réduire la vitesse de chute d'une personne si celle-ci se cramponne à l'Archaeopteryx pendant la descente. Apprivoiser un Archaeopteryx peut être assez déroutant, étant donné qu'il refuse de se nourrir des denrées alimentaires les plus courantes, et qu'il fuit se mettre à l'abri au moindre signe de la présence d'un intrus.",
-      "category":{
+      "utility": "Bien qu'il ne soit pas assez grand pour transporter le poids total d'un humain adulte, l'Archaeopteryx est tout de même très utile. Malgré son incapacité à voler, ses ailes ont une force suffisante pour réduire la vitesse de chute d'une personne si celle-ci se cramponne à l'Archaeopteryx pendant la descente. Apprivoiser un Archaeopteryx peut être assez déroutant, étant donné qu'il refuse de se nourrir des denrées alimentaires les plus courantes, et qu'il fuit se mettre à l'abri au moindre signe de la présence d'un intrus.",
+      "category": {
         "1":"Insectivore", "2":"Carnivore"
       },
-      "type": {"1":"Terrestre","2":"Volant"},
+      "type":  {
+        "1":"Volant"
+      },
       "tamable": true,
       "ridable": false,
       "behavior": "Passif",
-      "habitat":"Forêt",
-      "period": "N/A",
-      "size": "N/A",
-      "level": 1,
-      "torpor": 100,
-      "food": {
-        "useSanguineElixir": false,
-        "Croquette Simple": {
-          "amount": 1,
-          "time": 32400,
-          "effectivness": 99.9
+      "zone": {
+        "1":"Forêt"
+      },
+      "period": "Jurassique",
+      "size": 0.5,
+      "stats": {
+        "level": 1,
+        "torpor": 100,
+        "torporPerLevel": 6
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "Croquette Simple": {
+            "amount": 1,
+            "time": 32400,
+            "effectivness": 99.9
+          },
+          "Chitine": {
+            "amount": 3,
+            "time": 84600,
+            "effectivness": 98
+          }
         },
-        "Chitine": {
-          "amount": 3,
-          "time": 84600,
-          "effectivness": 98
+        "sedative": {
+          "Narcotique": {"Quantity": 0, "TorporValue": 40},
+          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
+          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
+          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
+        },
+        "ammunition": {
+          "Fléchette tranquillisante": {"Quantity": 1, "TorporValue": 100},
+          "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
+          "Arc": {"Quantity": 1, "TorporValue": 111},
+          "Arbalète": {"Quantity": 1, "TorporValue": 64},
+          "Arc Tek": {"Quantity": 1, "TorporValue": 30},
+          "Arc a Poulie": {"Quantity": 1, "TorporValue": 60},
+          "Harpon": {"Quantity": 1, "TorporValue": 120}
         }
       }
     },
     {
       "name": "Argentavis",
       "description": "Dominant les cieux de l'île, Argentavis Atrocollum a peu de rivaux dans les airs. C'est donc une légère consolation, pour les autres créatures volantes, que l'Argentavis n'ait que peu d'intérêt pour tout ce qui est vivant. L'Argentavis n'a pas le cou voûté typique des buses et vautours modernes. On ignore s'il a adapté son cou, le rendant plus puissant pour tenir tête aux prédateurs de l'île, ou si sa lignée remonte à avant que le cou tordu soit la norme chez les oiseaux charognards.",
-      "tamed": "L'Argentavis est plus lent que le plus répandu Ptéranodon, mais il est bien plus endurant, et peut voler environ trois fois plus longtemps. Cela en fait la meilleure créature de l'île dès lors qu'il s'agit de voyager ou de transporter des charges sur de longues distances.",
-      "category":"Carnivore",
-      "type": "Volant",
+      "utility": "L'Argentavis est plus lent que le plus répandu Ptéranodon, mais il est bien plus endurant, et peut voler environ trois fois plus longtemps. Cela en fait la meilleure créature de l'île dès lors qu'il s'agit de voyager ou de transporter des charges sur de longues distances.",
+      "category": {
+        "1":"Charognard", "2":"Carnivore"
+      },
+      "type":  {
+        "1":"Volant"
+      },
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
-      "habitat": {
-        "1":"Forêt", "2":"Montagne"
+      "zone": {
+        "1":"Montagne", "2":"Forêt"
       },
       "period": "Miocène supérieur",
-      "size": "N/A",
-      "level": 1,
-      "torpor": 600,
-      "food": {
-        "useSanguineElixir": false,
-        "Croquette Supérieure": {
-          "amount": 2,
-          "time": 444600,
-          "effectivness": 99.8
+      "size": 7,
+      "stats": {
+        "level": 1,
+        "torpor": 600,
+        "torporPerLevel": 36
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "Croquette Supérieure": {
+            "amount": 2,
+            "time": 444600,
+            "effectivness": 99.8
+          },
+          "Viande de Mouton Crue": {
+            "amount": 3,
+            "time": 387600,
+            "effectivness": 99.3
+          },
+          "Viande crue supérieure": {
+            "amount": 4,
+            "time": 540600,
+            "effectivness": 98.8
+          },
+          "Côtelette d’agneau cuite": {
+            "amount": 6,
+            "time": 798000,
+            "effectivness": 97.3
+          }
         },
-        "Viande de Mouton Crue": {
-          "amount": 3,
-          "time": 387600,
-          "effectivness": 99.3
+        "sedative": {
+          "Narcotique": {"Quantity": 0, "TorporValue": 40},
+          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
+          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
+          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
         },
-        "Viande crue supérieure": {
-          "amount": 4,
-          "time": 540600,
-          "effectivness": 98.8
-        },
-        "Côtelette d’agneau cuite": {
-          "amount": 6,
-          "time": 798000,
-          "effectivness": 97.3
+        "ammunition": {
+          "Fléchette tranquillisante": {"Quantity": 2, "TorporValue": 100},
+          "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
+          "Arc": {"Quantity": 5, "TorporValue": 111},
+          "Arbalète": {"Quantity": 3, "TorporValue": 64},
+          "Arc Tek": {"Quantity": 2, "TorporValue": 30},
+          "Arc a Poulie": {"Quantity": 4, "TorporValue": 60},
+          "Harpon": {"Quantity": 2, "TorporValue": 120}
         }
       }
     },
     {
       "name": "Arthropluera",
       "description": "Le fait que cette créature existe suffit à me donner des cauchemars. Comme les autres Arthropodes de l'île, l'Arthropleura Felsanguis est devenu bien plus grand que je ne l'aurais imaginé. C'est un chasseur très agressif, mais il préfère manger de la viande avariée depuis quelque temps et va chercher ce délice sans relâche. Le sang de l'Arthropleura a un pH très bas, à tel point qu'il peut dissoudre beaucoup de matériaux. Ce sang acide éclabousse tout ce qui l'attaque directement, affaiblissant la résistance des armes et blessant les assaillants. Par conséquent, beaucoup de créatures refusent de chasser l'Arthropleura, apeurées par cette défense unique.",
-      "tamed": "L'Argentavis est plus lent que le plus répandu Ptéranodon, mais il est bien plus endurant, et peut voler environ trois fois plus longtemps. Cela en fait la meilleure créature de l'île dès lors qu'il s'agit de voyager ou de transporter des charges sur de longues distances.",
-      "category":"Charognard",
-      "type": "Volant",
+      "utility": "Comme la plupart des arthropodes de l'île, l'Arthropleura est simple d'esprit et relativement facile à apprivoiser. Il est surtout utile pour les attaques à distance. Grâce à ses défenses uniques, que ce soit la chasse ou la guerre, l'Arthropleura est généralement à l'abri de toutes les créatures sauf les plus grandes.",
+      "category": {
+        "1":"Charognard"
+      },
+      "type":  {
+        "1":"Terrestre"
+      },
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
-      "habitat":"Grotte",
+      "zone": {
+        "1":"Grotte", "2":"Marais"
+      },
       "period": "Permien inférieur",
-      "size": "N/A",
-      "level": 1,
-      "torpor": 175,
-      "food": {
-        "useSanguineElixir": false,
-        "Bouillon de connaissance": {
-          "amount": 1,
-          "time": 0,
-          "effectivness": 100
+      "size": 3,
+      "stats": {
+        "level": 1,
+        "torpor": 176,
+        "torporPerLevel": 10.53
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "Bouillon de connaissance": {
+            "amount": 1,
+            "time": 0,
+            "effectivness": 100
+          },
+          "Viande avariée": {
+            "amount": 5,
+            "time": 138600,
+            "effectivness": 98.1
+          },
+          "Viande crue": {
+            "amount": 33,
+            "time": 978600,
+            "effectivness": 53.3
+          }
         },
-        "Viande avariée": {
-          "amount": 5,
-          "time": 138600,
-          "effectivness": 98.1
+        "sedative": {
+          "Narcotique": {"Quantity": 0, "TorporValue": 40},
+          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
+          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
+          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
         },
-        "Viande crue": {
-          "amount": 33,
-          "time": 978600,
-          "effectivness": 53.3
+        "ammunition": {
+          "Fléchette tranquillisante": {"Quantity": 1, "TorporValue": 100},
+          "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
+          "Arc": {"Quantity": 2, "TorporValue": 111},
+          "Arbalète": {"Quantity": 2, "TorporValue": 64},
+          "Arc Tek": {"Quantity": 1, "TorporValue": 30},
+          "Arc a Poulie": {"Quantity": 2, "TorporValue": 60},
+          "Harpon": {"Quantity": 1, "TorporValue": 120}
         }
       }
     },
     {
       "name": "Baryonyx",
-      "description": "Comme le Carnotaure Carnotaure, le Baryonyx Aqua fulgur est sur la plus petite extrémité de la rangée des grands prédateurs. Bien qu'il ne soit pas aussi puissant que certains prédateurs de haute mer ou le Spinosaure, le Baryonyx est un nageur très rapide qui est encore assez agile pour menacer la plupart des créatures de l'île. Et pourtant, en dépit d'être un jeune dinosaure dangereux, le Baryonyx ne mange presque exclusivement que des poissons ou d'autres habitants marins. Le métabolisme très spécifique du Baryonyx semble lui permettre de guérir les blessures presque surnaturellement en se nourrissant de chair de poisson. Peut-être est-ce la raison des rares attaques terrestres du Baryonyx.",
-      "tamed": "Le Baryonyx affuté naturellement pour la prédation aquatique signifie qu'une fois apprivoisé, il apprendra à tuer les habitants de l'océan encore plus efficacement. Avec sa vitesse et sa puissance, le Baryonyx représente un choix idéal pour toute personne amenée à se déplacer fréquemment entre l'eau et la terre avec facilité.",
-      "category":"Piscivore",
+      "description": "Comme le Carnotaure, le Baryonyx Aqua fulgur est sur la plus petite extrémité de la rangée des grands prédateurs. Bien qu'il ne soit pas aussi puissant que certains prédateurs de haute mer ou le Spinosaure, le Baryonyx est un nageur très rapide qui est encore assez agile pour menacer la plupart des créatures de l'île. Et pourtant, en dépit d'être un jeune dinosaure dangereux, le Baryonyx ne mange presque exclusivement que des poissons ou d'autres habitants marins. Le métabolisme très spécifique du Baryonyx semble lui permettre de guérir les blessures presque surnaturellement en se nourrissant de chair de poisson. Peut-être est-ce la raison des rares attaques terrestres du Baryonyx.",
+      "utility": "Le Baryonyx affuté naturellement pour la prédation aquatique signifie qu'une fois apprivoisé, il apprendra à tuer les habitants de l'océan encore plus efficacement. Avec sa vitesse et sa puissance, le Baryonyx représente un choix idéal pour toute personne amenée à se déplacer fréquemment entre l'eau et la terre avec facilité.",
+      "category": {
+        "1":"Piscivore"
+      },
       "type":  {
         "1":"Terrestre", "2":"Aquatique"
       },
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
-      "habitat": {
-        "1":"Rivière", "2":"Marais"
+      "zone": {
+        "1":"Grotte", "2":"Marais", "3": "Rivière"
       },
       "period": "Crétacé inférieur",
-      "size": "N/A",
-      "level": 1,
-      "torpor": 400,
-      "food": {
-        "useSanguineElixir": false,
-        "Croquette Régulière": {
-          "amount": 2,
-          "time": 150600,
-          "effectivness": 99.8
+      "size": 10,
+      "stats": {
+        "level": 1,
+        "torpor": 400,
+        "torporPerLevel": 24
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "Croquette Régulière": {
+            "amount": 2,
+            "time": 150600,
+            "effectivness": 99.8
+          },
+          "Viande de Poisson Crue supérieure": {
+            "amount": 11,
+            "time": 261600,
+            "effectivness": 89.6
+          },
+          "Viande de poisson cuite supérieure": {
+            "amount": 22,
+            "time": 555600,
+            "effectivness": 68.2
+          },
+          "Viande de Poisson Crue": {
+            "amount": 65,
+            "time": 807600,
+            "effectivness": 48.7
+          }
         },
-        "Viande de Poisson Crue supérieure": {
-          "amount": 11,
-          "time": 261600,
-          "effectivness": 89.6
+        "sedative": {
+          "Narcotique": {"Quantity": 0, "TorporValue": 40},
+          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
+          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
+          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
         },
-        "Viande de poisson cuite supérieure": {
-          "amount": 22,
-          "time": 555600,
-          "effectivness": 68.2
-        },
-        "Viande de Poisson Crue": {
-          "amount": 65,
-          "time": 807600,
-          "effectivness": 48.7
+        "ammunition": {
+          "Fléchette tranquillisante": {"Quantity": 2, "TorporValue": 100},
+          "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
+          "Arc": {"Quantity": 5, "TorporValue": 111},
+          "Arbalète": {"Quantity": 3, "TorporValue": 64},
+          "Arc Tek": {"Quantity": 2, "TorporValue": 30},
+          "Arc a Poulie": {"Quantity": 4, "TorporValue": 60},
+          "Harpon": {"Quantity": 2, "TorporValue": 120}
         }
       }
     },
     {
       "name": "Basilosaurus",
       "description": "Le Basilosaurus Solatiumfecit est l'une des créatures les plus étranges des eaux entourant l'île. Il est un nageur puissant qui s'est adapté aux bas-fonds. Il récupère rapidement de ses blessures dès qu'il remonte à la surface de l'eau. A l'inverse, il est vulnérable à la pression des profondeurs. Le Basilosaure est généralement suivi de près par d'autres petites créatures car ses habitudes alimentaires laissent une grande quantité de déchets pour ces petits charognards. C'est une créature amicale envers les humains, et heureusement car il prend sa nourriture directement auprès d'eux. Cependant, les créatures qui suivent le Basilosaure ont tendance à devenir dangereuse chaque fois que cela se produit, car il ne laisse pas de restes pour eux.",
-      "tamed": "Malgré les dégâts que peuvent provoquer les petites créatures qui le suivent, de nombreuses tribus tentent encore d'apprivoiser le Basilosaure, comme mammifère à sang chaud d'un confort parfait à la fois au chaud et au froid. Alternativement, le Basilosaure est chassé pour sa graisse spéciale, qui peut être raffinée et être beaucoup plus efficace que l'essence !",
-      "category":"Piscivore",
+      "utility": "Malgré les dégâts que peuvent provoquer les petites créatures qui le suivent, de nombreuses tribus tentent encore d'apprivoiser le Basilosaure, comme mammifère à sang chaud d'un confort parfait à la fois au chaud et au froid. Alternativement, le Basilosaure est chassé pour sa graisse spéciale, qui peut être raffinée et être beaucoup plus efficace que l'essence !",
+      "category": {
+        "1":"Piscivore"
+      },
       "type":  {
-        "1":"Terrestre", "2":"Aquatique"
+        "1":"Aquatique"
       },
       "tamable": true,
       "ridable": true,
       "behavior": "Passif",
-      "habitat": "Océan",
+      "zone": {
+        "1":"Océan"
+      },
       "period": "Éocène supérieur",
-      "size": "N/A",
-      "level": 1,
-      "torpor": 2000,
-      "food": {
-        "useSanguineElixir": false,
-        "Croquette Exceptionnelle": {
-          "amount": 3,
-          "time": 199200,
-          "effectivness": 99.8
+      "size": 20,
+      "stats": {
+        "level": 1,
+        "torpor": 2000,
+        "torporPerLevel": 120
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "Croquette Exceptionnelle": {
+            "amount": 3,
+            "time": 199200,
+            "effectivness": 99.8
+          },
+          "Viande de Mouton Crue": {
+            "amount": 6,
+            "time": 145800,
+            "effectivness": 98.8
+          },
+          "Viande Crue Supérieure": {
+            "amount": 8,
+            "time": 155400,
+            "effectivness": 98
+          },
+          "Viande de Poisson Crue": {
+            "amount": 11,
+            "time": 194400,
+            "effectivness": 95.9
+          }
         },
-        "Viande de Mouton Crue": {
-          "amount": 6,
-          "time": 145800,
-          "effectivness": 98.8
+        "sedative": {
+          "Narcotique": {"Quantity": 0, "TorporValue": 40},
+          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
+          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
+          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
         },
-        "Viande Crue Supérieure": {
-          "amount": 8,
-          "time": 155400,
-          "effectivness": 98
-        },
-        "Viande de Poisson Crue": {
-          "amount": 11,
-          "time": 194400,
-          "effectivness": 95.9
+        "ammunition": {
+          "Fléchette tranquillisante": {"Quantity": 12, "TorporValue": 100},
+          "Fléchette tranquillisante améliorer": {"Quantity": 6, "TorporValue": 150},
+          "Arc": {"Quantity": 28, "TorporValue": 111},
+          "Arbalète": {"Quantity": 16, "TorporValue": 64},
+          "Arc Tek": {"Quantity": 8, "TorporValue": 30},
+          "Arc a Poulie": {"Quantity": 21, "TorporValue": 60},
+          "Harpon": {"Quantity": 9, "TorporValue": 120}
         }
       }
     },
     {
       "name": "Beelzebufo",
       "description": "Beelzebufo Palucocus est la plus grande grenouille que je n'ai jamais vu. Si grand qu'il pourrait porter un humain sur son dos. Cela peut néanmoins s'avérer dangereux car la peau et la salive du Beelzebufo ont un effet tranquillisant. Comme la plupart des grenouilles, le Beelzebufo raffole des insectes. Grâce à son incroyablement longue langue, il peut tuer ses proies à distance d'un seul coup. Grâce aux substances sécrétées par son système digestif, il transforme naturellement la Chitine qu'il absorbe en Ciment.",
-      "tamed": "Les avis divergent en ce qui concerne les Beelzebufo apprivoisés. Certains n'en voient pas l'utilité, mais d'autres apprécient le fait qu'ils puissent faire de grands bonds, leur permettant d'accéder facilement à certaines zones. Sans oublier son aptitude à créer du Ciment rapidement en chassant des insectes.",
-      "category":"Carnivore",
+      "utility": "Les avis divergent en ce qui concerne les Beelzebufo apprivoisés. Certains n'en voient pas l'utilité, mais d'autres apprécient le fait qu'ils puissent faire de grands bonds, leur permettant d'accéder facilement à certaines zones. Sans oublier son aptitude à créer du Ciment rapidement en chassant des insectes.",
+      "category": {
+        "1":"Piscivore"
+      },
       "type":  {
         "1":"Terrestre", "2":"Aquatique"
       },
       "tamable": true,
       "ridable": true,
       "behavior": "Passif",
-      "habitat": "Marais",
-      "period": "N/A",
-      "size": "N/A",
-      "level": 1,
-      "torpor": 200,
-      "food": {
-        "useSanguineElixir": false,
-        "Croquette Régulière": {
-          "amount": 3,
-          "time": 130200,
-          "effectivness": 100
+      "zone": {
+        "1":"Marais"
+      },
+      "period": "Crétacé supérieur",
+      "size": 0.40,
+      "stats": {
+        "level": 1,
+        "torpor": 200,
+        "torporPerLevel": 12
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "Croquette Régulière": {
+            "amount": 3,
+            "time": 130200,
+            "effectivness": 100
+          },
+          "Viande de Mouton Crue": {
+            "amount": 3,
+            "time": 120000,
+            "effectivness": 98.8
+          },
+          "Viande Crue Supérieure": {
+            "amount": 4,
+            "time": 144000,
+            "effectivness": 99.7
+          },
+          "Viande de Mouton Cuite": {
+            "amount": 5,
+            "time": 192000,
+            "effectivness": 99.5
+          }
         },
-        "Viande de Mouton Crue": {
-          "amount": 3,
-          "time": 120000,
-          "effectivness": 98.8
+        "sedative": {
+          "Narcotique": {"Quantity": 0, "TorporValue": 40},
+          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
+          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
+          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
         },
-        "Viande Crue Supérieure": {
-          "amount": 4,
-          "time": 144000,
-          "effectivness": 99.7
-        },
-        "Viande de Mouton Cuite": {
-          "amount": 5,
-          "time": 192000,
-          "effectivness": 99.5
+        "ammunition": {
+          "Fléchette tranquillisante": {"Quantity": 1, "TorporValue": 100},
+          "Fléchette tranquillisante améliorer": {"Quantity": 1, "TorporValue": 150},
+          "Arc": {"Quantity": 3, "TorporValue": 111},
+          "Arbalète": {"Quantity": 2, "TorporValue": 64},
+          "Arc Tek": {"Quantity": 1, "TorporValue": 30},
+          "Arc a Poulie": {"Quantity": 2, "TorporValue": 60},
+          "Harpon": {"Quantity": 1, "TorporValue": 120}
         }
       }
     },
     {
-      "name": "Brontosaurus"
+      "name": "Brontosaurus",
+      "description": "Brontosaurus Lazarus est le plus gros sauropode dont j'ai entendu parler. Il est tellement grand qu'il ne remarque même pas la plupart des autres créatures. J'ai même vu un groupe de Raptors en train de dévorer des petits dinosaures sans que cela ne semble déranger le Brontosaurus qui mangeait à quelques mètres de là.",
+      "utility": "Grâce à sa nature si docile, le Brontosaure est un animal important dans un tribu. Les plus pacifiques l'utilisent pour transporter d'incroyables quantités de ressources, tandis que d'autres s'en servent comme base d'opérations mobile. Malheureusement, son gigantisme implique l'utilisation d'une plus grande dose de tranquillisants pour l'apprivoiser.",
+      "category": {
+        "1":"Herbivore"
+      },
+      "type":  {
+        "1":"Terrestre"
+      },
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "zone": {
+        "1":"Plaine", "2": "Plage"
+      },
+      "period": "Crétacé supérieur",
+      "size": 23,
+      "stats": {
+        "level": 1,
+        "torpor": 2000,
+        "torporPerLevel": 120
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "Croquette Exceptionnelle": {
+            "amount": 7,
+            "time": 420000,
+            "effectivness": 100
+          },
+          "Légume": {
+            "amount": 66,
+            "time": 1860000,
+            "effectivness": 97.6
+          },
+          "Mejoberry": {
+            "amount": 88,
+            "time": 144000,
+            "effectivness": 95.8
+          },
+          "Berries": {
+            "amount": 5,
+            "time": 144000,
+            "effectivness": 91
+          }
+        },
+        "sedative": {
+          "Narcotique": {"Quantity": 0, "TorporValue": 40},
+          "Narcoberry": {"Quantity": 0, "TorporValue": 7.5},
+          "Champignons aserbiques": {"Quantity": 0, "TorporValue": 25},
+          "Biotoxine": {"Quantity": 0, "TorporValue": 80}
+        },
+        "ammunition": {
+          "Fléchette tranquillisante": {"Quantity": 10, "TorporValue": 100},
+          "Fléchette tranquillisante améliorer": {"Quantity": 5, "TorporValue": 150},
+          "Arc": {"Quantity": 23, "TorporValue": 111},
+          "Arbalète": {"Quantity": 13, "TorporValue": 64},
+          "Arc Tek": {"Quantity": 6, "TorporValue": 30},
+          "Arc a Poulie": {"Quantity": 17, "TorporValue": 60},
+          "Harpon": {"Quantity": 7, "TorporValue": 120}
+        }
+      }
     },
     {
       "name": "Carbonemys"
