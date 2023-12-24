@@ -532,26 +532,12 @@
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
-          "Croquette régulière": {
-            "amount": 3,
-            "time": 130200,
-            "effectivness": 100
-          },
-          "Viande de mouton crue": {
-            "amount": 3,
-            "time": 120000,
-            "effectivness": 98.8
-          },
-          "Viande crue supérieur": {
-            "amount": 4,
-            "time": 144000,
-            "effectivness": 99.7
-          },
-          "Viande de Mouton Cuite": {
-            "amount": 5,
-            "time": 192000,
-            "effectivness": 99.5
-          }
+          "items": [
+            {"name": "Croquette régulière","amount": 3,"time": 130200, "effectiveness": 100},
+            {"name": "Viande de mouton crue","amount": 3,"time": 120000, "effectiveness": 98.8},
+            {"name": "Viande crue supérieur","amount": 4,"time": 144000, "effectiveness": 99.7},
+            {"name": "Viande de Mouton Cuite","amount": 5,"time": 192000, "effectiveness": 99.5}
+          ]
         },
         "sedatives": [
           {"type": "Narcotique", "quantity": 0},
@@ -591,26 +577,12 @@
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
-          "Croquette Exceptionnelle": {
-            "amount": 7,
-            "time": 420000,
-            "effectivness": 100
-          },
-          "Légume": {
-            "amount": 66,
-            "time": 1860000,
-            "effectivness": 97.6
-          },
-          "Mejoberry": {
-            "amount": 88,
-            "time": 144000,
-            "effectivness": 95.8
-          },
-          "Berries": {
-            "amount": 5,
-            "time": 144000,
-            "effectivness": 91
-          }
+          "items": [
+            {"name": "Croquette Exceptionnelle","amount": 7,"time": 420000,"effectiveness": 100},
+            {"name": "Légume","amount": 66,"time": 1860000,"effectiveness": 97.6},
+            {"name": "Mejoberry","amount": 88,"time": 144000,"effectiveness": 95.8},
+            {"name": "Berries","amount": 132,"time": 144000,"effectiveness": 91}
+          ]
         },
         "sedatives": [
           {"type": "Narcotique", "quantity": 0},
@@ -650,26 +622,12 @@
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
-          "Croquette régulière": {
-            "amount": 2,
-            "time": 140400,
-            "effectivness": 100
-          },
-          "Légume": {
-            "amount": 20,
-            "time": 720600,
-            "effectivness": 97.6
-          },
-          "Mejoberry": {
-            "amount": 27,
-            "time": 726000,
-            "effectivness": 95.7
-          },
-          "Berries": {
-            "amount": 40,
-            "time": 720600,
-            "effectivness": 90.9
-          }
+          "items": [
+            {"name": "Croquette régulière","amount": 2,"time":  140400,"effectiveness": 100},
+            {"name": "Légume","amount": 20,"time": 720600,"effectiveness": 97.6},
+            {"name": "Mejoberry","amount": 27,"time": 726000,"effectiveness": 95.7},
+            {"name": "Berries","amount": 40,"time": 720600,"effectiveness": 90.9}
+          ]
         },
         "sedatives": [
           {"type": "Narcotique", "quantity": 0},
