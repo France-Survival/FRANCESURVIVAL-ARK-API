@@ -101,34 +101,45 @@ Woolly Rhino	Yes	Yes
 Yutryannus	Yes	Yes
 
 
-
-    {
-      "name": "",
-      "level":1,
-      "size":"",
-      "torpor":"",
-      "food":{
-        "useSanguineElixir":false,
-        "kibble":{
-          "amount": 5
+ "zone": ["1", "5", "8"],
+        "type": ["1"],
+        "category": ["2"],
+        "tamable": true,
+        "ridable": true,
+        "behavior": "Agressif",
+        "period": "Jurassique supérieur",
+        "size": 8.5,
+        "stats": {
+          "level": 1,
+          "torpor": 1000,
+          "torporDrain": 0.8,
+          "torporPerLevel": 60
         },
-        "":{
-          "amount":0
-        },
-        "":{
-          "amount":0
-        },
-        "":{
-          "amount":0
-        },
-        "":{
-          "amount":0
+        "taming": {
+          "type": "K.O",
+          "rates": 1,
+          "food": {
+            "useSanguineElixir": false,
+            "items": [
+              {"name": "Croquette Supérieure","amount": 2,"time": 499200,"effectiveness": 99.8},
+              {"name": "Viande de Mouton Crue","amount": 4,"time": 499200,"effectiveness": 99},
+              {"name": "Viande crue supérieure","amount": 5,"time": 738000,"effectiveness": 98.5},
+              {"name": "Côtelette d’agneau cuite","amount": 5,"time": 1037400,"effectiveness": 96.8}
+            ]
+          },
+          "sedatives": [
+            {"type": "Narcotique", "quantity": 0},
+            {"type": "Narcoberry", "quantity": 0},
+            {"type": "Champignons aserbiques", "quantity": 0},
+            {"type": "Biotoxine", "quantity": 0}
+          ],
+          "ammunitions": [
+            {"type": "Fléchette tranquillisante", "quantity": 0},
+            {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
+            {"type": "Arc", "quantity": 0},
+            {"type": "Arbalète", "quantity": 0},
+            {"type": "Arc a Poulie", "quantity": 0},
+            {"type": "Harpon", "quantity": 0}
+          ]
         }
-      },
-      "category":"",
-      "type":"",
-      "tamable":"",
-      "behavior":"",
-      "habitat":"",
-      "period":""
-    }
+      
