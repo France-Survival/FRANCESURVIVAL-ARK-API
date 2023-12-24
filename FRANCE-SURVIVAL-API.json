@@ -112,8 +112,8 @@
             "useSanguineElixir": false,
             "items": [
               {"name": "Croquette Supérieure","amount": 2,"time": 499200,"effectiveness": 99.8},
-              {"name": "Viande de Mouton crue","amount": 4,"time": 499200,"effectiveness": 99},
-              {"name": "Viande crue supérieure","amount": 5,"time": 738000,"effectiveness": 98.5},
+              {"name": "Viande de mouton crue","amount": 4,"time": 499200,"effectiveness": 99},
+              {"name": "Viande crue supérieur","amount": 5,"time": 738000,"effectiveness": 98.5},
               {"name": "Côtelette d’agneau cuite","amount": 5,"time": 1037400,"effectiveness": 96.8}
             ]
           },
@@ -175,8 +175,8 @@
           "useSanguineElixir": false,
           "items": [
             {"name": "Croquette régulière","amount": 2,"time": 608400,"effectiveness": 99.7},
-            {"name": "Viande de Mouton crue","amount": 3,"time": 540000,"effectiveness": 99},
-            {"name": "Viande crue supérieure","amount": 4,"time": 720000,"effectiveness": 98.4},
+            {"name": "Viande de mouton crue","amount": 3,"time": 540000,"effectiveness": 99},
+            {"name": "Viande crue supérieur","amount": 4,"time": 720000,"effectiveness": 98.4},
             {"name": "Côtelette d’agneau cuite","amount": 5,"time": 900000,"effectiveness": 97}
           ]
         },
@@ -222,8 +222,8 @@
           "useSanguineElixir": false,
           "items": [
             {"name": "Croquette régulière","amount": 2,"time": 304200,"effectiveness": 100},
-            {"name": "Viande de Mouton crue","amount": 20,"time": 1440600,"effectiveness": 97.6},
-            {"name": "Viande crue supérieure","amount": 40,"time": 1451400,"effectiveness": 95.7},
+            {"name": "Viande de mouton crue","amount": 20,"time": 1440600,"effectiveness": 97.6},
+            {"name": "Viande crue supérieur","amount": 40,"time": 1451400,"effectiveness": 95.7},
             {"name": "Côtelette d’agneau cuite","amount": 40,"time": 1440600,"effectiveness": 90.9}
           ]
         },
@@ -268,7 +268,7 @@
           "items": [
             {"name": "Viande Avariée","amount": 11,"time": 180600,"effectiveness": 89.6},
             {"name": "Viande crue","amount": 69,"time": 363600,"effectiveness": 16.9},
-            {"name": "Viande de Poisson crue","amount": 172,"time": 441600,"effectiveness": 3.2}
+            {"name": "Viande de poisson crue","amount": 172,"time": 441600,"effectiveness": 3.2}
           ]
         },
         "sedatives": [
@@ -312,7 +312,7 @@
           "items": [
             {"name": "Croquette Simple","amount": 1,"time": 32400,"effectiveness": 99.9},
             {"name": "Chitine","amount": 3,"time": 84600,"effectiveness": 98},
-            {"name": "Viande de Poisson crue","amount": 172,"time": 441600,"effectiveness": 3.2}
+            {"name": "Viande de poisson crue","amount": 172,"time": 441600,"effectiveness": 3.2}
           ]
         },
         "sedatives": [
@@ -355,8 +355,8 @@
           "useSanguineElixir": false,
           "items": [
             {"name": "Croquette Supérieure","amount": 2,"time": 444600,"effectiveness": 99.8},
-            {"name": "Viande de Mouton crue","amount": 3,"time": 387600,"effectiveness": 99.3},
-            {"name": "Viande crue supérieure","amount": 4,"time": 540600,"effectiveness": 98.8},
+            {"name": "Viande de mouton crue","amount": 3,"time": 387600,"effectiveness": 99.3},
+            {"name": "Viande crue supérieur","amount": 4,"time": 540600,"effectiveness": 98.8},
             {"name": "Côtelette d’agneau cuite","amount": 6,"time": 798000,"effectiveness": 97.3}
           ]
         },
@@ -444,9 +444,9 @@
           "useSanguineElixir": false,
           "items": [
             {"name": "Croquette régulière","amount": 2,"time": 150600, "effectiveness": 99.8},
-            {"name": "Viande de Poisson crue supérieure","amount": 11,"time": 261600, "effectiveness": 89.6},
+            {"name": "Viande de poisson crue supérieure","amount": 11,"time": 261600, "effectiveness": 89.6},
             {"name": "Viande de poisson cuite supérieure","amount": 33,"time": 555600, "effectiveness": 68.2},
-            {"name": "Viande de Poisson crue","amount": 65,"time": 807600, "effectiveness": 48.7}
+            {"name": "Viande de poisson crue","amount": 65,"time": 807600, "effectiveness": 48.7}
           ]
         },
         "sedatives": [
@@ -487,26 +487,12 @@
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
-          "Croquette Exceptionnelle": {
-            "amount": 3,
-            "time": 199200,
-            "effectivness": 99.8
-          },
-          "Viande de Mouton crue": {
-            "amount": 6,
-            "time": 145800,
-            "effectivness": 98.8
-          },
-          "Viande crue Supérieure": {
-            "amount": 8,
-            "time": 155400,
-            "effectivness": 98
-          },
-          "Viande de Poisson crue": {
-            "amount": 11,
-            "time": 194400,
-            "effectivness": 95.9
-          }
+          "items": [
+            {"name": "Croquette exceptionnelle","amount": 3,"time": 199200, "effectiveness": 99.8},
+            {"name": "Viande de mouton crue","amount": 6,"time": 145800, "effectiveness": 98.8},
+            {"name": "Viande crue supérieur","amount": 33,"time": 155400, "effectiveness": 98},
+            {"name": "Viande de poisson crue","amount": 11,"time": 194400, "effectiveness": 95.9}
+          ]
         },
         "sedatives": [
           {"type": "Narcotique", "quantity": 0},
@@ -551,12 +537,12 @@
             "time": 130200,
             "effectivness": 100
           },
-          "Viande de Mouton crue": {
+          "Viande de mouton crue": {
             "amount": 3,
             "time": 120000,
             "effectivness": 98.8
           },
-          "Viande crue Supérieure": {
+          "Viande crue supérieur": {
             "amount": 4,
             "time": 144000,
             "effectivness": 99.7
