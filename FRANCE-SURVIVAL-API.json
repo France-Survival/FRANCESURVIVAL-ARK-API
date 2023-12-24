@@ -68,24 +68,10 @@
           "food": {
             "useSanguineElixir": false,
             "items": [
-              {"name": "Délicieux gâteau aux légumes","amount": 3,"time": 378600,"effectiveness": 100}
+              {"name": "Délicieux gâteau aux légumes","effectiveness": 100}
             ]
           }
-        },
-        "sedatives": [
-          {"type": "Narcotique", "quantity": 2},
-          {"type": "Narcoberry", "quantity": 9},
-          {"type": "Champignons aserbiques", "quantity": 3},
-          {"type": "Biotoxine", "quantity": 1}
-        ],
-        "ammunitions": [
-          {"type": "Fléchette tranquillisante", "quantity": 1},
-          {"type": "Fléchette tranquillisante améliorer", "quantity": 1},
-          {"type": "Arc", "quantity": 1},
-          {"type": "Arbalète", "quantity": 1},
-          {"type": "Arc a Poulie", "quantity": 1},
-          {"type": "Harpon", "quantity": 1}
-        ]
+        }
       },
       {
         "name": "Allosaure",
@@ -111,26 +97,12 @@
           "food": {
             "useSanguineElixir": false,
             "items": [
-              {"name": "Croquette Supérieure","amount": 2,"time": 499200,"effectiveness": 99.8},
-              {"name": "Viande de mouton crue","amount": 4,"time": 499200,"effectiveness": 99},
-              {"name": "Viande crue supérieur","amount": 5,"time": 738000,"effectiveness": 98.5},
-              {"name": "Côtelette d’agneau cuite","amount": 5,"time": 1037400,"effectiveness": 96.8}
+              {"name": "Croquette supérieure","effectiveness": 99.8},
+              {"name": "Viande de mouton crue","effectiveness": 99},
+              {"name": "Viande crue supérieur","effectiveness": 98.5},
+              {"name": "Côtelette d’agneau cuite","effectiveness": 96.8}
             ]
-          },
-          "sedatives": [
-            {"type": "Narcotique", "quantity": 0},
-            {"type": "Narcoberry", "quantity": 0},
-            {"type": "Champignons aserbiques", "quantity": 0},
-            {"type": "Biotoxine", "quantity": 0}
-          ],
-          "ammunitions": [
-            {"type": "Fléchette tranquillisante", "quantity": 0},
-            {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
-            {"type": "Arc", "quantity": 0},
-            {"type": "Arbalète", "quantity": 0},
-            {"type": "Arc a Poulie", "quantity": 0},
-            {"type": "Harpon", "quantity": 0}
-          ]
+          }
         }
       },
     {
@@ -165,7 +137,8 @@
       "size": 0.20,
       "stats": {
         "level": 1,
-        "torpor": 1000,
+        "torpor": 900,
+        "torporDrain": 3.2,
         "torporPerLevel": 54
       },
       "taming": {
@@ -174,28 +147,12 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette régulière","amount": 2,"time": 608400,"effectiveness": 99.7},
-            {"name": "Viande de mouton crue","amount": 3,"time": 540000,"effectiveness": 99},
-            {"name": "Viande crue supérieur","amount": 4,"time": 720000,"effectiveness": 98.4},
-            {"name": "Côtelette d’agneau cuite","amount": 5,"time": 900000,"effectiveness": 97}
+            {"name": "Croquette régulière","effectiveness": 99.7},
+            {"name": "Viande de mouton crue","effectiveness": 99},
+            {"name": "Viande crue supérieur","effectiveness": 98.4},
+            {"name": "Côtelette d’agneau cuite","effectiveness": 97}
           ]
-        },
-        "sedative": {
-          "items": [
-            {"name": "Narcotique","quantity": 0},
-            {"name": "Narcoberry","quantity": 0},
-            {"name": "Champignons aserbiques","quantity": 0},
-            {"name": "Biotoxine","quantity": 0}
-          ]
-        },
-        "ammunitions": [
-          {"type": "Fléchette tranquillisante","quantity": 5},
-          {"type": "Fléchette tranquillisante améliorer","quantity": 3},
-          {"type": "Arc","quantity": 10},
-          {"type": "Arbalète","quantity": 6},
-          {"type": "Arc a Poulie","quantity": 8},
-          {"type": "Harpon","quantity": 3}
-        ]
+        }
       }
     },
     {
@@ -213,6 +170,7 @@
       "stats": {
         "level": 1,
         "torpor": 420,
+        "torporDrain": 0.3,
         "torporPerLevel": 25.2
       },
       "taming": {
@@ -221,26 +179,12 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette régulière","amount": 2,"time": 304200,"effectiveness": 100},
-            {"name": "Viande de mouton crue","amount": 20,"time": 1440600,"effectiveness": 97.6},
-            {"name": "Viande crue supérieur","amount": 40,"time": 1451400,"effectiveness": 95.7},
-            {"name": "Côtelette d’agneau cuite","amount": 40,"time": 1440600,"effectiveness": 90.9}
+            {"name": "Croquette régulière","effectiveness": 100},
+            {"name": "Viande de mouton crue","effectiveness": 97.6},
+            {"name": "Viande crue supérieur","effectiveness": 95.7},
+            {"name": "Côtelette d’agneau cuite","effectiveness": 90.9}
           ]
-        },
-        "sedatives": [
-          {"type": "Narcotique", "quantity": 0},
-          {"type": "Narcoberry", "quantity": 0},
-          {"type": "Champignons aserbiques", "quantity": 0},
-          {"type": "Biotoxine", "quantity": 0}
-        ],
-        "ammunitions": [
-          {"type": "Fléchette tranquillisante", "quantity": 0},
-          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
-          {"type": "Arc", "quantity": 0},
-          {"type": "Arbalète", "quantity": 0},
-          {"type": "Arc a Poulie", "quantity": 0},
-          {"type": "Harpon", "quantity": 0}
-        ]
+        }
       }
     },
     {
@@ -261,30 +205,16 @@
         "torporPerLevel": 4.8
       },
       "taming": {
-        "type":"K.O",
+        "type":"Passif",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Viande Avariée","amount": 11,"time": 180600,"effectiveness": 89.6},
-            {"name": "Viande crue","amount": 69,"time": 363600,"effectiveness": 16.9},
-            {"name": "Viande de poisson crue","amount": 172,"time": 441600,"effectiveness": 3.2}
+            {"name": "Viande Avariée","effectiveness": 89.6},
+            {"name": "Viande crue","effectiveness": 16.9},
+            {"name": "Viande de poisson crue","effectiveness": 3.2}
           ]
-        },
-        "sedatives": [
-          {"type": "Narcotique", "quantity": 0},
-          {"type": "Narcoberry", "quantity": 0},
-          {"type": "Champignons aserbiques", "quantity": 0},
-          {"type": "Biotoxine", "quantity": 0}
-        ],
-        "ammunitions": [
-          {"type": "Fléchette tranquillisante", "quantity": 0},
-          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
-          {"type": "Arc", "quantity": 0},
-          {"type": "Arbalète", "quantity": 0},
-          {"type": "Arc a Poulie", "quantity": 0},
-          {"type": "Harpon", "quantity": 0}
-        ]
+        }
       }
     },
     {
@@ -302,6 +232,7 @@
       "stats": {
         "level": 1,
         "torpor": 100,
+        "torporDrain": 0.8,
         "torporPerLevel": 6
       },
       "taming": {
@@ -310,25 +241,11 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette Simple","amount": 1,"time": 32400,"effectiveness": 99.9},
-            {"name": "Chitine","amount": 3,"time": 84600,"effectiveness": 98},
-            {"name": "Viande de poisson crue","amount": 172,"time": 441600,"effectiveness": 3.2}
+            {"name": "Croquette Simple","effectiveness": 99.9},
+            {"name": "Chitine","effectiveness": 98},
+            {"name": "Viande de poisson crue","effectiveness": 3.2}
           ]
-        },
-        "sedatives": [
-          {"type": "Narcotique", "quantity": 0},
-          {"type": "Narcoberry", "quantity": 0},
-          {"type": "Champignons aserbiques", "quantity": 0},
-          {"type": "Biotoxine", "quantity": 0}
-        ],
-        "ammunitions": [
-          {"type": "Fléchette tranquillisante", "quantity": 0},
-          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
-          {"type": "Arc", "quantity": 0},
-          {"type": "Arbalète", "quantity": 0},
-          {"type": "Arc a Poulie", "quantity": 0},
-          {"type": "Harpon", "quantity": 0}
-        ]
+        }
       }
     },
     {
@@ -346,6 +263,7 @@
       "stats": {
         "level": 1,
         "torpor": 600,
+        "torporDrain": 0.3,
         "torporPerLevel": 36
       },
       "taming": {
@@ -354,26 +272,12 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette Supérieure","amount": 2,"time": 444600,"effectiveness": 99.8},
-            {"name": "Viande de mouton crue","amount": 3,"time": 387600,"effectiveness": 99.3},
-            {"name": "Viande crue supérieur","amount": 4,"time": 540600,"effectiveness": 98.8},
-            {"name": "Côtelette d’agneau cuite","amount": 6,"time": 798000,"effectiveness": 97.3}
+            {"name": "Croquette supérieure","effectiveness": 99.8},
+            {"name": "Viande de mouton crue","effectiveness": 99.3},
+            {"name": "Viande crue supérieur","effectiveness": 98.8},
+            {"name": "Côtelette d’agneau cuite","effectiveness": 97.3}
           ]
-        },
-        "sedatives": [
-          {"type": "Narcotique", "quantity": 0},
-          {"type": "Narcoberry", "quantity": 0},
-          {"type": "Champignons aserbiques", "quantity": 0},
-          {"type": "Biotoxine", "quantity": 0}
-        ],
-        "ammunitions": [
-          {"type": "Fléchette tranquillisante", "quantity": 0},
-          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
-          {"type": "Arc", "quantity": 0},
-          {"type": "Arbalète", "quantity": 0},
-          {"type": "Arc a Poulie", "quantity": 0},
-          {"type": "Harpon", "quantity": 0}
-        ]
+        }
       }
     },
     {
@@ -394,30 +298,16 @@
         "torporPerLevel": 10.53
       },
       "taming": {
-        "type":"K.O",
+        "type":"Passif",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Bouillon de connaissance","amount": 1,"time": 0,"effectiveness": 100},
-            {"name": "Viande avariée","amount": 5,"time": 138600,"effectiveness": 98.1},
-            {"name": "Viande crue","amount": 33,"time": 978600,"effectiveness": 53.3}
+            {"name": "Bouillon de connaissance","effectiveness": 100},
+            {"name": "Viande avariée","effectiveness": 98.1},
+            {"name": "Viande crue","effectiveness": 53.3}
           ]
-        },
-        "sedatives": [
-          {"type": "Narcotique", "quantity": 0},
-          {"type": "Narcoberry", "quantity": 0},
-          {"type": "Champignons aserbiques", "quantity": 0},
-          {"type": "Biotoxine", "quantity": 0}
-        ],
-        "ammunitions": [
-          {"type": "Fléchette tranquillisante", "quantity": 0},
-          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
-          {"type": "Arc", "quantity": 0},
-          {"type": "Arbalète", "quantity": 0},
-          {"type": "Arc a Poulie", "quantity": 0},
-          {"type": "Harpon", "quantity": 0}
-        ]
+        }
       }
     },
     {
@@ -435,6 +325,7 @@
       "stats": {
         "level": 1,
         "torpor": 400,
+        "torporDrain": 0.3,
         "torporPerLevel": 24
       },
       "taming": {
@@ -443,26 +334,12 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette régulière","amount": 2,"time": 150600, "effectiveness": 99.8},
-            {"name": "Viande de poisson crue supérieure","amount": 11,"time": 261600, "effectiveness": 89.6},
-            {"name": "Viande de poisson cuite supérieure","amount": 33,"time": 555600, "effectiveness": 68.2},
-            {"name": "Viande de poisson crue","amount": 65,"time": 807600, "effectiveness": 48.7}
+            {"name": "Croquette régulière","effectiveness": 99.8},
+            {"name": "Viande de poisson crue supérieure","effectiveness": 89.6},
+            {"name": "Viande de poisson cuite supérieure","effectiveness": 68.2},
+            {"name": "Viande de poisson crue","effectiveness": 48.7}
           ]
-        },
-        "sedatives": [
-          {"type": "Narcotique", "quantity": 0},
-          {"type": "Narcoberry", "quantity": 0},
-          {"type": "Champignons aserbiques", "quantity": 0},
-          {"type": "Biotoxine", "quantity": 0}
-        ],
-        "ammunitions": [
-          {"type": "Fléchette tranquillisante", "quantity": 0},
-          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
-          {"type": "Arc", "quantity": 0},
-          {"type": "Arbalète", "quantity": 0},
-          {"type": "Arc a Poulie", "quantity": 0},
-          {"type": "Harpon", "quantity": 0}
-        ]
+        }
       }
     },
     {
@@ -483,31 +360,17 @@
         "torporPerLevel": 120
       },
       "taming": {
-        "type":"K.O",
+        "type":"Passif",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette exceptionnelle","amount": 3,"time": 199200, "effectiveness": 99.8},
-            {"name": "Viande de mouton crue","amount": 6,"time": 145800, "effectiveness": 98.8},
-            {"name": "Viande crue supérieur","amount": 33,"time": 155400, "effectiveness": 98},
-            {"name": "Viande de poisson crue","amount": 11,"time": 194400, "effectiveness": 95.9}
+            {"name": "Croquette exceptionnelle","effectiveness": 99.8},
+            {"name": "Viande de mouton crue","effectiveness": 98.8},
+            {"name": "Viande crue supérieur","effectiveness": 98},
+            {"name": "Viande de poisson crue","effectiveness": 95.9}
           ]
-        },
-        "sedatives": [
-          {"type": "Narcotique", "quantity": 0},
-          {"type": "Narcoberry", "quantity": 0},
-          {"type": "Champignons aserbiques", "quantity": 0},
-          {"type": "Biotoxine", "quantity": 0}
-        ],
-        "ammunitions": [
-          {"type": "Fléchette tranquillisante", "quantity": 0},
-          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
-          {"type": "Arc", "quantity": 0},
-          {"type": "Arbalète", "quantity": 0},
-          {"type": "Arc a Poulie", "quantity": 0},
-          {"type": "Harpon", "quantity": 0}
-        ]
+        }
       }
     },
     {
@@ -525,6 +388,7 @@
       "stats": {
         "level": 1,
         "torpor": 200,
+        "torporDrain": 0.7,
         "torporPerLevel": 12
       },
       "taming": {
@@ -533,26 +397,12 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette régulière","amount": 3,"time": 130200, "effectiveness": 100},
-            {"name": "Viande de mouton crue","amount": 3,"time": 120000, "effectiveness": 98.8},
-            {"name": "Viande crue supérieur","amount": 4,"time": 144000, "effectiveness": 99.7},
-            {"name": "Viande de Mouton Cuite","amount": 5,"time": 192000, "effectiveness": 99.5}
+            {"name": "Croquette régulière","effectiveness": 100},
+            {"name": "Viande de mouton crue","effectiveness": 98.8},
+            {"name": "Viande crue supérieur","effectiveness": 99.7},
+            {"name": "Viande de mouton cuite","effectiveness": 99.5}
           ]
-        },
-        "sedatives": [
-          {"type": "Narcotique", "quantity": 0},
-          {"type": "Narcoberry", "quantity": 0},
-          {"type": "Champignons aserbiques", "quantity": 0},
-          {"type": "Biotoxine", "quantity": 0}
-        ],
-        "ammunitions": [
-          {"type": "Fléchette tranquillisante", "quantity": 0},
-          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
-          {"type": "Arc", "quantity": 0},
-          {"type": "Arbalète", "quantity": 0},
-          {"type": "Arc a Poulie", "quantity": 0},
-          {"type": "Harpon", "quantity": 0}
-        ]
+        }
       }
     },
     {
@@ -570,6 +420,7 @@
       "stats": {
         "level": 1,
         "torpor": 2000,
+        "torporDrain": 0.3,
         "torporPerLevel": 120
       },
       "taming": {
@@ -578,26 +429,12 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette Exceptionnelle","amount": 7,"time": 420000,"effectiveness": 100},
-            {"name": "Légume","amount": 66,"time": 1860000,"effectiveness": 97.6},
-            {"name": "Mejoberry","amount": 88,"time": 144000,"effectiveness": 95.8},
-            {"name": "Berries","amount": 132,"time": 144000,"effectiveness": 91}
+            {"name": "Croquette Exceptionnelle","effectiveness": 100},
+            {"name": "Légume","effectiveness": 97.6},
+            {"name": "Mejoberry","effectiveness": 95.8},
+            {"name": "Berries","effectiveness": 91}
           ]
-        },
-        "sedatives": [
-          {"type": "Narcotique", "quantity": 0},
-          {"type": "Narcoberry", "quantity": 0},
-          {"type": "Champignons aserbiques", "quantity": 0},
-          {"type": "Biotoxine", "quantity": 0}
-        ],
-        "ammunitions": [
-          {"type": "Fléchette tranquillisante", "quantity": 0},
-          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
-          {"type": "Arc", "quantity": 0},
-          {"type": "Arbalète", "quantity": 0},
-          {"type": "Arc a Poulie", "quantity": 0},
-          {"type": "Harpon", "quantity": 0}
-        ]
+        }
       }
     },
     {
@@ -615,6 +452,7 @@
       "stats": {
         "level": 1,
         "torpor": 275,
+        "torporDrain": 0.3,
         "torporPerLevel": 16.5
       },
       "taming": {
@@ -623,48 +461,200 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette régulière","amount": 2,"time":  140400,"effectiveness": 100},
-            {"name": "Légume","amount": 20,"time": 720600,"effectiveness": 97.6},
-            {"name": "Mejoberry","amount": 27,"time": 726000,"effectiveness": 95.7},
-            {"name": "Berries","amount": 40,"time": 720600,"effectiveness": 90.9}
+            {"name": "Croquette régulière","effectiveness": 100},
+            {"name": "Légume","effectiveness": 97.6},
+            {"name": "Mejoberry","effectiveness": 95.7},
+            {"name": "Berries","effectiveness": 90.9}
           ]
-        },
-        "sedatives": [
-          {"type": "Narcotique", "quantity": 0},
-          {"type": "Narcoberry", "quantity": 0},
-          {"type": "Champignons aserbiques", "quantity": 0},
-          {"type": "Biotoxine", "quantity": 0}
-        ],
-        "ammunitions": [
-          {"type": "Fléchette tranquillisante", "quantity": 0},
-          {"type": "Fléchette tranquillisante améliorer", "quantity": 0},
-          {"type": "Arc", "quantity": 0},
-          {"type": "Arbalète", "quantity": 0},
-          {"type": "Arc a Poulie", "quantity": 0},
-          {"type": "Harpon", "quantity": 0}
-        ]
+        }
       }
     },
     {
-      "name": "Carnotaurus"
+      "name": "Carnotaurus",
+      "description": "Carnotaurus pressor est une créature distinctive qui se situe entre un prédateur moyen et grand. Il vit principalement sur un terrain plat et dégagé, où il peut capitaliser sur sa vitesse. De plus, il ne semble pas hésiter à fuir de plus grands prédateurs au lieu de se battre. Les cornes du Carnotaure semblent être utilisées davantage pour combattre des rivaux que pour chasser. Cela ne signifie pas pour autant que les cornes ne sont pas dangereuses. Ils peuvent encore éviscérer des proies plus grosses. Le Carnotaure est l'un des prédateurs les plus petits et les plus compacts.",
+      "utility": "Le Carnotaurus remplit un rôle très spécifique. Plus grand et presque aussi rapide qu'un Raptor, plus petit mais beaucoup plus rapide qu'un Rex. Si ce n'était le temps d'arrêt extrêmement long de la créature après le sprint, il pourrait être parmi les montures les plus équilibrées.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Crétacé supérieur",
+      "size": 7.6,
+      "stats": {
+        "level": 1,
+        "torpor": 350,
+        "torporDrain": 0.3,
+        "torporPerLevel": 21
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière","effectiveness": 99.8},
+            {"name": "Viande de mouton crue","effectiveness": 99.3},
+            {"name": "Viande crue supérieur","effectiveness": 98.8},
+            {"name": "Viande de mouton cuite","effectiveness": 97.3}
+          ]
+        }
+      }
     },
     {
-      "name": "Castoroides"
+      "name": "Castoroides",
+      "description": "Le Castor géant est un grand mammifère herbivore vivant près des points d'eau. Contrairement à d'autres espèces de grands castors, celui-ci conserve les dents de castors présents de nos jours en forme de ciseau. Il leur arrive de construire des barrages, mais ceux-ci se retrouvent souvent piétinés par d'autres créatures, ce qui a tendance à les rendre agressifs. À les regarder jouer dans l'eau et ronger du bois, on se demande si les Castors géants se rendent compte du danger qui les entoure. Peut-être sont-ils complètement bêtes ? À moins qu'ils ne s'en moquent.",
+      "utility": "La physiologie du Castor géant lui permet non seulement de récolter du bois comme aucune autre créature, mais également de porter plus de ressources. Cela fait de lui un bûcheron incontesté.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "period": "Pléistocène",
+      "size": 2.5,
+      "stats": {
+        "level": 1,
+        "torpor": 350,
+        "torporDrain": 1.6,
+        "torporPerLevel": 16.5
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette supérieure","effectiveness": 100},
+            {"name": "Légume","effectiveness": 97.4},
+            {"name": "Mejoberry","effectiveness": 95.7},
+            {"name": "Berries","effectiveness": 90.8}
+          ]
+        }
+      }
     },
     {
-      "name": "Chalicotherium"
+      "name": "Chalicotherium",
+      "description": "Trouvable en petit nombre dans les régions les plus froides de l'île, le Chalicotherium Obsidioequus est naturellement un herbivore pacifique qui préfère passer ses journées à ne rien faire ou à s'amuser avec les membres de sa famille. Cependant, ce sont des créatures très attachées à leur territoire, et les familles entières, les plus vieux et les plus jeunes, feront face à une créature envahissante à la moindre petite provocation. Une scène étrange sur laquelle s'attarder est un groupe de Chalicotherium qui jouent. Un des passes-temps bizarre des Chalicotherium est de se lancer d'énormes boules de neige ou de boue entres-eux. Les petites créatures présentes dans cette zone s'éloignent des Chalicotherium durant la pratique de cette activité, de peur d'être ensevelies dans la neige ou la boue.",
+      "utility": "Bien que la plupart des créatures soient utiles pour attaquer les forteresses, le Chalicotherium peut être entraîné en tant qu'artillerie mobile. Ces moments de jeux uniques lui donnent un énorme avantage tactique pour des assauts destructeurs à longues distances lorsque de gros rochers à lancer lui sont offerts, au lieu des boules des neige!",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Territorial",
+      "period": "Miocène",
+      "size": 2.5,
+      "stats": {
+        "level": 1,
+        "torpor": 500,
+        "torporPerLevel": 30
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Pinte de bière","effectiveness": 100},
+            {"name": "Stimberry","effectiveness": 9.8}
+          ]
+        }
+      }
     },
     {
-      "name": "Cnidaria"
+      "name": "Cnidaria",
+      "description": "La Cnidaria Omnimorph est un autre d'exemple de créature qui ne devrait pas exister. Elle possède des caractéristiques qui semblent provenir de nombreux types de méduse. Elle est de la même taille et de la même forme que les grosses méduses à l'apparence de jaune d'oeuf, possède la piqûre puissante de certaines méduses-boîtes et la bioluminescence des méduses des profondeurs. Tout cela se combine pour faire une créature dangereuse qui illumine les entrailles les plus profondes des océans. La Cnidaria n'est généralement pas une créature agressive car elle possède un manque de perception sensorielle. Généralement, elle flotte simplement dans le courant jusqu'à ce que quelque chose soit assez proche d'elle, auquel cas elle attaque. Bien que ses attaques ne soient pas spécialement puissantes, son dard injecte un sédatif incroyablement puissant et rapide.",
+      "utility": "Comme la Cnidaria est rarement plus intelligente qu'une plante, il n'existe pas de méthode efficace pour l'apprivoiser. La plupart des tribus tuent la Cnidaria à vue et récupèrent ses réserves de sédatifs puissants pour les utiliser dans l'élaboration de tranquillisants à longue distance.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": false,
+      "ridable": false,
+      "behavior": "Agressif",
+      "period": "Précambrien",
+      "size": 0.60,
+      "stats": {
+        "level": 1,
+        "torpor": 250,
+        "torporPerLevel": 15
+      }
     },
     {
-      "name": "Coelacanth"
+      "name": "Coelacanth",
+      "description": "Le Coelacanth Nutritia ressemble fortement à nos poissons. Le Coelacanthe peut être trouvé dans toutes les sources d'eau de l'île, salées ou non. Contrairement aux Coelacanthes, la viande de Coelacanth Nutritia est pauvre en graisse et arêtes, ce qui en fait une des sources de nourriture les plus saines. Les Coelacanthes mangent tout ce qui est plus petit qu'eux. N'ayant encore rien vu de plus petit qu'eux dans l'eau, je pense qu'il se nourrissent de bébés serpents, d'algues ou peut-être se dévorent-ils les uns les autres ?",
+      "utility": "Bien que les Coelacanthes ne peuvent être apprivoisés, ils peuvent néanmoins être une source de nourriture pour les tribus côtières. Ils sont cependant trop petits pour nourrir une tribu conséquente.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": false,
+      "ridable": false,
+      "behavior": "Passif",
+      "period": "Dévonien",
+      "size": 1.8
     },
     {
-      "name": "Compy"
+      "name": "Compy",
+      "description": "L'un des plus petits prédateurs de l'île, Compsognathus curiosicarius peut être considéré comme un animal de compagnie, un ravageur ou une menace. Seul, le Compsognathus n'est ni dangereux ni agressif. Dans les plus grosses meutes, cependant, il se souvient de sa nature carnivore sous-jacente. Après qu'un groupe de Compsognathus ait atteint une certaine taille, leur mentalité de meute semble toujours les encourager à «attaquer». Pour une raison quelconque, le Compsognathus n'a pas naturellement peur des humains. Au contraire, il semble être assez curieux au sujet des humains et de leurs instruments de survie. Ils ont tendance à être attirés vers les humains par cette curiosité, puis à appeler leurs compagnons de meute pour aider à explorer leur découverte. Cela conduit généralement à l'agression de la meute susmentionnée, avec des résultats dangereux.",
+      "utility": "Les Compsognathus gagnent une puissance et une vitesse d'attaque de plus en plus importantes lorsqu'ils sont à proximité d'autres Compsognathus, car l'agression en meute prend le dessus sur leur comportement. De plus, leur cri de détresse va assez loin, alertant rapidement la tribu et ses animaux de compagnie du danger plus efficacement, et augmentant la probabilité de former un soi-disant «gang de Compy».",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Agressif",
+      "period": "Jurassique supérieur",
+      "size": 1.4,
+      "stats": {
+        "level": 1,
+        "torpor": 25,
+        "torporDrain": 1.3,
+        "torporPerLevel": 1.5
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Viande de mouton crue","effectiveness": 99.7},
+            {"name": "Viande crue supérieur","effectiveness": 99.7},
+            {"name": "Viande de poisson crue supérieure","effectiveness": 99.1}
+          ]
+        }
+      }
     },
     {
-      "name": "Daeodon"
+      "name": "Daeodon",
+      "description": "Le Daeodon Comedentis est la plus grande espèce connue des entélodontes, une famille omnivore de mammifères anciens qui sont parfois appelés «les cochons de l'enfer». Même si le Daeodon a autant de similitudes avec l'hippopotame et le porc, ce surnom lui est convenablement approprié. Tout survivant s'approchant trop près de lui le regrettera amèrement. Comme c'est un omnivore avec un appétit vorace, il creuse et chasse pour survivre. Il a peu de scrupules quant à son alimentation, ce qui lui permet d'évoluer dans les toundras de l'île. De nombreux prédateurs ne se risquent pas à l'affronter car lorsqu'il est attaqué, il se bat sans relâche.",
+      "utility": "Beaucoup de tribus affectionnent le Daeodon, non seulement en raison de sa nature farouche, mais également pour sa remarquable capacité à se soigner. Selon moi, c'est à cause de cette faculté qu'il lui est vital de se nourrir en permanence, surtout si il soigne des alliés. Il paraîtrait que le Daeodon est également capable de cueillir les champignons rares avec une facilité déconcertante !",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Agressif",
+      "period": "Miocène inférieur",
+      "size": 2.2,
+      "stats": {
+        "level": 1,
+        "torpor": 25,
+        "torporDrain": 1.8,
+        "torporPerLevel": 1.5
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette supérieure","effectiveness": 100},
+            {"name": "Viande de mouton crue","effectiveness": 98.4},
+            {"name": "Viande de mouton cuite","effectiveness": 94.9},
+            {"name": "Viande crue supérieur","effectiveness": 98.2}
+          ]
+        }
+      }
     },
     {
       "name": "Dilophosaur"
