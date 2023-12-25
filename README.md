@@ -116,15 +116,16 @@ Yutryannus	Yes	Yes
           "torporPerLevel": 60
         },
         "taming": {
-          "type": "K.O",
+          "type": "passif",
           "rates": 1,
           "food": {
             "useSanguineElixir": false,
             "items": [
               {"name": "Croquette Supérieure","effectiveness": 99.8},
               {"name": "Viande de Mouton Crue","effectiveness": 99},
-              {"name": "Viande crue supérieure",""effectiveness": 98.5},
-              {"name": "Côtelette d’agneau cuite","effectiveness": 96.8}
+              {"name": "Viande crue supérieure","effectiveness": 98.5},
+              {"name": "Côtelette d’agneau cuite","effectiveness": 96.8},
+              {"name": "Viande cuite supérieure","effectiveness": 95}
             ]
           }
         }

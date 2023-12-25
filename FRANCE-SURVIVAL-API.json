@@ -1719,173 +1719,202 @@
     },
     {
       "name": "Quetzal",
-      "description": "Description fictive du Quetzal.",
-      "level": 1,
-      "size": "unknown",
-      "torpor": "unknown",
-      "food": {
-        "useSanguineElixir": false,
-        "Preferred Food": {
-          "amount": 5,
-          "time": "unknown",
-          "effectivness": "unknown"
-        }
-      },
-      "category": "Herbivore",
-      "type": "Terrestre",
+      "description": "De loin, il est difficile de croire que le Quetzalcoatlus est l'un des plus grands oiseaux de l'île, tant il ressemble au Ptéranodon. Cela est peut être dû au fait qu'il fait son nid aux sommets des plus hautes montagnes car il est vraiment impressionnant lorsqu'il est approché. Bien qu'il soit si imposant, le Quetzacoatlus est une bête très peureuse qui préférera fuir. Je suppose que c'est ce qui lui permet de cohabiter avec autant de prédateurs, mais comment fait-il pour récupérer des forces ?",
+      "utility":"Le Quetzacoatlus est loin d'être une monture rapide ou puissante mais il n'est pas sans utilité. Il s'avère être un très bon moyen de transporter énormément de ressources, des créatures et des humains sans se fatiguer et en toute sécurité.",
+      "zone":["9"],
+      "type": ["2"],
+      "category": ["2"],
       "tamable": true,
+      "ridable": true,
       "behavior": "Passif",
-      "zone": "Forêt",
-      "period": "Jurassic"
-    },
+      "period": "Jurassique supérieur",
+      "size": 8.5,
+      "stats": {
+        "level": 1,
+        "torpor": 1850,
+        "torporDrain": 3.4,
+        "torporPerLevel": 111
+      },
+      "taming": {
+        "type": "passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette Exceptionnelle","effectiveness": 99.7},
+            {"name": "Viande de Mouton Crue","effectiveness": 98.8},
+            {"name": "Viande crue supérieure","effectiveness": 98.2},
+            {"name": "Côtelette d’agneau cuite","effectiveness": 96},
+            {"name": "Viande cuite supérieure","effectiveness": 93}
+          ]
+        }
+      }
+  },
     {
       "name": "Raptor",
-      "description": "Description fictive du Raptor.",
-      "level": 1,
-      "size": "unknown",
-      "torpor": "unknown",
-      "food": {
-        "useSanguineElixir": false,
-        "Preferred Food": {
-          "amount": 5,
-          "time": "unknown",
-          "effectivness": "unknown"
-        }
-      },
-      "category": "Herbivore",
-      "type": "Terrestre",
+      "description": "Utahraptor prime est une sous-espèce incroyablement agressive d'Utahraptor trouvée sur l'île. Il a tendance à voyager en petits groupes de chasse, attaquant des proies plus petites avec ses dents acérées et sa mâchoire élargie. Lors de la chasse en meute, le chef de meute peut vocaliser un signal qui agit comme un cri de bataille. Soyez prêt à courir ou à combattre si vous entendez l'appel de l'Utahraptor! La meute répète les appels et attaque avec une intensité beaucoup plus grande. L'une des créatures les plus rapides de l'île, l'Utahraptor utilise la grosseur de sa meute à son avantage en grouillant autour de sa proie avant qu'elle ne puisse réagir. Le gros talon incurvé sur le deuxième orteil de cette sous-espèce semble particulièrement adapté pour infliger des dégâts importants. Utahraptor prime tue généralement ses proies avec de nombreuses attaques tranchantes et mordantes en séquence rapide.",
+      "utility":"Ce qui manque à l'Utahraptor en termes de taille, il le compense en ingéniosité. Plutôt que de chasser des créatures plus petites, l'Utahraptor se précipitera et épinglera sa proie au sol plutôt que de la chasser. Malgré sa nature normalement agressive, les Utahraptors sont devenus l'une des principales montures de combat pour les bandes de raiders itinérants, ainsi que les éclaireurs pour les plus grandss collectivités. Ceux qui conduisent l'Utahraptor affirment qu'ils sont difficiles à apprivoiser, mais farouchement loyaux. En tant que carnivore, une fois apprivoisés, ils ont besoin d'un flux constant de viande pour se maintenir.",
+      "zone":["1","8","5"],
+      "type": ["1"],
+      "category": ["2"],
       "tamable": true,
-      "behavior": "Passif",
-      "zone": "Forêt",
-      "period": "Jurassic"
-    },
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "N/A",
+      "size": "N/A",
+      "stats": {
+        "level": 1,
+        "torpor": 180,
+        "torporDrain": 0.7,
+        "torporPerLevel": 10.8
+        },
+      "taming": {
+        "type": "passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette Simple","effectiveness": 99.8},
+            {"name": "Viande de Mouton Crue","effectiveness": 99.2},
+            {"name": "Viande crue supérieure","effectiveness": 98.5},
+            {"name": "Côtelette d’agneau cuite","effectiveness": 97},
+            {"name": "Viande cuite supérieure","effectiveness": 95}
+          ]
+        }
+      }
+  },
     {
       "name": "Rex",
-      "description": "Description fictive du Rex.",
-      "level": 1,
-      "size": "unknown",
-      "torpor": "unknown",
-      "food": {
-        "useSanguineElixir": false,
-        "Preferred Food": {
-          "amount": 5,
-          "time": "unknown",
-          "effectivness": "unknown"
-        }
-      },
-      "category": "Herbivore",
-      "type": "Terrestre",
+      "description": "Parmi les créatures les plus meurtrières de l’île, le Tyrannosaurus dominum est une véritable machine à tuer. Actif surtout pour la chasse ou la défense de son nid, il est raisonnable d’éviter chaque Tyrannosaure. Je n’ai vu aucune créature sur l’île qui puisse rivaliser avec le Tyrannosaurus pour la domination pure. Il est fait de force pure, de sa morsure, à son pas puissant en passant par sa queue et ses bras.",
+      "utility":"Apprivoiser un Tyrannosaure est sans nul doute un des principaux objectifs de tout combattant ou Tribus guerrière. Ce n'est pas pour rien que le Tyrannosaure est considéré comme le roi des dinosaures. Une Tribu disposant d'un Rex n'a quasiment aucune crainte à avoir.",
+      "zone":["5"],
+      "type": ["1"],
+      "category": ["2"],
       "tamable": true,
-      "behavior": "Passif",
-      "zone": "Forêt",
-      "period": "Jurassic"
-    },
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "N/A",
+      "size": "N/A",
+      "stats": {
+        "level": 1,
+        "torpor": 1550,
+        "torporDrain": 0.7,
+        "torporPerLevel": 93
+        },
+      "taming": {
+        "type": "passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette Exceptionnelle","effectiveness": 99.8},
+            {"name": "Viande de Mouton Crue","effectiveness": 99.2},
+            {"name": "Viande crue supérieure","effectiveness": 98.8},
+            {"name": "Côtelette d’agneau cuite","effectiveness": 97.3},
+            {"name": "Viande cuite supérieure","effectiveness": 95.2}
+          ]
+        }
+      }
+  },
     {
-      "name": "Rhyniogatha",
-      "description": "Description fictive du Rhyniogatha.",
-      "level": 1,
-      "size": "unknown",
-      "torpor": "unknown",
-      "food": {
-        "useSanguineElixir": false,
-        "Preferred Food": {
-          "amount": 5,
-          "time": "unknown",
-          "effectivness": "unknown"
-        }
-      },
-      "category": "Herbivore",
-      "type": "Terrestre",
+      "name": "Rhyniognatha",
+      "description": "Je le jure, chaque nouvelle créature que je rencontre ici me fait de plus en plus penser qu'elles ont toutes subi des manipulations génétiques. Je sais que j'ai raison à ce sujet. Prenez ce monstre d'insecte que j'appelle 'Rhyniognatha antiquagenitor' - assez gros pour figurer en tête d'affiche d'un film d'horreur, mais assez léger pour voler et glisser sur l'eau.Le croiriez vous, il produit également une résine étrangement utile qui durcit rapidement et qui a plusieurs utilisations ? Il peut épaissir sa carapace pour renforcer sa défense, projeter des globules durs en forme de balle ou éjecter des globules mous qui durcissent à l'impact pour entraver les prédateurs qui s'approchent ",
+      "utility":"Ces perce-oreille géants sont exactement ce dont vous avez besoin pour améliorer les défenses aériennes de votre tribu ! Et voici un conseil : si vous écrasez le bon Arthropleura, vous obtiendrez une enzyme qui rendra la colle de Rhyniognatha aussi perturbatrice que les excréments de Dinopithecus. De plus, cet insecte peut se coller aux créatures ou aux cargaisons et transporter des objets autour de votre base !Cela dit, élever des Rhyniognatha n'est pas pour les âmes sensibles... Leurs mâles produisent une phéromone qui attire les femelles pour qu'elles les utilisent comme hôtes pour pondre leurs œufs. Si vous récoltez cette phéromone, vous pouvez marquer n'importe quelle créature pour que la femelle y dépose ses œufs. L'hôte incube ensuite une nouvelle génération de larves qui hériteront de ses meilleures caractéristiques au cours du processus.Si une malheureuse bête se fait accidentellement pondre des œufs, vous pourriez encore réussir à la sauver en la mettant dans un cryopod et en gelant les larves",
+      "zone": ["1"],
+      "type": ["1"],
+      "category": ["1"],
       "tamable": true,
-      "behavior": "Passif",
-      "zone": "Forêt",
-      "period": "Jurassic"
-    },
+      "ridable": true,
+      "behavior": "Aggressif",
+      "period": "N/A",
+      "size": "N/A",
+      "stats": {
+        "level": 1,
+        "torpor": 800,
+        "torporDrain": 0,
+        "torporPerLevel": 48
+      }
+  },
     {
       "name": "Sabertooth",
-      "description": "Description fictive du Sabertooth.",
-      "level": 1,
-      "size": "unknown",
-      "torpor": "unknown",
-      "food": {
-        "useSanguineElixir": false,
-        "Preferred Food": {
-          "amount": 5,
-          "time": "unknown",
-          "effectivness": "unknown"
-        }
-      },
-      "category": "Herbivore",
-      "type": "Terrestre",
+      "description": "Le Smilodon Brutalis est un prédateur solitaire, généralement trouvé dans les régions froides et légèrement boisées. Les montagnes de l'île sont l'habitat parfait pour le Smilodon car sa fourrure le garde à l'abri de la température. Alors que ses crocs énormes sont excellents pour des lacérations, les griffes de la créature peuvent être tout aussi mortelles. Bien qu'il chasse la plupart de son temps en solitaire, le Smilodon Brutalis n'hésite pas à se joindre à de petits groupes. C'est en effet pour eux le seul moyen de venir à bout des plus grandes proies comme les mammouths. Plusieurs Smilodons peuvent attaquer un Carnotaurus, voire même un Tyrannosaurus. Ils ne doivent pas être sous-estimés.",
+      "utility":"Bien que n'étant pas aussi rapide que les Raptors, le Smilodon est une créature très résistante et d'un puissance incroyable. En outre, il peut être entraîné pour utiliser ses griffes pour écorcher les cadavres. Cela peut sembler morbide, mais cela lui permet de recueillir de grandes quantités de peau.",
+      "zone": ["5"],
+      "type": ["1"],
+      "category": ["2"],
       "tamable": true,
-      "behavior": "Passif",
-      "zone": "Forêt",
-      "period": "Jurassic"
-    },
+      "ridable": true,
+      "behavior": "Aggressif",
+      "period": "N/A",
+      "size": "N/A",
+      "stats": {
+        "level": 1,
+        "torpor": 500,
+        "torporDrain": 0.3,
+        "torporPerLevel": 30
+      },
+      "taming": {
+        "type": "passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette Réguliere","effectiveness": 99.8},
+            {"name": "Viande de Mouton Crue","effectiveness": 99.2},
+            {"name": "Viande crue supérieure","effectiveness": 98.5},
+            {"name": "Côtelette d’agneau cuite","effectiveness": 97},
+            {"name": "Viande cuite supérieure","effectiveness": 95}
+          ]
+        }
+      }
+  },
     {
       "name": "Sabertooth Salmon",
-      "description": "Description fictive du Sabertooth Salmon.",
-      "level": 1,
-      "size": "unknown",
-      "torpor": "unknown",
-      "food": {
-        "useSanguineElixir": false,
-        "Preferred Food": {
-          "amount": 5,
-          "time": "unknown",
-          "effectivness": "unknown"
-        }
-      },
-      "category": "Herbivore",
-      "type": "Terrestre",
-      "tamable": true,
+      "description": "Plutôt banal par rapport aux créatures habituelles de l'île, l'Oncorhynchus Grexlamia est un poisson généralement passif. Beaucoup plus petit qu'un humain, sa principale forme de protection est de nager en banc. L'Oncorhynchus n'aime pas les conflits, et s'éloigne généralement très rapidement de tout ce qui est plus gros que lui. Cependant, une fois provoqué, l'Oncorhynchus devient très agressif en compagnie de ses congénères à proximité. Il s'agrippe à l'agresseur avec ses “dents de sabre” et commence à aspirer le sang de la créature. Cette seule perte de sang n'est pas dangereuse, mais avec un banc d'Oncorhynchus qui attaquent tous en même temps, l'agresseur présumé perd rapidement de la vitesse et de l'énergie en raison des saignements, se noyant s'il ne peut pas respirer sous l'eau.",
+      "utility":"Comme la plupart des petits poissons qui peuvent être rencontrés autour de l'île, l'Oncorhynchus ne peut pas être apprivoisé, mais il est souvent élevé en captivité pour ses ressources. En particulier, certaines parties de la viande d'Oncorhynchus sont considérées comme de la viande de très bonne qualité, souvent appelée \"viande de poisson supérieure” et utilisée pour des recettes spécifiques.",
+      "zone": ["1"],
+      "type": ["3"],
+      "category": ["0"],
+      "tamable": false,
+      "ridable": false,
       "behavior": "Passif",
-      "zone": "Forêt",
-      "period": "Jurassic"
-    },
+      "period": "N/A",
+      "size": "N/A",
+      "stats": {
+        "level": 1,
+        "torpor": 15,
+        "torporDrain": 0,
+        "torporPerLevel": 0.9
+      }
+  },
     {
       "name": "Sarco",
       "description": "Contrairement à certaines espèces aquatiques, le Sarcosuchus Excubitor est une machine à tuer d'une patience à toute épreuve. Il passe le plus clair de son temps à attendre dans l'eau qu'une proie s'approche. Cela dit, il lui arrive de revenir sur la terre ferme pour chasser lorsque la faim se fait sentir. La plupart des dinosaures étant lents dans l'eau, y plonger est un bon moyen de leur échapper. Ce n'est bien évidemment pas le cas avec un Sarcosuchus, qui est beaucoup plus rapide dans l'eau que sur terre.",
       "utility":"Bien qu'il soit plutôt présent dans les rivières, le Sarcosuchus semble très à l'aise dans l'océan. Certains groupes les utilisent comme montures pour se débarrasser des Mégalodons ou accéder à certaines ressources.",
-      "category": "Carnivore",
-      "type": "Terrestre",
+      "zone": ["7"],
+      "type": ["1"],
+      "category": ["2"],
       "tamable": true,
       "ridable":true,
       "behavior": "Aggressif",
-      "zone": "Riviére",
       "period": "N/A",
       "size": "N/A",
-      "level": 1,
-      "torpor": 400,
+      "stats": {
+        "level": 1,
+        "torpor": 400,
+        "torporDrain": 0.3,
+        "torporPerLevel": 24
+      },
       "food": {
         "useSanguineElixir": false,
-        "Croquette Réguliere": {
-          "amount": 1,
-          "time": 261600,
-          "effectivness": 99.9
-        }, 
-        "Poisson de Qualité supérieure crue":{
-          "amount": 2,
-          "time": 138000,
-          "effectivness": 99.7
-        },
-        "Viande de mouton": {
-          "amount": 2,
-          "time": 300000,
-          "effectivness": 99.7
-        },
-        "Viande crue supérieure": {
-          "amount": 2,
-          "time": 300000,
-          "effectivness": 99.7
-        },
-        "Côtelette d’agneau cuite":{
-          "amount": 3,
-          "time": 438000,
-          "effectivness": 99.2
-        }
-      }
-    },
+        "items":[
+        {"name":"Croquette Réguliere","effectivness": 99.7}, 
+        {"name":"Poisson de Qualité supérieure crue","effectivness": 98.4},
+        {"name":"Viande de mouton" ,"effectivness": 98.4},
+        {"name":"Viande crue supérieure" ,"effectivness": 97.4},
+        {"name":"Côtelette d’agneau cuite" ,"effectivness": 94.8}
+      ]}
+  },
     {
       "name": "Spino",
       "description": "Parmi les quelques carnivores de l'île qui peuvent égaler les Tyrannosaures, Spinosaurus aquareliga n'égal pas sa férocité. Les quatre pattes du Spinosaurus et sa grande voile le rendent assez rapide sur terre et incroyablement rapide dans l'eau. Il est capable de changer de position en passant du quadrupède au bipède. La créature est visuellement distinguée par sa voile spectaculaire. Dans mes voyages j'ai vu beaucoup de voiles différentes et colorées, car chaque Spinosaurus semble avoir une palette légèrement différente. Le seul fait réconfortant à propos de Spinosaurus est qu'il semble plus à la maison près de l'eau. Bien que la créature soit plus puissante, plus rapide, agile et insatiable lorsqu'elle est dans l'eau, elle tend à devenir moins hostile à mesure qu'elle s'en éloigne. À une occasion, je n'ai échappé à un Spinosaurus qu'en m'éloignant suffisamment de son lac pour qu'il se désintéresse.",
@@ -1905,7 +1934,7 @@
         "torporPerLevel": 51
       },
       "taming": {
-        "type": "K.O",
+        "type": "passif",
         "rates": 1,
       "torpor": 850,
       "food": {
@@ -1937,7 +1966,7 @@
         "torporPerLevel": 30
       },
       "taming": {
-        "type": "K.O",
+        "type": "passif",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
@@ -1968,7 +1997,7 @@
         "torporPerLevel": 27
       },
       "taming": {
-        "type": "K.O",
+        "type": "passif",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
@@ -2000,7 +2029,7 @@
         "torporPerLevel": 18
       },
       "taming": {
-        "type": "K.O",
+        "type": "passif",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
@@ -2033,7 +2062,7 @@
         "torporPerLevel": 55.5
       },
       "taming": {
-        "type": "K.O",
+        "type": "passif",
         "rates": 1,
         "food": {
         "useSanguineElixir": false,
@@ -2064,7 +2093,7 @@
         "torporPerLevel": 42
       },
       "taming": {
-        "type": "K.O",
+        "type": "passif",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
@@ -2096,7 +2125,7 @@
         "torporPerLevel": 10.5
       },
       "taming": {
-        "type": "K.O",
+        "type": "passif",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
