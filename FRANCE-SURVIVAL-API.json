@@ -58,9 +58,22 @@
       "size":  0.5,
       "stats": {
         "level": 1,
+        "life": 75,
+        "lifePerLevelSavage": 15,
+        "stamina": 100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 450,
+        "foodPerLevelSavage": 45,
+        "weight": 600,
+        "weightPerLevelSavage": 12,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 50,
-        "torporDrain": 0.3,
-        "torporPerLevel": 3
+        "torporPerLevelSavage": 3,
+        "torporDrain": 0.3
       },
       "taming": {
         "type":"Passif",
@@ -87,9 +100,22 @@
         "size": 8.5,
         "stats": {
           "level": 1,
+          "life": 630,
+          "lifePerLevelSavage": 126,
+          "stamina": 250,
+          "staminaPerLevelSavage": 25,
+          "oxygen": 150,
+          "oxygenPerLevelSavage": 15,
+          "food": 3000,
+          "foodPerLevelSavage": 300,
+          "weight": 380,
+          "weightPerLevelSavage": 7.6,
+          "damage": 100,      //valeur en % //
+          "speed": 100,
+          "speedPerLevelSavage": 0,
           "torpor": 1000,
-          "torporDrain": 0.8,
-          "torporPerLevel": 60
+          "torporPerLevelSavage": 60,
+          "torporDrain": 0.8
         },
         "taming": {
           "type": "K.O",
@@ -119,8 +145,22 @@
       "size": 2,
       "stats": {
         "level": 1,
+        "life": 180,
+        "lifePerLevelSavage": 36,
+        "stamina":120,
+        "staminaPerLevelSavage": 12,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 25,
+        "weightPerLevelSavage": 0.5,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 250,
-        "torporPerLevel": 15
+        "torporPerLevelSavage": 15,
+        "torporDrain": 0.3
       }
     },
     {
@@ -137,9 +177,22 @@
       "size": 0.20,
       "stats": {
         "level": 1,
+        "life": 450,
+        "lifePerLevelSavage": 90,
+        "stamina":240,
+        "staminaPerLevelSavage": 24,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 350,
+        "weightPerLevelSavage": 7,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 900,
-        "torporDrain": 3.2,
-        "torporPerLevel": 54
+        "torporPerLevelSavage": 54,
+        "torporDrain": 3.2
       },
       "taming": {
         "type": "K.O",
@@ -169,9 +222,22 @@
       "size": 8,
       "stats": {
         "level": 1,
+        "life": 700,
+        "lifePerLevelSavage": 140,
+        "stamina": 175,
+        "staminaPerLevelSavage": 17.5,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 3000,
+        "foodPerLevelSavage": 300,
+        "weight": 250,
+        "weightPerLevelSavage": 5,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 420,
-        "torporDrain": 0.3,
-        "torporPerLevel": 25.2
+        "torporPerLevelSavage": 25.2,
+        "torporDrain": 0.3
       },
       "taming": {
         "type":"K.O",
@@ -201,8 +267,22 @@
       "size": 0.7,
       "stats": {
         "level": 1,
+        "life": 150,
+        "lifePerLevelSavage": 30,
+        "stamina": 100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 900,
+        "foodPerLevelSavage": 90,
+        "weight": 100,
+        "weightPerLevelSavage": 2,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 80,
-        "torporPerLevel": 4.8
+        "torporPerLevelSavage": 4.8,
+        "torporDrain": 0
       },
       "taming": {
         "type":"Passif",
@@ -210,7 +290,7 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Viande Avariée"},
+            {"name": "Viande avariée"},
             {"name": "Viande crue"},
             {"name": "Viande de poisson crue"}
           ]
@@ -231,9 +311,22 @@
       "size": 0.5,
       "stats": {
         "level": 1,
+        "life": 125,
+        "lifePerLevelSavage": 25,
+        "stamina": 150,
+        "staminaPerLevelSavage": 15,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 900,
+        "foodPerLevelSavage": 90,
+        "weight": 30,
+        "weightPerLevelSavage": 0.6,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 100,
-        "torporDrain": 0.8,
-        "torporPerLevel": 6
+        "torporPerLevelSavage": 6,
+        "torporDrain": 0.8
       },
       "taming": {
         "type":"K.O",
@@ -262,9 +355,22 @@
       "size": 7,
       "stats": {
         "level": 1,
+        "life": 365,
+        "lifePerLevelSavage": 73,
+        "stamina": 400,
+        "staminaPerLevelSavage": 20,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 2000,
+        "foodPerLevelSavage": 200,
+        "weight": 400,
+        "weightPerLevelSavage": 8,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 600,
-        "torporDrain": 0.3,
-        "torporPerLevel": 36
+        "torporPerLevelSavage": 36,
+        "torporDrain": 0.8
       },
       "taming": {
         "type":"K.O",
@@ -282,7 +388,7 @@
     },
     {
       "name": "Arthropluera",
-      "description": "Le fait que cette créature existe suffit à me donner des cauchemars. Comme les autres Arthropodes de l'île, l'Arthropleura Felsanguis est devenu bien plus grand que je ne l'aurais imaginé. C'est un chasseur très agressif, mais il préfère manger de la viande avariée depuis quelque temps et va chercher ce délice sans relâche. Le sang de l'Arthropleura a un pH très bas, à tel point qu'il peut dissoudre beaucoup de matériaux. Ce sang acide éclabousse tout ce qui l'attaque directement, affaiblissant la résistance des armes et blessant les assaillants. Par conséquent, beaucoup de créatures refusent de chasser l'Arthropleura, apeurées par cette défense unique.",
+      "description": "Le fait que cette créature existe suffit à me donner des cauchemars. Comme les autres Arthropodes de l'île, l'Arthropleura Felsanguis est devenu bien plus grand que je ne l'aurais imaginé. C'est un chasseur très agressif, mais il préfère manger de la Viande avariée depuis quelque temps et va chercher ce délice sans relâche. Le sang de l'Arthropleura a un pH très bas, à tel point qu'il peut dissoudre beaucoup de matériaux. Ce sang acide éclabousse tout ce qui l'attaque directement, affaiblissant la résistance des armes et blessant les assaillants. Par conséquent, beaucoup de créatures refusent de chasser l'Arthropleura, apeurées par cette défense unique.",
       "utility": "Comme la plupart des arthropodes de l'île, l'Arthropleura est simple d'esprit et relativement facile à apprivoiser. Il est surtout utile pour les attaques à distance. Grâce à ses défenses uniques, que ce soit la chasse ou la guerre, l'Arthropleura est généralement à l'abri de toutes les créatures sauf les plus grandes.",
       "zone": ["0","0","0","0"],
       "type": ["0","0","0","0"],
@@ -294,8 +400,22 @@
       "size": 3,
       "stats": {
         "level": 1,
+        "life": 500,
+        "lifePerLevelSavage": 100,
+        "stamina": 200,
+        "staminaPerLevelSavage": 20,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 100,
+        "weightPerLevelSavage": 2,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 176,
-        "torporPerLevel": 10.53
+        "torporPerLevelSavage": 10.53,
+        "torporDrain": 0
       },
       "taming": {
         "type":"Passif",
@@ -324,9 +444,22 @@
       "size": 10,
       "stats": {
         "level": 1,
+        "life": 440,
+        "lifePerLevelSavage": 88,
+        "stamina": 325,
+        "staminaPerLevelSavage": 32.5,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 2250,
+        "foodPerLevelSavage": 225,
+        "weight": 325,
+        "weightPerLevelSavage": 6.5,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 400,
-        "torporDrain": 0.3,
-        "torporPerLevel": 24
+        "torporPerLevelSavage": 24,
+        "torporDrain": 0.3
       },
       "taming": {
         "type":"K.O",
@@ -356,8 +489,22 @@
       "size": 20,
       "stats": {
         "level": 1,
+        "life": 2400,
+        "lifePerLevelSavage": 480,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 8000,
+        "foodPerLevelSavage": 800,
+        "weight": 700,
+        "weightPerLevelSavage": 14,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 2000,
-        "torporPerLevel": 120
+        "torporPerLevelSavage": 120,
+        "torporDrain": 0
       },
       "taming": {
         "type":"Passif",
@@ -387,9 +534,22 @@
       "size": 0.40,
       "stats": {
         "level": 1,
-        "torpor": 200,
-        "torporDrain": 0.7,
-        "torporPerLevel": 12
+        "life": 220,
+        "lifePerLevelSavage": 44,
+        "stamina": 190,
+        "staminaPerLevelSavage": 19,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 160,
+        "weightPerLevelSavage": 3.2,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 2000,
+        "torporPerLevelSavage": 200,
+        "torporDrain": 0.7
       },
       "taming": {
         "type":"K.O",
@@ -419,9 +579,22 @@
       "size": 23,
       "stats": {
         "level": 1,
+        "life": 2070,
+        "lifePerLevelSavage": 414,
+        "stamina": 140,
+        "staminaPerLevelSavage": 24,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 10000,
+        "foodPerLevelSavage": 1000,
+        "weight": 1600,
+        "weightPerLevelSavage": 32,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 2000,
-        "torporDrain": 0.3,
-        "torporPerLevel": 120
+        "torporPerLevelSavage": 120,
+        "torporDrain": 0.3
       },
       "taming": {
         "type":"K.O",
@@ -451,9 +624,22 @@
       "size": 2.5,
       "stats": {
         "level": 1,
+        "life": 700,
+        "lifePerLevelSavage": 140,
+        "stamina": 200,
+        "staminaPerLevelSavage": 20,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 3000,
+        "foodPerLevelSavage": 300,
+        "weight": 270,
+        "weightPerLevelSavage": 5.4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 275,
-        "torporDrain": 0.3,
-        "torporPerLevel": 16.5
+        "torporPerLevelSavage": 16.5,
+        "torporDrain": 0.3
       },
       "taming": {
         "type":"K.O",
@@ -483,9 +669,22 @@
       "size": 7.6,
       "stats": {
         "level": 1,
+        "life": 420,
+        "lifePerLevelSavage": 84,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 2000,
+        "foodPerLevelSavage": 200,
+        "weight": 300,
+        "weightPerLevelSavage": 6,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 350,
-        "torporDrain": 0.3,
-        "torporPerLevel": 21
+        "torporPerLevelSavage": 21,
+        "torporDrain": 0.3
       },
       "taming": {
         "type":"K.O",
@@ -515,9 +714,22 @@
       "size": 2.5,
       "stats": {
         "level": 1,
+        "life": 450,
+        "lifePerLevelSavage": 90,
+        "stamina": 180,
+        "staminaPerLevelSavage": 18,
+        "oxygen": 750,
+        "oxygenPerLevelSavage": 75,
+        "food": 2000,
+        "foodPerLevelSavage": 200,
+        "weight": 300,
+        "weightPerLevelSavage": 6,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 350,
-        "torporDrain": 1.6,
-        "torporPerLevel": 16.5
+        "torporPerLevelSavage": 21,
+        "torporDrain": 1.6
       },
       "taming": {
         "type":"K.O",
@@ -547,8 +759,22 @@
       "size": 2.5,
       "stats": {
         "level": 1,
+        "life": 600,
+        "lifePerLevelSavage": 120,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 4000,
+        "foodPerLevelSavage": 400,
+        "weight": 400,
+        "weightPerLevelSavage": 8,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 500,
-        "torporPerLevel": 30
+        "torporPerLevelSavage": 30,
+        "torporDrain": 1.6
       },
       "taming": {
         "type":"Passif",
@@ -576,8 +802,22 @@
       "size": 0.60,
       "stats": {
         "level": 1,
+        "life": 180,
+        "lifePerLevelSavage": 36,
+        "stamina": 120,
+        "staminaPerLevelSavage": 12,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 25,
+        "weightPerLevelSavage": 0.5,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 250,
-        "torporPerLevel": 15
+        "torporPerLevelSavage": 15,
+        "torporDrain": 1.6
       }
     },
     {
@@ -607,9 +847,22 @@
       "size": 1.4,
       "stats": {
         "level": 1,
+        "life": 50,
+        "lifePerLevelSavage": 10,
+        "stamina": 100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 450,
+        "foodPerLevelSavage": 45,
+        "weight": 25,
+        "weightPerLevelSavage": 0.5,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 25,
-        "torporDrain": 1.3,
-        "torporPerLevel": 1.5
+        "torporPerLevelSavage": 1.5,
+        "torporDrain": 1.3
       },
       "taming": {
         "type":"Passif",
@@ -638,9 +891,22 @@
       "size": 2.2,
       "stats": {
         "level": 1,
+        "life": 50,
+        "lifePerLevelSavage": 10,
+        "stamina": 100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 450,
+        "foodPerLevelSavage": 45,
+        "weight": 25,
+        "weightPerLevelSavage": 0.5,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 800,
-        "torporDrain": 1.8,
-        "torporPerLevel": 48
+        "torporPerLevelSavage": 48,
+        "torporDrain": 1.8
       },
       "taming": {
         "type":"K.O",
@@ -670,9 +936,22 @@
       "size": 2,
       "stats": {
         "level": 1,
+        "life": 130,
+        "lifePerLevelSavage": 26,
+        "stamina": 100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 450,
+        "foodPerLevelSavage": 45,
+        "weight": 45,
+        "weightPerLevelSavage": 0.9,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 75,
-        "torporDrain": 0.3,
-        "torporPerLevel": 4.5
+        "torporPerLevelSavage": 4.5,
+        "torporDrain": 0.3
       },
       "taming": {
         "type":"K.O",
@@ -703,9 +982,22 @@
       "size": 1,
       "stats": {
         "level": 1,
+        "life": 350,
+        "lifePerLevelSavage": 70,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 250,
+        "weightPerLevelSavage": 5,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 750,
-        "torporDrain": 5,
-        "torporPerLevel": 45
+        "torporPerLevelSavage": 45,
+        "torporDrain": 5
       },
       "taming": {
         "type":"K.O",
@@ -736,9 +1028,22 @@
       "size": 1,
       "stats": {
         "level": 1,
-        "torpor": 750,
-        "torporDrain": 5,
-        "torporPerLevel": 45
+        "life": 125,
+        "lifePerLevelSavage": 25,
+        "stamina": 150,
+        "staminaPerLevelSavage": 15,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 900,
+        "foodPerLevelSavage": 90,
+        "weight": 50,
+        "weightPerLevelSavage": 1,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 100,
+        "torporPerLevelSavage": 6,
+        "torporDrain": 0.8
       },
       "taming": {
         "type":"K.O",
@@ -769,9 +1074,22 @@
       "size": 1,
       "stats": {
         "level": 1,
-        "torpor": 750,
-        "torporDrain": 5,
-        "torporPerLevel": 45
+        "life": 250,
+        "lifePerLevelSavage": 50,
+        "stamina": 165,
+        "staminaPerLevelSavage": 16.5,
+        "oxygen": 1000,
+        "oxygenPerLevelSavage": 100,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 150,
+        "weightPerLevelSavage": 3,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 220,
+        "torporPerLevelSavage": 13.2,
+        "torporDrain": 0.3
       },
       "taming": {
         "type":"K.O",
@@ -802,9 +1120,22 @@
       "size": 8,
       "stats": {
         "level": 1,
+        "life": 1700,
+        "lifePerLevelSavage": 340,
+        "stamina": 550,
+        "staminaPerLevelSavage": 55,
+        "oxygen": 300,
+        "oxygenPerLevelSavage": 30,
+        "food": 10000,
+        "foodPerLevelSavage": 1000,
+        "weight": 800,
+        "weightPerLevelSavage": 16,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
         "torpor": 3000,
-        "torporDrain": 0.8,
-        "torporPerLevel": 180
+        "torporPerLevelSavage": 180,
+        "torporDrain": 0.8
       },
       "taming": {
         "type":"K.O",
@@ -821,31 +1152,400 @@
       }
     },
     {
-      "name": "Dire Bear"
+      "name": "Ours sinistre",
+      "description": "Bien qu'il soit l'une des plus grandes créatures de l'île, le Diplodocus insulaprincep fait partie des plus petits sauropodes de l'île. Au lieu de taille et d'intelligence, le Diplodocus a développé une vitesse maximale plus rapide et une plus grande endurance. À pleine maturité, il n'atteint généralement qu'environ la moitié de la taille du brontosaure plutôt énorme. Le Diplodocus est une autre créature dont la survie continue sur l'île me déroute. C'est un animal à la tête très épaisse et confiant, souvent à son détriment mortel. Il ne fuit jamais les prédateurs qu'après l'avoir attaqué à plusieurs reprises, préférant faire de nombreuses tentatives infructueuses d'amitié. Pour une raison étrange, le Diplodocus fait tellement confiance aux humains qu'il ne semble pas se battre contre eux… jamais!",
+      "utility": "En raison du cadre plus petit de Diplodocus, il ne peut pas supporter le type de selle «plate-forme» que d'autres grandes créatures peuvent. Pour compenser cela, de nombreuses tribus utilisent à la place une selle passager à onze places qui permet au Diplodocus de transporter en toute sécurité dix cavaliers supplémentaires. Ces passagers utilisent souvent des armes à distance pour protéger la créature ou pour attaquer les ennemis proches lors de leurs déplacements!",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Territorial",
+      "period": "Jurassique supérieur",
+      "size": 8,
+      "stats": {
+        "level": 1,
+        "life": 400,
+        "lifePerLevelSavage": 80,
+        "stamina": 500,
+        "staminaPerLevelSavage": 50,
+        "oxygen": 270,
+        "oxygenPerLevelSavage": 27,
+        "food": 3000,
+        "foodPerLevelSavage": 300,
+        "weight": 650,
+        "weightPerLevelSavage": 13,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 650,
+        "torporPerLevelSavage": 60,
+        "torporDrain": 0.9
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette supérieure"},
+            {"name": "Miel d'abeille géante"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Direwolf"
+      "name": "Loup sinistre",
+      "description": "Effrayant est l'adjectif le plus à même de décrire le Canis Maxdirus. Le fait qu'il chasse en meute lui permet d'affronter n'importe quelle proie, même les plus grands prédateurs grâce à sa taille proche d'une cheval. Du fait qu'il chasse en meute, il est rare de croiser un Loup Sinistre seul dans la nature. Sa férocité le poussera à se battre jusqu'au bout, même si il doit y laisser la vie. Lorsqu'une meute atteint une certaine taille, un des Loups Sinistres deviendra le mâle Alpha, ce qui lui conférera un bonus de force.Sa grande force est le travail en équipe.",
+      "utility": "Le Loup Sinistre est tout naturellement une monture très à l'aise au combat de part sa rapidité et son agilité. Un guerrier à la tête d'une meute assoiffée de sang provoquera une montée d'adrénaline chez n'importe quel compagnon, hurlant parfois -Aujourd'hui est un bon jour pour mourir!",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Début du Quaternaire",
+      "size": 1,
+      "stats": {
+        "level": 1,
+        "life": 330,
+        "lifePerLevelSavage": 66,
+        "stamina": 260,
+        "staminaPerLevelSavage": 26,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 170,
+        "weightPerLevelSavage": 3.4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 450,
+        "torporPerLevelSavage": 27,
+        "torporDrain": 0.5
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette supérieure"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Dodo"
+      "name": "Dodo",
+      "description": "Raphus Replicare (plus communément appelé Dodo) est très probablement la créature la plus stupide que j'ai rencontré. Il mange des baies aux abords des plages et sert de nourriture de base pour tous les carnivores. C'est un élément primaire de la chaîne alimentaire de l'île. Cette sous-espèce de Dodo présente une caractéristique de survie qui lui permet d'être présent sur toute l'île : ils se reproduisent constamment et leur fort taux de croissance leur permet de devenir adulte en l'espace d'une semaine.",
+      "utility": "Apprivoiser un Raphus Replicare n'est d'aucune utilité. Son petit gabarit ne lui permet pas de servir de mule, il ne récolte pas beaucoup de nourriture et est trop bête pour agir en compagnon. Il peut tout de même faire office de plat en dernier recours.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Passif",
+      "period": "Holocène supérieur",
+      "size": 1,
+      "stats": {
+        "level": 1,
+        "life": 40,
+        "lifePerLevelSavage": 8,
+        "stamina": 100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 450,
+        "foodPerLevelSavage": 45,
+        "weight": 50,
+        "weightPerLevelSavage": 1,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 30,
+        "torporPerLevelSavage": 1.8,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette basique"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Doedicurus"
+      "name": "Doedicurus",
+      "description": "Le Doedicurus Custosaxum est un des herbivores passifs de l'île, généralement situé près des montagnes et des prairies. Sous sa carapace extrêmement résistante se cache une poche de graisse lui permettant d'affronter le froid. Le Doedicurus semble s'être mieux adapté que l'Ankylosaure face au danger. Le Doedicurus va réagir différemment face aux prédateurs qui l'attaquent. Si ce dernier est de sa taille, il se défendra vigoureusement avec sa queue recouverte de pointes. Si le Doedicurus n'a cependant pas l'avantage, il se roulera en boule ce qui le rendra quasiment invincible.",
+      "utility": "Le Doedicurus est énormément convoité dans les carrières. Les pointes de sa queue permettent de récolter de la pierre en grande quantité. Lors d'attaques ennemies, il se révèle très difficile à abattre une fois en boule.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "period": "Pléistocène",
+      "size": 1.5,
+      "stats": {
+        "level": 1,
+        "life": 850,
+        "lifePerLevelSavage": 170,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 3000,
+        "foodPerLevelSavage": 300,
+        "weight": 250,
+        "weightPerLevelSavage": 5,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 800,
+        "torporPerLevelSavage": 48,
+        "torporDrain": 0.8
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Dung Beetle"
+      "name": "Dung Beetle",
+      "description": "L'origine du Scarabidae Gigas est un mystère. Il vit en parfaite harmonie avec les tribus. Son régime coprophage lui permet de transformer les excréments en différentes substances des plus utiles. Ces substances sont semblables, d'une part, au pétrole que l'on trouve dans les filons de l'île et, d'autre part, aux fertilisants crée dans les composteurs. Deux bonnes raisons de vénérer le Bousier pour ceux qui seraient encore sceptiques concernant son utilité.",
+      "utility": "Le Bousier est un compagnon tellement parfait qu'on le croirait fait par l'homme. La plupart des tribus en possèdent plusieurs, pour leur très grande valeur, bien qu'ils soient apprivoisés à l'aide d'excréments. Ces petites merveilles permettent de fabriquer des matériaux énergétiques de la façon la plus écologique qui soit. Le pétrole peut être converti en essence pour alimenter un générateur, tandis que le fertilisant peut être utilisé dans les plantations pour des récoltes abondantes !",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Passif",
+      "period": "Inconnue",
+      "size": 0.7,
+      "stats": {
+        "level": 1,
+        "life": 200,
+        "lifePerLevelSavage": 40,
+        "stamina": 100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 900,
+        "foodPerLevelSavage": 90,
+        "weight": 5,
+        "weightPerLevelSavage": 0.1,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 200,
+        "torporPerLevelSavage": 12,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Excréments (grand)"},
+            {"name": "Excréments (moyen)"},
+            {"name": "Viande avariée"},
+            {"name": "Excréments (petit)"}
+          ]
+        }
+      }
     },
     {
-      "name": "Dunkleosteus"
+      "name": "Dunkleosteus",
+      "description": "Le Dunkleosteus Loricaruptor est un poisson plutôt large, recouvert de plaques osseuses et possédant une mâchoire dévastatrice. Étant très lent, il se nourrit principalement de crustacés. Le Dunkleosteus est un poisson étonnamment axé sur le combat. Ses plaques le protège de nombreuses créatures, tandis que sa morsure est assez puissante pour écraser les carapaces en chitine.",
+      "utility": "Le Dunkleosteus est très utile aux tribus côtières. Il peut récolter les formations rocheuses et les gisements de pétrole présents dans les profondeurs de l'océan tout en défendant son maître de la plupart des agresseurs. Et pour ceux ne souhaitant pas l'apprivoiser, il peut être chassé pour récolter une quantité considérable de chitine.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "period": "Dévonien supérieur",
+      "size": 8,
+      "stats": {
+        "level": 1,
+        "life": 710,
+        "lifePerLevelSavage": 142,
+        "stamina": 200,
+        "staminaPerLevelSavage": 20,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 2000,
+        "foodPerLevelSavage": 200,
+        "weight": 910,
+        "weightPerLevelSavage": 18.2,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 1150,
+        "torporPerLevelSavage": 69,
+        "torporDrain": 1
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette supérieure"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Electrophorus"
+      "name": "Electrophorus",
+      "description": "Occupant le bas et le milieu de la chaîne alimentaire, l'Electrophorus Beluadomito est un carnivore qui se nourrit principalement de crustacés et de petits poissons. Malgré son nom commun, c'est en fait un très long poisson couteau et non une anguille. N'étant pas un grande source de viande, la plupart des prédateurs l'ignorent. Lorsqu'il chasse, l'Electrophorus génère un champ électrique pour assommer ses proies avant de les dévorer. Seul, il ne s'attaquera qu'a de petites proies. Mais en groupe, ils peuvent s'attaquer aux plus grands prédateurs aquatiques.",
+      "utility": "Le plus grand atout de l'Electrophorus est sa capacité à assommer les créatures marines. Apprivoiser un Plésiosaure peut s'avérer difficile, c'est pourquoi beaucoup de tribus se servent de petits bancs d'Electrophorus pour électrocuter leurs proies jusqu'à les rendre inconscientes.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Agressif",
+      "period": "Inconnue",
+      "size": 2.5,
+      "stats": {
+        "level": 1,
+        "life": 180,
+        "lifePerLevelSavage": 36,
+        "stamina": 165,
+        "staminaPerLevelSavage": 16.5,
+        "oxygen": 1050,
+        "oxygenPerLevelSavage": 105,
+        "food": 2000,
+        "foodPerLevelSavage": 200,
+        "weight": 150,
+        "weightPerLevelSavage": 3,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 175,
+        "torporPerLevelSavage": 10.5,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Biotoxine"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Equus"
+      "name": "Equus",
+      "description": "L'Equus Magnus semble être un ancêtre du cheval moderne. Basé sur ses rayures, il est possible qu'il soit une variante africaine de l'Equus Giganteus qui est apparu en Amérique du Nord au cours de l'ère glaciaire, mais cela n'est que pure spéculation. Son comportement dans la nature est semblable à celui de ses congénères: il vit en troupeau dans les prés et fuit à grande vitesse à l'approche du moindre prédateur.",
+      "utility": "Le cheval et l'homme ont longtemps été des partenaires dans la survie, et cela reste vrai sur l'île. Avec l'Equus, les survivants trouveront un compagnon fidèle qui les transportera rapidement à travers les terres. Apprivoisé un Equus est en soit un défi : il faut l'approcher tout doucement, le chevaucher et le nourrir de légumes pour l'apaiser. En fait, la fiabilité de l'Equus a conduit certains survivants à construire des selles spéciales pour lui. J'ai même rencontré un homme qui avait ajouté des sacoches faisant office d'atelier pour fabriquer divers objets et produits chimique. Cela lui a permit de vivre une vie nomade pendant un temps. Certains survivants emploient l'Equus pour regrouper d'autres créatures à l'aide d'un lasso.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Éocène",
+      "size": 1.5,
+      "stats": {
+        "level": 1,
+        "life": 240,
+        "lifePerLevelSavage": 48,
+        "stamina": 560,
+        "staminaPerLevelSavage": 56,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 350,
+        "weightPerLevelSavage": 5,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 420,
+        "torporPerLevelSavage": 25.5,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette simple"},
+            {"name": "Légumes"},
+            {"name": "Délicieux gâteau aux Légumess"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Eurypterid"
+      "name": "Eurypterid",
+      "description": "On la trouve habituellement dans les parties les plus profondes de l'eau autour de l'île, elle a une étrange relation avec les autres créatures des profondeurs. Sa présence doit leur être bénéfique car chaque créature aquatique à proximité défend l'Ammonite quand elle est attaquée.",
+      "utility": "Comme la plupart des créatures de l'océan indomptables, l'Ammonite a un intérêt pour être une cible de chasse précieuse. Si une tribu est prête à risquer la colère des défenseurs près de lui, la bile peut être récoltée à partir des entrailles de son cadavre.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": false,
+      "ridable": false,
+      "behavior": "Agressif",
+      "period": "Permien",
+      "size": 2,
+      "stats": {
+        "level": 1,
+        "life": 160,
+        "lifePerLevelSavage": 32,
+        "stamina":100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 450,
+        "foodPerLevelSavage": 45,
+        "weight": 150,
+        "weightPerLevelSavage": 3,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 0,
+        "torporPerLevelSavage": 0,
+        "torporDrain": 0
+      }
     },
     {
       "name": "Gallimimus"
