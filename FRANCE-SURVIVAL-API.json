@@ -602,7 +602,7 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette Exceptionnelle"},
+            {"name": "Croquette exceptionnelle"},
             {"name": "Légumes"},
             {"name": "Mejoberry"},
             {"name": "Berries"}
@@ -1526,7 +1526,7 @@
       "ridable": false,
       "behavior": "Agressif",
       "period": "Permien",
-      "size": 2,
+      "size": 1,
       "stats": {
         "level": 1,
         "life": 160,
@@ -1548,58 +1548,772 @@
       }
     },
     {
-      "name": "Gallimimus"
+      "name": "Gallimimus",
+      "description": "Quand quelqu'un me demande quelles sont les créatures les plus rapides de l'île, le Gallimimus est toujours un prétendant. Contrairement aux nombreux animaux blindés de l'île, le Gallimimus évite les fortes défenses pour la capacité de distancer à peu près tout. Herbivore nerveux, le Gallimimus a même l'air nerveux lorsqu'il mange dans un pré clair et paisible. N'ayant aucun moyen réel de nuire aux prédateurs, il s'enfuit simplement et utilise son agilité pour rester en sécurité. J'ai même vu des Gallimimus sauvages dépasser les Utahraptors entraînés à la vitesse!",
+      "utility": "Il existe deux camps généraux sur l'utilisation de Gallimimus apprivoisés. Un camp pense que leur incapacité à nuire efficacement aux créatures hostiles et leur incapacité à récolter la plupart des ressources en font principalement un fardeau pour la tribu. L'autre camp pense que leur vitesse extrême et leur capacité à sauter de longues distances sont parmi les meilleures pour le repérage et l'exploration. Cependant, les deux camps conviennent que sa capacité à transporter rapidement plusieurs membres de la tribu est particulièrement bénéfique.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Crétacé",
+      "size": 2,
+      "stats": {
+        "level": 1,
+        "life": 150,
+        "lifePerLevelSavage": 30,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1000,
+        "foodPerLevelSavage": 100,
+        "weight": 270,
+        "weightPerLevelSavage": 5.4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 420,
+        "torporPerLevelSavage": 25.5,
+        "torporDrain": 4.2
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette simple"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Giant Bee"
+      "name": "Abeille géante",
+      "description": "Les Apis Lithohermaea ne sont jamais bien loin de leur ruche qu'elles construisent en haut des séquoias. Les ouvrières gravitent autour de la ruche, tandis que la reine ne la quitte jamais. Capturer une reine en détruisant la ruche n'est pas une mince affaire, car les ouvrières deviennent particulièrement agressives. Prenez garde : leurs piqûres vous affaibliront grandement et contrairement aux abeilles classiques, elles peuvent piquer autant de fois qu'elles le veulent.",
+      "utility": "Une reine peut pondre de nouvelles ouvrières et construire une ruche dans laquelle les survivants pourront récolter du miel (n'oubliez pas votre tenue de camouflage). Le miel est délicieux et son odeur attirera la plupart les mammifères. De nombreux chasseurs l'utilisent en guise d'appât. Les ouvrières feront tout pour défendre la reine en cas d'attaque de la ruche.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Agressif",
+      "period": "Inconnue",
+      "size": 2,
+      "stats": {
+        "level": 1,
+        "life": 80,
+        "lifePerLevelSavage": 16,
+        "stamina": 200,
+        "staminaPerLevelSavage": 20,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 450,
+        "foodPerLevelSavage": 45,
+        "weight": 150,
+        "weightPerLevelSavage": 3,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 400,
+        "torporPerLevelSavage": 24,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette simple"},
+            {"name": "Fleur rare"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande de mouton cuite"}
+          ]
+        }
+      }
     },
     {
-      "name": "Giganotosaurus"
+      "name": "Giganotosaurus",
+      "description": "Giganotosaurus furiosa est un énorme prédateur, même plus grand que le Tyrannosaure ou le Spinosaure. Être coincé ou écrasé par un Giganotosaure peut signifier une mort certaine pour presque toutes les créatures! Combattre un Giganotosaure directement n'est jamais une bonne idée, car sa rage augmente rapidement à chaque coup qu'il prend. Avec cette rage, il construit des réserves croissantes d'énergie à utiliser, ce qui rend ses morsures aux mâchoires de fer de plus en plus mortelles et améliore son endurance. Ajoutez à cela le fait que son corps énorme lui permet également de subir une énorme quantité de dégâts, et vous avez une créature qui est généralement mieux évitée ou déjantée que attaquée de front.",
+      "utility": "Apprivoiser le Giganotosaure est une perspective dangereuse. Sa réaction de rage, même apprivoisée, peut parfois l'amener à se retourner brièvement contre les membres de sa propre tribu. En effet il peut même se débarrasser de son cavalier s'il est suffisamment en colère! Et pourtant, la taille et l'immense pouvoir que possède le Giganotosaure signifie que certaines factions s'efforcent de l'apprivoiser comme une bête de guerre «capitale» induisant la peur, même à grand risque!",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Crétacé supérieur",
+      "size": 13,
+      "stats": {
+        "level": 1,
+        "life": 80000,
+        "lifePerLevelSavage": 40,
+        "stamina": 400,
+        "staminaPerLevelSavage": 0.2,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 0.3,
+        "food": 4000,
+        "foodPerLevelSavage": 10,
+        "weight": 700,
+        "weightPerLevelSavage": 7,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 10000,
+        "torporPerLevelSavage": 600,
+        "torporDrain": 120
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette exceptionnelle"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Gigantopithecus"
+      "name": "Gigantopithecus",
+      "description": "Le Gigantopithecus Fibrarator est généralement passif mais peut devenir très agressif lorsqu'on empiète sur son territoire. Mieux vaut ne pas le déranger. Le Gigantopithèque passe son temps à errer à la recherche de baies. La plupart restent au même endroit toute la journée, à moins qu'ils ne soit provoqués.",
+      "utility": "Non seulement le Gigantopithèque est très doué pour ramasser des baies, mais il l'est également pour récolter de la fibre sur les plantes, ce qu'il semble apprécié. D'une nature joueuse lorsqu'il est apprivoisé, le Gigantopithèque s'amuse à lancer les humains depuis ses épaules. Certains trouvent ça très drôle, tandis que d'autres préfèrent s'en servir pour franchir des obstacles.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Territorial",
+      "period": "Préhistoire",
+      "size": 2.5,
+      "stats": {
+        "level": 1,
+        "life": 640,
+        "lifePerLevelSavage": 64,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 0.3,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 220,
+        "weightPerLevelSavage": 4.4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 1100,
+        "torporPerLevelSavage": 66,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Hesperornis"
+      "name": "Hesperornis",
+      "description": "Possédant l'apparence d'un demi-canard / demi-dinosaure, l'Hesperornis est un oiseau mangeur de poisson de taille moyenne, commun dans les rivières et les lacs de l'île. Il serait environ les deux tiers de la taille d'un humain s'il se tenait grand, mais c'est rarement le cas. L'Hesperornis passe la plupart de son temps à glisser le long de la surface de l'eau, où il est beaucoup plus maniable. L'Hesperornis est à peine une menace pour toute créature terrestre, car ses pattes sont trop courtes pour lui permettre de se déplacer efficacement, mais il est étonnamment rapide dans l'eau. Il peut facilement traquer les poissons et autres petites créatures aquatiques.",
+      "utility": "Pas particulièrement utile pour la chasse et n'étant pas affectueux, l'Hesperornis est principalement gardé pour les oeufs qu'il produit après avoir consommé beaucoup de poisson. Une fois rendus correctement, les oeufs se séparent en deux substances utiles. L'un est une substance riche en calories, et l'autre est un liquide huileux qui est effectivement le même que l'huile trouvée dans l'océan!",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Passif",
+      "period": "Crétacé supérieur",
+      "size": 13,
+      "stats": {
+        "level": 1,
+        "life": 95,
+        "lifePerLevelSavage": 19,
+        "stamina": 200,
+        "staminaPerLevelSavage": 20,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 900,
+        "foodPerLevelSavage": 90,
+        "weight": 70,
+        "weightPerLevelSavage": 1.4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 300,
+        "torporPerLevelSavage": 18,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1
+      }
     },
     {
-      "name": "Hyaenodon"
+      "name": "Hyaenodon",
+      "description": "Le Hyaenodon Dirus figure parmi les chasseurs les plus tenaces de l'île, un carnivore que l'on retrouve le plus souvent dans les montagnes et la toundra en meute de 3 à 5 individus. Le Hyaenodon est un prédateur très intelligent : avant de s'engager dans un combat, il détermine si la récompense vaut le risque d'être blessé. La Hyène préfère souvent ne pas combattre à moins qu'il y ait une proie déjà affaiblie toute proche ou une carcasse fraîche. Elle devient alors très vite agressive et la meute attaque sans pitié. À chaque bouchée de viande, la Hyène regagne rapidement de la vie et de l'énergie.",
+      "utility": "Bien qu'ils soient trop petits pour être chevauchés, les Hyènes sont quand même des animaux de compagnie très appréciés. Ils sont capables d'apprendre vite et leur mentalité de groupe en font d'excellents chiens de chasse. Leur capacité à regagner rapidement de la vie en consommant de la chair fraîche leur permet de bien encaisser et de continuer à combattre. Il n'est pas rare (mais terrifiant) d'apercevoir dans la toundra un cavalier sur un Canis accompagner d'une meute de Hyène, leurs hurlements résonnant à travers la nuit.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Agressif",
+      "period": "Éocène",
+      "size": 1.3,
+      "stats": {
+        "level": 1,
+        "life": 175,
+        "lifePerLevelSavage": 35,
+        "stamina": 260,
+        "staminaPerLevelSavage": 15,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 0.3,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 170,
+        "weightPerLevelSavage": 3.4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 450,
+        "torporPerLevelSavage": 27,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1
+      }
     },
     {
-      "name": "Ichthyosaurus"
+      "name": "Ichthyosaure",
+      "description": "L'Ichthyosaurus Curiosa est légèrement plus grand qu'un humain, ce qui n'est pas énorme à côté des colosses nageant dans ces eaux. Il a l'air d'être curieux lorsqu'il croise des créatures de son gabarit, en particulier les humains avec qu'il suit parfois sur de longues distances. Malgré ce qu'on pourrait croire, l'Ichthy n'est ni un poisson, ni un mammifère marin. Tout comme la plupart des créatures aquatiques de l'île, c'est un reptile.",
+      "utility": "L'Ichthy est une des meilleurs montures pour débuter l'exploration des fonds marins grâce à sa grande rapidité. L'apprivoiser est des plus simple, il aime tellement les humains qu'il leur mange littéralement dans la main.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Crétacé supérieur",
+      "size": 21,
+      "stats": {
+        "level": 1,
+        "life": 275,
+        "lifePerLevelSavage": 13.75,
+        "stamina": 300,
+        "staminaPerLevelSavage": 60,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 1000,
+        "foodPerLevelSavage": 100,
+        "weight": 250,
+        "weightPerLevelSavage": 5,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 300,
+        "torporPerLevelSavage": 0,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette simple"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Iguanodon"
+      "name": "Iguanodon",
+      "description": "Parmi les nombreuses créatures que j'ai encore rencontrées sur l'île, l'«Iguanodon vicissitudinis» a la capacité distinctement polyvalente de changer sa principale méthode de locomotion en fonction de ses besoins momentanés. Essentiellement herbivore bipède plutôt léthargique originaire des nombreuses prairies et forêts de l'île, dans des situations où une vitesse ou une maniabilité accrue est nécessaire, il changera rapidement sa posture en position quadrupède et se comportera comme une créature très différente! Bien que bipède, il peut utiliser des attaques rapides et poignardées avec ses pointes de pouce distinctives. En position quadrupède, à l'inverse, il semble avoir une quantité infinie d'endurance, même en sprint!",
+      "utility": "Fait intéressant, les pointes de pouce de l'Iguanodon lui permettent également de cueillir des graines de fruits, ce qui permet à un agriculteur de convertir facilement des piles de fruits en piles de graines pour la plantation. Combinée à sa récolte de fruits très efficace et à son poids de transport important, l'excellente mobilité de l'Iguanodon en position bipède en fait une main de terrain idéale qui peut également effectuer une évasion rapide ou une défense agile en cas de besoin.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Jurassique supérieur",
+      "size": 5,
+      "stats": {
+        "level": 1,
+        "life": 250,
+        "lifePerLevelSavage": 50,
+        "stamina": 200,
+        "staminaPerLevelSavage": 20,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 1800,
+        "foodPerLevelSavage": 180,
+        "weight": 375,
+        "weightPerLevelSavage": 7.5,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 210,
+        "torporPerLevelSavage": 12.6,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette simple"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"},
+            {"name": "Délicieux gâteau aux Légumes"}
+          ]
+        }
+      }
     },
     {
-      "name": "Kairuku"
+      "name": "Kairuku",
+      "description": "Le Kairuku Waitaki est une créature incroyablement docile et amicale avec tout le monde, excepté avec les poissons. Honnêtement, je ne suis pas sûr de comment le Kairuku arrive à peupler les climats les plus froids de l'île avec tous ces prédateurs qui règnent sur ces terres gelées. Il est faible et ne possède qu'une petite caractéristique défensive : de petites particules denses sont suspendues dans la graisse du Kairuku et agissent comme une maigre armure. En plus des problèmes que connaît le Kairuku, un survivant intelligent a découvert que raffiner la graisse de Kairuku (en y concentrant les particules) peut produire une forme naturelle de polymère qui est la même que celle utilisée dans les procédés de fabrication avancés des tribus. Cela a conduit de nombreuses tribus à chasser intensivement le Kairuku, une pratique communément -appelée la sortie au Kairu.",
+      "utility": "Il n'y a aucune raison d'apprivoiser un Kairuku pour le combat car ils sont inutiles pour ça. Pourtant, les Kairuku sont régulièrement apprivoisés pour leurs côtés mignon et amical, et pour le fait que leur corps sert de radiateur. Le simple fait de se tenir à côté d'un Kairuku peut permettre à un survivant de rester au chaud pendant de longues nuits rudes sur les icebergs.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Passif",
+      "period": "Inconnue",
+      "size": 1.3,
+      "stats": {
+        "level": 1,
+        "life": 95,
+        "lifePerLevelSavage": 19,
+        "stamina": 200,
+        "staminaPerLevelSavage": 20,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 900,
+        "foodPerLevelSavage": 90,
+        "weight": 70,
+        "weightPerLevelSavage": 1.4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 300,
+        "torporPerLevelSavage": 18,
+        "torporDrain": 1
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette basique"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Kaprosuchus"
+      "name": "Kaprosuchus",
+      "description": "Un plus petit parent du Sarcosuchus, «Kaprosuchus paludentium» est un carnivore aquatique que l'on trouve principalement dans les marais de l'île. Coureur naturellement rapide et encore plus rapide dans l'eau, c'est un chasseur solitaire qui éloigne les créatures petites à moyennes, en particulier celles isolées de leur meute. Lorsqu'il attaque, le Kaprosuchus utilise deux tactiques principales. Tout d'abord, il attend patiemment sous la surface de l'eau et, lorsque la cible est suffisamment proche, effectuera un saut latéral qu'il utilise pour se rapprocher rapidement de sa proie et la traîner sous l'eau. Deuxièmement, il attaque les zones vitales de la proie spécifiquement pour drainer son endurance. Ces deux techniques empêchent efficacement la plupart des créatures d'échapper au Kaprosuchus une fois qu'un assaut a commencé.",
+      "utility": "Les survivants sont généralement partagés quant à l'utilité de Kaprosuchus. Certains aiment sa vitesse à la fois dans et hors de l'eau, ce qui en fait l'une des montures tout-terrain de petite taille les plus rapides lors de déplacements dans les zones humides. D'autres n'aiment pas à quel point le Kaprosuchus est relativement fragile et ne pensent pas que sa vitesse élevée et ses attaques captivantes compensent cette lacune.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Crétacé supérieur",
+      "size": 6,
+      "stats": {
+        "level": 1,
+        "life": 200,
+        "lifePerLevelSavage": 40,
+        "stamina": 350,
+        "staminaPerLevelSavage": 35,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 140,
+        "weightPerLevelSavage": 2.8,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 200,
+        "torporPerLevelSavage": 12,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Kentrosaurus"
+      "name": "Kentrosaurus",
+      "description": "Alors que Kentrosaurus aethiopicus est considérablement plus petit que son proche parent, Stegosaurus regium, il est beaucoup plus redoutable en matière de légitime défense. En fait, il est sans doute le champion livre pour livre non seulement du stégosaure, mais lorsqu'il est rencontré dans des meutes de combat serrés, il se classe au sommet des dinosaures herbivores de l'île en général. Grâce à ses pointes défensives incroyablement pointues, toute créature qui attaque le Kentrosaure est susceptible d'être blessée à son tour, et il est capable de percer même les peaux et armures les plus épaisses lorsqu'il passe à l'offensive. J'ai personnellement vu le Kentrosaure abattre des prédateurs beaucoup plus gros en une seule manoeuvre d'empalage! Sous-estimer le Kentrosaure peut être une erreur fatale, en particulier lorsqu'il est dans un troupeau. Lorsqu'il voyage en nombre, le Kentrosaure semble devenir beaucoup plus agressif, augmentant la portée à laquelle il défendra son territoire.",
+      "utility": "Les survivants ont vu peu de succès dans leurs tentatives de chevaucher le Kentrosaure, en raison de ses pointes et de son tempérament fougueux. Cependant, un troupeau apprivoisé de Kentrosaure peut efficacement défendre une meute et affronter de plus grands carnivores. Une fois empalé par son attaque, le Kentrosaure claque l'attaquant au sol en continu, aidant à inverser le cours d'une bataille rangée!",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Territorial",
+      "period": "Jurassique supérieur",
+      "size": 4.5,
+      "stats": {
+        "level": 1,
+        "life": 650,
+        "lifePerLevelSavage": 130,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 6000,
+        "foodPerLevelSavage": 600,
+        "weight": 500,
+        "weightPerLevelSavage": 10,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 500,
+        "torporPerLevelSavage": 30,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Leech"
+      "name": "Sangsue",
+      "description": "Il est difficile d'être en conflit avec un Haementeria Laetus, malgré son horrible nature. La créature ne possède presque aucune intelligence, et se contente de s'attacher à toute chaire vivante qui se trouve à sa proximité pour essayer de pomper le sang de la malheureuse créature. Retirer un Haementeria demande une certaine dextérité à l'épée, ou d'avoir accès à un feu. Ces deux solutions sont aussi dangereuses pour l'hôte que pour la sangsue elle-même. Une fois que l'Haementeria est attaché à un hôte, il lui aspire le sang à un rythme soutenu, et celui-ci ressent des sensations de faim, et perd vie et énergie. Certains Haementeria sont également porteurs d'une dangereuse maladie que j'ai surnommé “la Fièvre des Marais”, qui continue de proliférer même après la mort de la sangsue. Très peu de créatures sur l'île sont porteuses de cette maladie et celle-ci peut être guérie avec un médicament très rare.",
+      "utility": "Bien que l'Haementeria ne soit pas assez intelligent pour être apprivoisé, et qu'il ne peut fournir aucune ressource en assez grande quantité pour satisfaire une tribu, il est toujours utile d'en garder quelques uns à proximité pour les utiliser en tant qu'antidote. Lorsque cela est fait correctement, le venin des Haementeria peut être transformé en un puissant anti-venin.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Agressif",
+      "period": "Inconnue",
+      "size": 0.3,
+      "stats": {
+        "level": 1,
+        "life": 0,
+        "lifePerLevelSavage": 0,
+        "stamina": 0,
+        "staminaPerLevelSavage": 0,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 0,
+        "foodPerLevelSavage": 0,
+        "weight": 0,
+        "weightPerLevelSavage": 0,
+        "damage": 0,      //valeur en % //
+        "speed": 0,
+        "speedPerLevelSavage": 0,
+        "torpor": 0,
+        "torporPerLevelSavage": 0,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Capture",
+        "rates": 1
+      }
     },
     {
-      "name": "Leedsichthys"
+      "name": "Leedsichthys",
+      "description": "Il est difficile d'être en conflit avec un Haementeria Laetus, malgré son horrible nature. La créature ne possède presque aucune intelligence, et se contente de s'attacher à toute chaire vivante qui se trouve à sa proximité pour essayer de pomper le sang de la malheureuse créature. Retirer un Haementeria demande une certaine dextérité à l'épée, ou d'avoir accès à un feu. Ces deux solutions sont aussi dangereuses pour l'hôte que pour la sangsue elle-même. Une fois que l'Haementeria est attaché à un hôte, il lui aspire le sang à un rythme soutenu, et celui-ci ressent des sensations de faim, et perd vie et énergie. Certains Haementeria sont également porteurs d'une dangereuse maladie que j'ai surnommé “la Fièvre des Marais”, qui continue de proliférer même après la mort de la sangsue. Très peu de créatures sur l'île sont porteuses de cette maladie et celle-ci peut être guérie avec un médicament très rare.",
+      "utility": "Bien que l'Haementeria ne soit pas assez intelligent pour être apprivoisé, et qu'il ne peut fournir aucune ressource en assez grande quantité pour satisfaire une tribu, il est toujours utile d'en garder quelques uns à proximité pour les utiliser en tant qu'antidote. Lorsque cela est fait correctement, le venin des Haementeria peut être transformé en un puissant anti-venin.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": false,
+      "ridable": false,
+      "behavior": "Agressif",
+      "period": "Inconnue",
+      "size": 0.3,
+      "stats": {
+        "level": 1,
+        "life": 4400,
+        "lifePerLevelSavage": 528,
+        "stamina": 500,
+        "staminaPerLevelSavage": 50,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 8000,
+        "foodPerLevelSavage": 800,
+        "weight": 1800,
+        "weightPerLevelSavage": 36,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 4500,
+        "torporPerLevelSavage": 4500,
+        "torporDrain": 270
+      }
     },
     {
-      "name": "Liopluerodon"
+      "name": "Liopluerodon",
+      "description": "Le Liopleurodon Magicus est un prédateur marin de taille moyenne mesurant entre 6 et 8 mètres de long. N'ayant qu'une accélération et une vitesse moyenne, le Liopleurodon se cache dans les récifs avant d'attaquer férocement sa proie. La peau de ce reptile possède une propriété surprenante. Elle sécrète une huile qui, lorsqu'elle entre en contact avec la peau, permet de respirer plus longtemps sous l'eau. Le Liopleurodon s'avère être un excellent choix pour parcourir les fonds marins. Ils disent que le Liopleurodon est une créature unique qui peut faire appel a sa capacité magique pour fuir face aux prédateurs ou aux agresseurs de toutes sorte, Mais les tribus apicultrices prétendent que leur miels est si doux , que même le Liopleurodon ne pourrait y résister!",
+      "utility": "D'après les rumeurs, le Liopleurodon apporterait bonne fortune aux aventuriers assez braves pour le dompter. Avec le Liopleurodon à leur coté, certaines tribus ont apparemment réussi à obtenir des trésors incommensurables. Toujours d'après les rumeurs, même après avoir gagné ses faveurs, il resterait incroyablement distant et pourrait éventuellement utiliser sa capacité pour fuir sa captivité.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Jurassique moyen",
+      "size": 7,
+      "stats": {
+        "level": 1,
+        "life": 3200,
+        "lifePerLevelSavage": 640,
+        "stamina": 800,
+        "staminaPerLevelSavage": 80,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 2000,
+        "foodPerLevelSavage": 200,
+        "weight": 1000,
+        "weightPerLevelSavage": 20,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 800,
+        "torporPerLevelSavage": 48,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Miel d'abeille géante"}
+          ]
+        }
+      }
     },
     {
-      "name": "Lystrosaurus"
+      "name": "Lystrosaurus",
+      "description": "Le Lystrosaurus Amicifidelis est un petit herbivore, d'environ 60 cm, qu'on retrouve un peu partout sur l'île. Il se nourrit de plantes et semble être résistant aux poisons des insectes. Bien qu'il fasse partie des plus petites créatures de l'île, le Lystrosaure a su s'adapter à son environnement. Il est résistant aux poisons et peut se régénérer rapidement, il est donc difficile de l'assommer.",
+      "utility": "Sans surprise, le Lystrosaure s'avère être un animal très fidèle. Il apprend très vite, ce qui lui permet de gagner de l'expérience plus rapidement. Lorsque d'autres créatures sont à proximité de lui, elles se sentent plus puissantes, ce qui leur permet de gagner également plus d'expérience. N'hésitez pas à l'emmener lors de parties de chasse.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Passif",
+      "period": "Permien supérieur",
+      "size": 0.6,
+      "stats": {
+        "level": 1,
+        "life": 90,
+        "lifePerLevelSavage": 18,
+        "stamina": 100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 215,
+        "oxygenPerLevelSavage": 21.5,
+        "food": 500,
+        "foodPerLevelSavage": 50,
+        "weight": 90,
+        "weightPerLevelSavage": 1.8,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 100,
+        "torporPerLevelSavage": 6,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Fleur rare"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Mammoth"
+      "name": "Mamouth",
+      "description": "Il est toujours étrange de voir Mammuthus Steincaput parmi les autres dinosaures. Ce géant domine la plupart des créatures de l'île et ne semble craindre que le Tyrannosaurus. On trouve beaucoup de Mammouths se déplaçant en troupeau dans les montagnes enneigées. Je ne saurais dire comme les troupeaux de Mammouths survivent dans les montagnes. Ils passent la plupart de leur temps à faire des allers-retours entre les sommets enneigés des montagnes et leurs plaines luxuriantes. Ils sont peut-être la cause de l'absence d'arbre sur les flancs des montagnes.",
+      "utility": "Le Mammuthus Steincaput ne se laisse pas apprivoiser facilement. Non pas parce qu'il est têtu, mais parce que sa grande taille le rend résistant aux tranquillisants. Une fois apprivoisé, il s'avère être très efficace à déraciner les arbres sans les transformer en branchages.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "period": "Pléistocène inférieur",
+      "size": 3.4,
+      "stats": {
+        "level": 1,
+        "life": 850,
+        "lifePerLevelSavage": 170,
+        "stamina": 330,
+        "staminaPerLevelSavage": 33,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 5000,
+        "foodPerLevelSavage": 500,
+        "weight": 500,
+        "weightPerLevelSavage": 10,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 550,
+        "torporPerLevelSavage": 33,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette supérieure"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Manta"
+      "name": "Manta",
+      "description": "Voici un autre exemple d'une créature qui semble avoir évolué au-delà de ses traits historiques. Tout indique que cette créature vit dans les eaux salées, mais la Manta Mobula a développé la capacité de nager dans les rivières et les eaux peu profondes de l'île, aussi bien que dans l'océan. Peut-être qu'à l'origine, il existait deux types de raies sur l'île, mais des années de consanguinité ont fusionné leur lignée. De nature docile, la Manta Mobula est un carnivore au sens où il consomme du plancton. Sa queue est incroyablement tranchante et peut aisément percer les peaux épaisses et les carapaces. Heureusement, la Manta Mobula n'est généralement pas agressif, sauf s'il y est encouragé.",
+      "utility": "Même si elle n'est pas le nageur le plus rapide de l'île, la Manta Mobula fait partie des montures les plus meurtrières de l'océan et peut être monté sans selle. Les tribus qui privilégient la puissance de frappe à la vitesse gardent souvent de grands bancs de Manta à chevaucher. Sa capacité à brièvement bondir hors de l'eau est aussi une bonne diversion pour éviter le combat. Un coup sec à travers le cœur d'un survivant sans méfiance peut facilement le prendre par surprise. Ainsi, beaucoup de tribus l'utilisent comme une escorte pour des convois plus lents.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Territorial",
+      "period": "Inconnue",
+      "size": 8,
+      "stats": {
+        "level": 1,
+        "life": 850,
+        "lifePerLevelSavage": 170,
+        "stamina": 330,
+        "staminaPerLevelSavage": 33,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 5000,
+        "foodPerLevelSavage": 500,
+        "weight": 500,
+        "weightPerLevelSavage": 10,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 550,
+        "torporPerLevelSavage": 33,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Gelée de Baudroie abyssale"}
+          ]
+        }
+      }
     },
     {
-      "name": "Megalania"
+      "name": "Megalania",
+      "description": "Un plus petit parent du Sarcosuchus, «Kaprosuchus paludentium» est un carnivore aquatique que l'on trouve principalement dans les marais de l'île. Coureur naturellement rapide et encore plus rapide dans l'eau, c'est un chasseur solitaire qui éloigne les créatures petites à moyennes, en particulier celles isolées de leur meute. Lorsqu'il attaque, le Kaprosuchus utilise deux tactiques principales. Tout d'abord, il attend patiemment sous la surface de l'eau et, lorsque la cible est suffisamment proche, effectuera un saut latéral qu'il utilise pour se rapprocher rapidement de sa proie et la traîner sous l'eau. Deuxièmement, il attaque les zones vitales de la proie spécifiquement pour drainer son endurance. Ces deux techniques empêchent efficacement la plupart des créatures d'échapper au Kaprosuchus une fois qu'un assaut a commencé.",
+      "utility": "Les survivants sont généralement partagés quant à l'utilité de Kaprosuchus. Certains aiment sa vitesse à la fois dans et hors de l'eau, ce qui en fait l'une des montures tout-terrain de petite taille les plus rapides lors de déplacements dans les zones humides. D'autres n'aiment pas à quel point le Kaprosuchus est relativement fragile et ne pensent pas que sa vitesse élevée et ses attaques captivantes compensent cette lacune.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Pléistocène",
+      "size": 6,
+      "stats": {
+        "level": 1,
+        "life": 200,
+        "lifePerLevelSavage": 40,
+        "stamina": 350,
+        "staminaPerLevelSavage": 35,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 140,
+        "weightPerLevelSavage": 2.8,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 200,
+        "torporPerLevelSavage": 12,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
       "name": "Megaloceros"
