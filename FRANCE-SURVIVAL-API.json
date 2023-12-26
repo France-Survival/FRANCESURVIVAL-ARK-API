@@ -81,7 +81,7 @@
           "food": {
             "useSanguineElixir": false,
             "items": [
-              {"name": "Délicieux gâteau aux Légumess"}
+              {"name": "Délicieux gâteau aux Légumes"}
             ]
           }
         }
@@ -1508,7 +1508,7 @@
           "items": [
             {"name": "Croquette simple"},
             {"name": "Légumes"},
-            {"name": "Délicieux gâteau aux Légumess"},
+            {"name": "Délicieux gâteau aux Légumes"},
             {"name": "Mejoberry"},
             {"name": "Berries"}
           ]
@@ -2519,8 +2519,8 @@
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
-      "period": "Jurassique moyen",
-      "size": 6,
+      "period": "Crétacé inférieur",
+      "size": 0.7,
       "stats": {
         "level": 1,
         "life": 130,
@@ -2557,16 +2557,16 @@
     },
     {
       "name": "Mosasaure",
-      "description": "Si ce n'était pas un dinosaure marin, le Carcharodon Ultramegalodon ferait partie des créatures les plus dangereuses de l'île. Il est l'équivalent aquatique du Tyrannosaurus. De plus, il est beaucoup plus rapide que n'importe quelle créature terrestre. Les Mégalodons nécessite de grandes quantités de nourriture, c'est pourquoi ils attaquent à vue. Les petits poissons n'ont par contre rien à craindre d'eux. Ils ne valent pas la peine de se fatiguer pour si peu.",
-      "utility": "Pour autant que je sache, personne n'a été en mesure d'apprivoiser un Carcharodon Ultramegalodon. En posséder un serait un atout majeur pour accéder à certaines ressources en plus d'avoir à ses cotés un féroce guerrier.",
+      "description": "Je pensais que l'Ultramegalodon était le plus grand prédateur marin, jusqu'à ce que je rencontre le Mosasaurus Suspiritus dans les abysses. Le Mosasaure est considérablement plus grand (il peut atteindre les 15 mètres) et plus puissant mais bien plus lent que le Mégalodon, ce qui en fait le dinosaure marin le plus grand que j'ai croisé. Contrairement à ce qu'on pourrait croire, le Mosasaure ne peut pas respirer sous l'eau mais peut retenir son souffle extrêmement longtemps, à la manière d'une baleine. Il fait partie de la famille des lézards et non des poissons, il vit principalement dans les abysses et ne remonte à la surface que pour respirer ou engloutir ses proies.",
+      "utility": "Étant plus puissant que rapide, le Mosasaure n'est pas idéal pour aller récolter les ressources des abysses comme le pétrole et les perles. Il est cependant la meilleure défense qui soit sous l'eau.",
       "zone": ["0","0","0","0"],
       "type": ["0","0","0","0"],
       "category": ["0","0","0","0"],
       "tamable": true,
       "ridable": true,
       "behavior": "Agressif",
-      "period": "Jurassique moyen",
-      "size": 6,
+      "period": "Crétacé supérieur",
+      "size": 15,
       "stats": {
         "level": 1,
         "life": 3600,
@@ -2602,115 +2602,1581 @@
       }
     },
     {
-      "name": "Moschops"
+      "name": "Moschops",
+      "description": "Le Moschops Cibumutante est une créature lâche et léthargique qui vit principalement dans les forêts de l'île, parmi les grands séquoias de l'Ouest. Il survit en étant extrêmement flexible dans ses habitudes alimentaires et complètement opposées au combat. Il n'est jamais affamé, car il mange tout ce qu'il trouve. Le Moschops fuit à la moindre provocation, mais est souvent la proie. N'attendez pas après un Moschops pour vous protéger. Même une fois apprivoisé, il sera le premier à déguerpir en cas d'attaque.",
+      "utility": "Ce qui rend le Moschops particulièrement intéressant est sa faculté à modifier ses habitudes alimentaires. Avec des dents, son palais et sa langue polyvalente, le Moschops possède une capacité unique : au fil du temps, il peut se spécialiser dans la récolte d'une ressource particulière. Par exemple, l'enseigner à mâcher de la viande de qualité le rendra plus habile à récolter cette dernière. De même pour les plantes rares, matériaux, et ainsi de suite ! Mais ne vous attendez pas à ce que Moschops vous protège, cependant ! Même après avoir apprivoisé, il fuira rapidement lorsque les ennemis sont à proximité. Indépendamment d'être bien nourri, augmenter sa force ou son affection, le Moschops conservera sa nature lâche ! Son manque de combat pourrait décourager l'utilisation de ce compagnon, mais la possibilité de monter sur lui tout en profitant de sa récolte diversifiée est d'un régal rare.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Permien",
+      "size": 2.7,
+      "stats": {
+        "level": 1,
+        "life": 375,
+        "lifePerLevelSavage": 75,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 300,
+        "foodPerLevelSavage": 30,
+        "weight": 200,
+        "weightPerLevelSavage": 4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 300,
+        "torporPerLevelSavage": 18,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type": "Passif",
+        "rates": 1
+      }
     },
     {
-      "name": "Onyc"
+      "name": "Onyc",
+      "description": "L'Onychonycteris Specuncola est l'un des rares omnivores que j'ai vu sur l'île. Elle semble se nourrir principalement des champignons et de la mousse que l'on trouve dans les grottes, mais n'hésite pas à attaquer toute créature osant s'y aventurer. Elle semble éviter les Titanoboas, ce qui me pousse à croire que c'est un prédateur de l'Onychonycteris. Contrairement à la plupart des créatures, voler dans les grottes n'est pas un problème pour l'Onychonycteris grâce à son système d'écholocalisation. Elles passent le plus clair de leur temps à voler ou suspendues la tête en bas.",
+      "utility": "Trop petite pour être montée ou servir de mule, l'Onychonycteris est néanmoins en très bon gardien. Leur nature vicieuse est des plus utiles pour défendre une base ou un camarade.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Éocène",
+      "size": 0.7,
+      "stats": {
+        "level": 1,
+        "life": 250,
+        "lifePerLevelSavage": 50,
+        "stamina": 100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 50,
+        "weightPerLevelSavage": 1,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 200,
+        "torporPerLevelSavage": 12,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Otter"
+      "name": "Loutre",
+      "description": "Trouvée le long des nombreuses voies navigables à l'intérieure de l'île, la Lutra Peloso est devenue exceptionnellement habile à la chasse et à la recherche de nourriture. Cette espèce de loutre doit être particulièrement rusée en raison de sa taille et de la concurrence féroce pour sa source préférée de nourriture: le poisson. Ce n'est pas une créature qui excelle au combat, et n'est naturellement pas une menace pour les prédateurs. Trouver des groupes de loutres de rivière est assez simple : elles se distinguent par leurs corps allongés, leurs corps touffus et leurs pieds palmés. Leur nature confiante et leur curiosité assurent qu'elles sont souvent chassées pour leurs fourrures lustrées, mais beaucoup préfèrent les apprivoiser pour devenir des compagnons de confiance.",
+      "utility": "Il y a peu de créatures qui fournissent la même compagnie. Plutôt que de voyager à côté de vous, elle préféra se reposer confortablement sur votre dos, en fournissant de l'isolation. Une fois domestiquée, elle pourra récolter du poisson sur demande, avec un objectif spécifique à l'esprit du poisson qu'elle consomme, la loutre a également un talent pour trouver des perles de silice et peut même trouver avec une légère chance des perles noires !",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Passif",
+      "period": "Inconnue",
+      "size": 0.4,
+      "stats": {
+        "level": 1,
+        "life": 40,
+        "lifePerLevelSavage": 8,
+        "stamina": 180,
+        "staminaPerLevelSavage": 18,
+        "oxygen": 600,
+        "oxygenPerLevelSavage": 60,
+        "food": 400,
+        "foodPerLevelSavage": 40,
+        "weight": 30,
+        "weightPerLevelSavage": 0.6,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 350,
+        "torporPerLevelSavage": 21,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Sabertooth Salmon(1x5)"},
+            {"name": "Sabertooth Salmon(1x)"},
+            {"name": "Sabertooth Salmon(1x)"}
+          ]
+        }
+      }
     },
     {
-      "name": "Oviraptor"
+      "name": "Oviraptor",
+      "description": "Oviraptor philodator est un carnivore de taille petite à moyenne, commun dans les jungles et les plages de l'île. En dépit d'être un carnivore, la principale source de nourriture de l'Oviraptor est les oeufs, qu'il vole dans les nids. Contrairement à toute autre créature, l'Oviraptor semble être capable de voler subrepticement ces oeufs, généralement sans attirer l'attention d'une mère en colère. Dans un exploit incroyable de sélection naturelle, l'Oviraptor semble émettre une phéromone chimique qui affecte de nombreuses créatures comme un aphrodisiaque. Les créatures accouplées sont beaucoup plus susceptibles de… «créer» de nouveaux oeufs pendant que l'Oviraptor est là, ce qui permet à l'Oviraptor de vaquer à ses occupations sans être dérangé.",
+      "utility": "Trop petit pour combattre ou chevaucher, l'Oviraptor est toujours l'une des créatures les plus couramment apprivoisées de l'île. Sa phéromone assure un flux accru d'oeufs provenant de créatures sauvages accouplées à proximité, pour la reproduction, la consommation ou la cuisson de croquettes. L'Oviraptor effectuera de manière autonome le sale boulot de voler des oeufs d'autres tribus ou des dinos sauvages en votre nom, sans attirer l'attention indésirable. Ils émettent également des sons assez adorables, tant d'enfants aiment simplement les garder comme des compagnons plutôt étranges.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Passif",
+      "period": "Crétacé supérieur",
+      "size": 1.5,
+      "stats": {
+        "level": 1,
+        "life": 140,
+        "lifePerLevelSavage": 28,
+        "stamina": 120,
+        "staminaPerLevelSavage": 12,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 900,
+        "foodPerLevelSavage": 90,
+        "weight": 100,
+        "weightPerLevelSavage": 2,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 125,
+        "torporPerLevelSavage": 7.5,
+        "torporDrain": 0.2
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Oeuf extraordinaire"},
+            {"name": "Oeuf exceptionnel"},
+            {"name": "Oeuf supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Ovis"
+      "name": "Ovis",
+      "description": "Depuis mon arrivée sur l'île, j'ai rencontré des dizaines de créatures fascinantes dont le comportement n'a jamais été étudié ni documenté ... et aussi des moutons. Certes, «Ovis arcam» est assez différent des moutons domestiques modernes - et même des espèces de moutons sauvages comme Ovis orientalis. Les marques uniques sur son visage lui confèrent une apparence frappante et les cornes des mâles possèdent une forme unique qui ne ressemble à aucune autre espèce du genre Ovis. Comme on pouvait s'y attendre, Ovis a peu de chances contre les nombreux prédateurs de cette île. Tout comme le Dodo, sa survie continue face à ces défis est un mystère.",
+      "utility": "Certains survivants ont trouvé que les troupeaux d'Ovis étaient utiles dans la vie de la ferme. Leur laine peut être tondue à plusieurs reprises en toute sécurité avec les outils appropriés, et les côtelettes d'agneau cuites sont un plat populaire parmi certaines tribus, tout comme leur mouton hyper-nutritif. De temps en temps, un survivant avec un sens de l'humour tentera d'utiliser l'Ovis comme monture, bien que la blague devienne beaucoup moins drôle une fois que leur lent Ovis est épuisé par une meute de Raptors. Une tribu s'est particulièrement attachée à l'Ovis, peut-être de façon inconfortable. Je ne connais pas le nom réel de la tribu, mais je les appelle -Amoureux des moutons.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Cénozoïque",
+      "size": 1.2,
+      "stats": {
+        "level": 1,
+        "life": 100,
+        "lifePerLevelSavage": 20,
+        "stamina": 100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 90,
+        "weightPerLevelSavage": 1.8,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 85,
+        "torporPerLevelSavage": 5.1,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Délicieux gâteau aux Légumes"}
+          ]
+        }
+      }
     },
     {
-      "name": "Pachy"
+      "name": "Pachy",
+      "description": "Le Pachycephalosaure est un peu une énigme. C'est un herbivore très passif (voire amical), commun à une grande partie de l'île. En même temps, c'est l'un des herbivores les plus dangereux que j'aie jamais rencontrés sur l'île. Son coup de tête de charge est une démonstration de puissance physique pure et peut tuer beaucoup plus rapidement que vous ne le pensez. Bien que le Pachycephalosaure soit généralement amical, il a un tempérament court. Sa réponse de combat ou de fuite semble toujours choisir combattre! Le Pachy devient extrêmement agressif une fois attaqué. De plus, c'est un sprinter incroyablement rapide, il est donc très difficile de s'échapper d'un Pachy enragé.",
+      "utility": "Le Pachycephalosaure est une excellente monture de combat pour ceux qui veulent conduire un combattant plus petit et agile dans la mêlée. En raison de sa musculature particulière, il ne peut pas transporter efficacement de grandes quantités de ressources. Il peut cependant se déplacer avec de brèves et magnifiques accélérations, et son coup de tête est tout simplement dévastateur.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "period": "Inconnue",
+      "size": 4.5,
+      "stats": {
+        "level": 1,
+        "life": 175,
+        "lifePerLevelSavage": 15,
+        "stamina": 150,
+        "staminaPerLevelSavage": 15,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 150,
+        "weightPerLevelSavage": 3,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 160,
+        "torporPerLevelSavage": 9.6,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette simple"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Pachyrhinosaurus"
+      "name": "Pachyrhinosaurus",
+      "description": "Le Pachyrhinosaurus Mitisaura est un herbivore de taille moyenne, que l'on trouve presque partout sauf dans les montagnes de l'île. Il est généralement calme et ignore toutes les autres créatures proches à moins qu'il ne soit attaqué. Le Pachyrhinosaure possède une compétence de survie particulièrement unique. Lorsqu'il est menacé, son énorme bosse nasal libère un produit chimique dans l'air qui calme les autres créatures à proximité, ce qui les rend moins susceptibles de l'attaquer. Les créatures affectées ont parfois assez faim pour ignorer l'effet, et les humains semblent immunisés. À l'inverse, il peut apparemment inverser ce phénomène à volonté et contraindre les créatures à l'attaquer!",
+      "utility": "Le Pachyrhinosaure est une excellente monture de départ pour tous ceux qui découvrent l'apprivoisement. Il est assez facile à entraîner, peut transporter suffisamment pour être un simple bête de somme et n'est pas aussi mortel que certains des plus gros herbivores. De plus, le Pachyrhinosaurus peut libérer son produit chimique unique sur commande pour se protéger et protéger son cavalier des prédateurs proches, ou attirer l'attention si vous le souhaitez, ce qui en fait un sauveur de vie potentiel à la rigueur.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "period": "Crétacé supérieur",
+      "size": 5,
+      "stats": {
+        "level": 1,
+        "life": 375,
+        "lifePerLevelSavage": 75,
+        "stamina": 150,
+        "staminaPerLevelSavage": 15,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 3000,
+        "foodPerLevelSavage": 300,
+        "weight": 365,
+        "weightPerLevelSavage": 7.3,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 250,
+        "torporPerLevelSavage": 15,
+        "torporDrain": 3.5
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Répulsif à insecte"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Paraceratherium"
+      "name": "Paraceratherium",
+      "description": "Le Pachyrhinosaurus Mitisaura est un herbivore de taille moyenne, que l'on trouve presque partout sauf dans les montagnes de l'île. Il est généralement calme et ignore toutes les autres créatures proches à moins qu'il ne soit attaqué. Le Pachyrhinosaure possède une compétence de survie particulièrement unique. Lorsqu'il est menacé, son énorme bosse nasal libère un produit chimique dans l'air qui calme les autres créatures à proximité, ce qui les rend moins susceptibles de l'attaquer. Les créatures affectées ont parfois assez faim pour ignorer l'effet, et les humains semblent immunisés. À l'inverse, il peut apparemment inverser ce phénomène à volonté et contraindre les créatures à l'attaquer!",
+      "utility": "Le Pachyrhinosaure est une excellente monture de départ pour tous ceux qui découvrent l'apprivoisement. Il est assez facile à entraîner, peut transporter suffisamment pour être un simple bête de somme et n'est pas aussi mortel que certains des plus gros herbivores. De plus, le Pachyrhinosaurus peut libérer son produit chimique unique sur commande pour se protéger et protéger son cavalier des prédateurs proches, ou attirer l'attention si vous le souhaitez, ce qui en fait un sauveur de vie potentiel à la rigueur.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "period": "Oligocène",
+      "size": 7,
+      "stats": {
+        "level": 1,
+        "life": 1026,
+        "lifePerLevelSavage": 205.2,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 6500,
+        "foodPerLevelSavage": 650,
+        "weight": 850,
+        "weightPerLevelSavage": 17,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 1300,
+        "torporPerLevelSavage": 78,
+        "torporDrain": 0.9
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette supérieure"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Parasaur"
+      "name": "Parasaur",
+      "description": "Parasaurolophus amphibio possède l'une des adaptations les plus intéressantes de toutes les créatures que j'ai vues sur l'île. Comme tous les Parasaures, il a une crête caractéristique sur sa tête. Très docile au début, j'ai pu approcher la créature sans la déranger. Cependant, si elle est effrayée, la créature peut vocaliser un appel de détresse dans la zone environnante qui avertit du danger. Parasaurolophus semble être faible sur la chaîne alimentaire et est chassé par tous, les créatures et les humains, ce qui explique sa nature peureuse. C'est une bonne source de viande et de peau, si vous arrivez à le suivre assez longtemps pour le tuer.",
+      "utility": "En dépit d'être ce que la plupart des tribus considèrent comme une créature relativement inutile à apprivoiser, j'ai rencontré une fois une femme intéressante qui avait apprivoisé un troupeau entier d'entre eux. Elle m'a informé que beaucoup ont négligé le potentiel de la créature. Elle m'a même gracieusement donné une selle fantaisie pour mon propre Parasaurolophus. En tant que créature relativement simple à domestiquer, Parasaurolophus est généralement l'une des premières montures qu'une tribu puisse acquérir. Sa capacité à courir relativement vite pendant de longs intervalles en fait un solide moyen de transport à moyenne distance, même s'il n'a pratiquement aucune capacité à se défendre lui-même ou son cavalier dans un sens traditionnel. Les petites créatures, cependant, semblent être effrayées par la corne de Parasaurolophus bien que cela ne fasse pas beaucoup de dégâts. Il possède également des capacités de port de poids décentes, ce qui pourrait s'avérer utile pour les tribus nomades qui travaillent à établir une présence sur l'île.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Crétacé supérieur",
+      "size": 9.5,
+      "stats": {
+        "level": 1,
+        "life": 200,
+        "lifePerLevelSavage": 40,
+        "stamina": 450,
+        "staminaPerLevelSavage": 45,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 480,
+        "weightPerLevelSavage": 9.6,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 150,
+        "torporPerLevelSavage": 9,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette basique"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Pegomastax"
+      "name": "Pegomastax",
+      "description": "Parmi le bas de la chaîne alimentaire se trouve un petit herbivore appelé Pegomastax Fructarator. Il passe le plus clair de son temps seul à se gaver de nourriture, malgré sa petite taille. Son bec semble avoir parfaitement évolué pour collecter de la nourriture des plantes tout en évitant les fibres indigestes. Le Pegomastax est susceptible d'ignorer toute créature proche de lui et de continuer à chercher de la nourriture, à moins qu'il ne soit attaqué. Dans ce cas, il se transforme en un adversaire très agressif (quoique peu dangereux), en hurlant et en poussant des cris très exagérés comparés à la menace qu'il représente. On s'attend à ce qu'une créature si petite et faible vive en troupeau, mais le Pegomastax semble être plutôt de nature solitaire.",
+      "utility": "Bien trop petit pour être chevauché et loin d'être très attrayant, de nombreuses tribus apprécient la compagnie du Pegomastax. Certains utilisent ses talents de cueilleur pour récupérer des graines, baies, champignons et leurs rares. Tandis que d'autres affectionnent particulièrement sa capacité a faire les poches d'autres survivants dans se faire repérer!",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Agressif",
+      "period": "Jurassique supérieur",
+      "size": 0.3,
+      "stats": {
+        "level": 1,
+        "life": 120,
+        "lifePerLevelSavage": 24,
+        "stamina": 100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 450,
+        "foodPerLevelSavage": 45,
+        "weight": 55,
+        "weightPerLevelSavage": 1.1,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 30,
+        "torporPerLevelSavage": 1.8,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Pelagornis"
+      "name": "Pelagornis",
+      "description": "C'est le plus grand ancêtre des oiseaux d'eau comme la cigogne ou le pélican, le Pelagornis Miocaenus a de nombreux traits avec ses frères modernes. Cependant, il semble passer beaucoup de temps à chasser les poissons au large. Il est rarement repéré près des côtes de l'île principale, car il préfère reposer ses ailes à la surface de l'eau plutôt que de se dandiner sur les plages de l'île. Peut-être que ce comportement est le résultat de ses instincts de survie. Le Miocène inférieur était une époque post-dinosaure après tout, et le Pelagornis ne serait pas habitué à ces prédateurs. Considérant la rapidité avec laquelle il fuit les humains, on peut difficilement blâmer sa prudence.",
+      "utility": "En raison de sa capacité à voler, marcher, et nager à la surface de l'eau, un Pelagornis apprivoisé est l'une des montures les plus polyvalentes de l'île, mais cela a un coût. Les pattes palmés qui permettent au Pelagornis de manœuvrer sereinement le long de la surface de l'océan l'empêchent de prendre des proies à partir du sol.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Oligocène",
+      "size": 6.1,
+      "stats": {
+        "level": 1,
+        "life": 240,
+        "lifePerLevelSavage": 48,
+        "stamina": 180,
+        "staminaPerLevelSavage": 9,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 150,
+        "weightPerLevelSavage": 3,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 120,
+        "torporPerLevelSavage": 7.2,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Viande de poisson crue supérieure"},
+            {"name": "Viande de poisson crue"}
+          ]
+        }
+      }
     },
     {
-      "name": "Phiomia"
+      "name": "Phiomia",
+      "description": "Le Phiomia ignavus est un autre des animaux de troupeau généralement dociles de l'île. Ils sont suffisamment petits pour que presque tous les prédateurs puissent les abattre, mais suffisamment grands pour fournir beaucoup de viande. Sans la protection du troupeau et son instinct de fuir tout prédateur, ceux-ci seraient presque certainement chassés jusqu'à l'extinction. Les défenses et le tronc du Phiomia le rendent particulièrement adapté à la récupération de la flore du sol. Il utilise ses défenses pour déterrer la végétation, puis utilise son tronc pour ramasser le feuillage dans sa bouche. Les Phiomias adultes déterrent souvent de la nourriture pour leurs petits, et regarder un bébé Phiomia essayer d'utiliser sa trompe peut être assez amusant.",
+      "utility": "Bien qu'il soit tout à fait possible de conduire un Phiomia, ils sont un maigre choix. Ils fonctionnent très bien, cependant, en tant que mules. Si vous nourrissez le Phiomia avec un stimberry, il sert de laxatif dans le système digestif de la créature. Sachant cela, les communautés tribales en gardent souvent un troupeau comme bétail pour produire des quantités massives d'engrais.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Éocène",
+      "size": 1.3,
+      "stats": {
+        "level": 1,
+        "life": 300,
+        "lifePerLevelSavage": 30,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 3000,
+        "foodPerLevelSavage": 300,
+        "weight": 200,
+        "weightPerLevelSavage": 4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 240,
+        "torporPerLevelSavage": 14.4,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette basique"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Piranha"
+      "name": "Piranha",
+      "description": "Megapiranha magnadmorsus est un poisson carnivore que l'on trouve assez couramment dans les rivières et les étangs de l'île. Sa morsure est incroyablement puissante; Je les ai même vus percer les tortues blindées de l'île. Le Megapiranha a l'une des morsures les plus fortes, livre pour livre, de toutes les créatures de l'île. Lorsque vous rencontrez un Megapiranha, soyez à l'affût du reste du banc. Un seul Megapiranha n'est une menace écrasante, mais leur tendance à essaimer des proies peut tuer rapidement les plus grandes créatures. N'importe quel Megapiranha donné est facile à tuer, mais tuer tout le banc peut être une tâche ardue.",
+      "utility": "Comme certaines des autres créatures de l'île, un Megapiranha apprivoisé est le mieux adapté comme garde. Leur métabolisme élevé les oblige à avoir besoin de plus de nourriture que beaucoup d'autres créatures, mais ils sont très habiles à chasser leur propre nourriture, en particulier les Coelacanthes.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Agressif",
+      "period": "Inconnue",
+      "size": 0.3,
+      "stats": {
+        "level": 1,
+        "life": 0,
+        "lifePerLevelSavage": 0,
+        "stamina": 0,
+        "staminaPerLevelSavage": 0,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 0,
+        "foodPerLevelSavage": 0,
+        "weight": 0,
+        "weightPerLevelSavage": 0,
+        "damage": 0,      //valeur en % //
+        "speed": 0,
+        "speedPerLevelSavage": 0,
+        "torpor": 0,
+        "torporPerLevelSavage": 0,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Capture",
+        "rates": 1
+      }
     },
     {
-      "name": "Pleosiosaur"
+      "name": "Pleosiosaure",
+      "description": "L'Elasmosaurus Remuspissa est principalement trouvé dans les profondeurs des océans et tient une drôle de place dans la chaîne alimentaire. Il ne semble s'intéresser qu'aux petites créatures aquatiques, ignorant ainsi les plus grandes. Au vu de son immense taille, le Plésiosaure doit ingérer une énorme quantité de nourriture. Le Plésiosaure est un formidable combattant. À part le Mégalodon, j'ai seulement vu deux créatures capables de le battre : le Mosasaure et l'humain. Mais je dois avouer que je n'ai pas encore totalement exploré les grottes sous-marines.",
+      "utility": "Le Plésiosaure est l'équivalent marin du Brontosaure : il peut transporter énormément de ressources. Il est tellement grand qu'il peut même servir de base mobile. Certaines tribus les préfèrent aux radeaux peu résistant.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Mésozoïque",
+      "size": 3.5,
+      "stats": {
+        "level": 1,
+        "life": 2400,
+        "lifePerLevelSavage": 288,
+        "stamina": 800,
+        "staminaPerLevelSavage": 80,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 5000,
+        "foodPerLevelSavage": 500,
+        "weight": 800,
+        "weightPerLevelSavage": 16,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 1600,
+        "torporPerLevelSavage": 96,
+        "torporDrain": 2.1
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette supérieure"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Procoptodon"
+      "name": "Procoptodon",
+      "description": "Le premier marsupial que j'ai rencontré sur l'île est le Procoptodon Vivencurrus. Mesurant presque 3 mètres de haut lorsqu'il est debout, c'est aussi la plus grande créature capable de bondir dont j'ai entendu parler. C'est un herbivore plutôt paisible qui attaque férocement seulement s'il est agressé. L'une des particularités les plus uniques du Procoptodon est sa poche ventrale. Contrairement à de nombreux marsupiaux en possédant une, celle du Procoptodon est très sèche et a très peu de fluides gluants et huileux. Je suppose que c'est bon pour le bébé kangourou mais je n'ai pas encore trouvé exactement pourquoi...",
+      "utility": "La poche ventrale sèche du Procoptodon en fait une excellente bête de somme qui peut transporter beaucoup plus de choses que les autres créatures de sa taille. Mais plus important encore, de nombreuses tribus l'utilisent comme d'un moyen de transport à deux places grâce à sa poche qui peut accueillir un second cavalier. Comme ce passager n'a pas à s'occuper du contrôle du Procoptodon, le guerrier en poche peut se concentrer sur l'utilisation de ses armes.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Pléistocène",
+      "size": 2,
+      "stats": {
+        "level": 1,
+        "life": 400,
+        "lifePerLevelSavage": 80,
+        "stamina": 350,
+        "staminaPerLevelSavage": 35,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 550,
+        "weightPerLevelSavage": 11,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 350,
+        "torporPerLevelSavage": 21,
+        "torporDrain": 0.7
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Champignon rare"}
+          ]
+        }
+      }
     },
     {
-      "name": "Pteranodon"
+      "name": "Pteranodon",
+      "description": "Le Pteranodon Wyvernus est un grand Ptérosaure, il possède la plus grande vitesse de déplacement que n'importe quelle autre créature que j'ai rencontré. Il n'a cependant pas beaucoup d'endurance, ce qui l'oblige a faire des arrêts fréquents sur les plages. Bien que certains l'appelle Ptérodactyle, ce n'en est pas un. N'étant pas un grand combattant, le Pteranodon Wyvernus se nourrit principalement de petits poissons et de carcasses de dinosaures. Il fuit au moindre signe de conflit, ce qui en fait une des créatures les plus présentes dans le ciel.",
+      "utility": "Les Ptéranodons semblent être les montures les plus courantes, probablement parce qu'ils sont facilement apprivoisables à l'aide d'un lance-pierres ou d'un arc. Voyager à dos de Ptéranodons est un des moyens de transport le plus rapide et le plus sûr, mais ce n'est pas le plus discret par rapport aux animaux terrestres se fondant dans la végétation.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Crétacé",
+      "size": 6,
+      "stats": {
+        "level": 1,
+        "life": 210,
+        "lifePerLevelSavage": 42,
+        "stamina": 150,
+        "staminaPerLevelSavage": 7.5,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 5000,
+        "foodPerLevelSavage": 500,
+        "weight": 1200,
+        "weightPerLevelSavage": 120,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 120,
+        "torporPerLevelSavage": 7.2,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Pulomonoscorpius"
+      "name": "Pulomonoscorpius",
+      "description": "Je ne saurais dire pourquoi, mais les scorpions géants que j’ai vu sur l’île sont beaucoup plus troublants que la plupart des dinosaures. Au lieu de simplement tuer sa proie, le Pulmonoscorpius Gigantus lui injecte un poison tranquillisant puis la dévore vivante. Cette sous-espèce a une grande paire de pinces qui semblent reliées aux mêmes poches de toxines que sa queue. Je n’ai jamais vu de scorpion avec cette caractéristique, tout comme je n’ai jamais vu de scorpion faisant ma taille.",
+      "utility": "Apprivoiser un monstre comme le Pulmonoscorpius Gigantus à l’air complètement fou, mais je suppose que la capacité à mettre un ennemi Ko pourrait s’avérer utile.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Carbonifère",
+      "size": 0.7,
+      "stats": {
+        "level": 1,
+        "life": 280,
+        "lifePerLevelSavage": 60,
+        "stamina": 200,
+        "staminaPerLevelSavage": 20,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 200,
+        "weightPerLevelSavage": 4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 150,
+        "torporPerLevelSavage": 9,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Viande avariée"},
+            {"name": "Viande crue"}
+          ]
+        }
+      }
     },
     {
-      "name": "Purlovia"
+      "name": "Purlovia",
+      "description": "Le Purlovia Maxima incarne parfaitement l'élément de surprise. Bien que les Nanictidopids tels que le Purlovia étaient autrefois considérés comme herbivores, je découvre que cette créature est en fait, un chasseur patient des plus intelligents. Une fois dans son terrier, le Purlovia entre dans un état d'hibernation et peut rester de longues périodes sans nourriture. Quand une créature passe par la, le Purlovia surgit de façon spectaculaire en sortant du sol, déchirant sa proie de ses grandes canines avant que la victime n'ait le temps de réagir !",
+      "utility": "Bien que le Purlovia ne puisse pas être une monture, il remplit très bien son rôle de gardien du village et peut se révéler fort utile lorsque vous préparez une embuscade. Une meute de Purlovia vous permettra d'avoir votre propre armée de soldats aux dents et aux griffes acérées.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Permien supérieur",
+      "size": 1,
+      "stats": {
+        "level": 1,
+        "life": 275,
+        "lifePerLevelSavage": 55,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 4000,
+        "foodPerLevelSavage": 400,
+        "weight": 400,
+        "weightPerLevelSavage": 8,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 500,
+        "torporPerLevelSavage": 30,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Quetzal"
+      "name": "Quetzal",
+      "description": "De loin, il est difficile de croire que le Quetzalcoatlus est l'un des plus grands oiseaux de l'île, tant il ressemble au Ptéranodon. Cela est peut être dû au fait qu'il fait son nid aux sommets des plus hautes montagnes car il est vraiment impressionnant lorsqu'il est approché. Bien qu'il soit si imposant, le Quetzacoatlus est une bête très peureuse qui préférera fuir. Je suppose que c'est ce qui lui permet de cohabiter avec autant de prédateurs, mais comment fait-il pour récupérer des forces ?",
+      "utility": "Le Quetzacoatlus est loin d'être une monture rapide ou puissante mais il n'est pas sans utilité. Il s'avère être un très bon moyen de transporter énormément de ressources, des créatures et des humains sans se fatiguer et en toute sécurité.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Crétacé supérieur",
+      "size": 11,
+      "stats": {
+        "level": 1,
+        "life": 1200,
+        "lifePerLevelSavage": 800,
+        "stamina": 800,
+        "staminaPerLevelSavage": 40,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 800,
+        "weightPerLevelSavage": 16,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 1850,
+        "torporPerLevelSavage": 111,
+        "torporDrain": 3.4
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette exceptionnelle"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Raptor"
+      "name": "Raptor",
+      "description": "Utahraptor prime est une sous-espèce incroyablement agressive d'Utahraptor trouvée sur l'île. Il a tendance à voyager en petits groupes de chasse, attaquant des proies plus petites avec ses dents acérées et sa mâchoire élargie. Lors de la chasse en meute, le chef de meute peut vocaliser un signal qui agit comme un cri de bataille. Soyez prêt à courir ou à combattre si vous entendez l'appel de l'Utahraptor! La meute répète les appels et attaque avec une intensité beaucoup plus grande. L'une des créatures les plus rapides de l'île, l'Utahraptor utilise la grosseur de sa meute à son avantage en grouillant autour de sa proie avant qu'elle ne puisse réagir. Le gros talon incurvé sur le deuxième orteil de cette sous-espèce semble particulièrement adapté pour infliger des dégâts importants. Utahraptor prime tue généralement ses proies avec de nombreuses attaques tranchantes et mordantes en séquence rapide.",
+      "utility": "Ce qui manque à l'Utahraptor en termes de taille, il le compense en ingéniosité. Plutôt que de chasser des créatures plus petites, l'Utahraptor se précipitera et épinglera sa proie au sol plutôt que de la chasser. Malgré sa nature normalement agressive, les Utahraptors sont devenus l'une des principales montures de combat pour les bandes de raiders itinérants, ainsi que les éclaireurs pour les plus grandss collectivités. Ceux qui conduisent l'Utahraptor affirment qu'ils sont difficiles à apprivoiser, mais farouchement loyaux. En tant que carnivore, une fois apprivoisés, ils ont besoin d'un flux constant de viande pour se maintenir.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Crétacé supérieur",
+      "size": 1.5,
+      "stats": {
+        "level": 1,
+        "life": 200,
+        "lifePerLevelSavage": 150,
+        "stamina": 150,
+        "staminaPerLevelSavage": 15,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 140,
+        "weightPerLevelSavage": 2.8,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 180,
+        "torporPerLevelSavage": 10.8,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette simple"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Rex"
+      "name": "T-Rex",
+      "description": "Parmi les créatures les plus meurtrières de l’île, le Tyrannosaurus dominum est une véritable machine à tuer. Actif surtout pour la chasse ou la défense de son nid, il est raisonnable d’éviter chaque Tyrannosaure. Je n’ai vu aucune créature sur l’île qui puisse rivaliser avec le Tyrannosaurus pour la domination pure. Il est fait de force pure, de sa morsure, à son pas puissant en passant par sa queue et ses bras.",
+      "utility": "Apprivoiser un Tyrannosaure est sans nul doute un des principaux objectifs de tout combattant ou Tribus guerrière. Ce n'est pas pour rien que le Tyrannosaure est considéré comme le roi des dinosaures. Une Tribu disposant d'un Rex n'a quasiment aucune crainte à avoir.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Maastrichtien supérieur",
+      "size": 13,
+      "stats": {
+        "level": 1,
+        "life": 1100,
+        "lifePerLevelSavage": 220,
+        "stamina": 420,
+        "staminaPerLevelSavage": 42,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 3000,
+        "foodPerLevelSavage": 300,
+        "weight": 500,
+        "weightPerLevelSavage": 10,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 1550,
+        "torporPerLevelSavage": 93,
+        "torporDrain": 0.7
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette exceptionnelle"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Rhyniogatha"
+      "name": "Rhyniogatha",
+      "description": "Je le jure, chaque nouvelle créature que je rencontre ici me conforte dans l’idée que leurs gènes ont été altérés. Je sais que j’ai raison. Prenez cette bestiole monstrueuse que j’appelle « Rhyniognatha antiquagenitor » – assez grosse pour faire la une d’un film d’horreur, mais assez légère pour voler et patiner sur l’eau. Croiriez-vous qu’il produit également une résine étrangement utile, à durcissement rapide, qui a de multiples usages ? Elle peut épaissir sa carapace pour renforcer sa défense, pulvériser des gélatines dures comme des balles ou des gélatines molles qui durcissent au moment de l’impact afin d’étouffer les prédateurs qui s’approchent !",
+      "utility": "Ces perce-oreilles envahis par la végétation sont exactement ce qu’il te faut pour améliorer les défenses aériennes de ta tribu ! Voici un conseil : si tu écrases le bon Arthropleura, tu obtiendras une enzyme qui rend la colle Rhyniognatha aussi perturbatrice pour le TEK que la bouse de Dinopithecus. De plus, cette bestiole peut se coller à des créatures ou à des cargaisons et transporter des objets dans votre base ! Cela dit, l’élevage du Rhyniognathes n’est pas fait pour les personnes dégoûtées… Les mâles produisent une phéromone qui invite les femelles en train de pondre à les utiliser comme hôtes. En récoltant cette phéromone, vous pouvez marquer n’importe quelle créature pour que la femelle y dépose ses œufs. L’hôte incube alors une nouvelle génération de larves qui peuvent récolter ses meilleures caractéristiques. Si une pauvre bête se fait pondre des œufs par accident, vous pourrez peut-être la sauver en la plaçant dans un cryopode et en congelant les larves.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Dévonien",
+      "size": 5,
+      "stats": {
+        "level": 1,
+        "life": 900,
+        "lifePerLevelSavage": 153,
+        "stamina": 350,
+        "staminaPerLevelSavage": 17.5,
+        "oxygen": 800,
+        "oxygenPerLevelSavage": 80,
+        "food": 1100,
+        "foodPerLevelSavage": 22,
+        "weight": 500,
+        "weightPerLevelSavage": 10,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 800,
+        "torporPerLevelSavage": 48,
+        "torporDrain": 0.7
+      },
+      "taming": {
+        "type":"Inconnu",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false
+        }
+      }
     },
     {
-      "name": "Sabertooth"
+      "name": "Smilodon",
+      "description": "Le Smilodon Brutalis est un prédateur solitaire, généralement trouvé dans les régions froides et légèrement boisées. Les montagnes de l'île sont l'habitat parfait pour le Smilodon car sa fourrure le garde à l'abri de la température. Alors que ses crocs énormes sont excellents pour des lacérations, les griffes de la créature peuvent être tout aussi mortelles. Bien qu'il chasse la plupart de son temps en solitaire, le Smilodon Brutalis n'hésite pas à se joindre à de petits groupes. C'est en effet pour eux le seul moyen de venir à bout des plus grandes proies comme les mammouths. Plusieurs Smilodons peuvent attaquer un Carnotaurus, voire même un Tyrannosaurus. Ils ne doivent pas être sous-estimés.",
+      "utility": "Bien que n'étant pas aussi rapide que les Raptors, le Smilodon est une créature très résistante et d'un puissance incroyable. En outre, il peut être entraîné pour utiliser ses griffes pour écorcher les cadavres. Cela peut sembler morbide, mais cela lui permet de recueillir de grandes quantités de peau.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": " Pléistocène",
+      "size": 1,
+      "stats": {
+        "level": 1,
+        "life": 250,
+        "lifePerLevelSavage": 50,
+        "stamina": 200,
+        "staminaPerLevelSavage": 20,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 200,
+        "weightPerLevelSavage": 4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 500,
+        "torporPerLevelSavage": 30,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Sabertooth Salmon"
+      "name": "Smilodon",
+      "description": "Le Smilodon Brutalis est un prédateur solitaire, généralement trouvé dans les régions froides et légèrement boisées. Les montagnes de l'île sont l'habitat parfait pour le Smilodon car sa fourrure le garde à l'abri de la température. Alors que ses crocs énormes sont excellents pour des lacérations, les griffes de la créature peuvent être tout aussi mortelles. Bien qu'il chasse la plupart de son temps en solitaire, le Smilodon Brutalis n'hésite pas à se joindre à de petits groupes. C'est en effet pour eux le seul moyen de venir à bout des plus grandes proies comme les mammouths. Plusieurs Smilodons peuvent attaquer un Carnotaurus, voire même un Tyrannosaurus. Ils ne doivent pas être sous-estimés.",
+      "utility": "Bien que n'étant pas aussi rapide que les Raptors, le Smilodon est une créature très résistante et d'un puissance incroyable. En outre, il peut être entraîné pour utiliser ses griffes pour écorcher les cadavres. Cela peut sembler morbide, mais cela lui permet de recueillir de grandes quantités de peau.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Pléistocène",
+      "size": 1,
+      "stats": {
+        "level": 1,
+        "life": 250,
+        "lifePerLevelSavage": 50,
+        "stamina": 200,
+        "staminaPerLevelSavage": 20,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 200,
+        "weightPerLevelSavage": 4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 500,
+        "torporPerLevelSavage": 30,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande cuite supérieure"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieure"}
+          ]
+        }
+      }
     },
     {
-      "name": "Sarco"
+      "name": "Saumon a dents de sabre",
+      "description": "Plutôt banal par rapport aux créatures habituelles de l'île, l'Oncorhynchus Grexlamia est un poisson généralement passif. Beaucoup plus petit qu'un humain, sa principale forme de protection est de nager en banc. L'Oncorhynchus n'aime pas les conflits, et s'éloigne généralement très rapidement de tout ce qui est plus gros que lui. Cependant, une fois provoqué, l'Oncorhynchus devient très agressif en compagnie de ses congénères à proximité. Il s'agrippe à l'agresseur avec ses “dents de sabre” et commence à aspirer le sang de la créature. Cette seule perte de sang n'est pas dangereuse, mais avec un banc d'Oncorhynchus qui attaquent tous en même temps, l'agresseur présumé perd rapidement de la vitesse et de l'énergie en raison des saignements, se noyant s'il ne peut pas respirer sous l'eau.",
+      "utility": "Comme la plupart des petits poissons qui peuvent être rencontrés autour de l'île, l'Oncorhynchus ne peut pas être apprivoisé, mais il est souvent élevé en captivité pour ses ressources. En particulier, certaines parties de la viande d'Oncorhynchus sont considérées comme de la viande de très bonne qualité, souvent appelée viande de poisson supérieure et utilisée pour des recettes spécifiques.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": false,
+      "ridable": false,
+      "behavior": "Neutre",
+      "period": "Inconnue",
+      "size": 3
     },
     {
-      "name": "Spino"
+      "name": "Sarco",
+      "description": "Contrairement à certaines espèces aquatiques, le Sarcosuchus Excubitor est une machine à tuer d'une patience à toute épreuve. Il passe le plus clair de son temps à attendre dans l'eau qu'une proie s'approche. Cela dit, il lui arrive de revenir sur la terre ferme pour chasser lorsque la faim se fait sentir. La plupart des dinosaures étant lents dans l'eau, y plonger est un bon moyen de leur échapper. Ce n'est bien évidemment pas le cas avec un Sarcosuchus, qui est beaucoup plus rapide dans l'eau que sur terre.",
+      "utility": "Bien qu'il soit plutôt présent dans les rivières, le Sarcosuchus semble très à l'aise dans l'océan. Certains groupes les utilisent comme montures pour se débarrasser des Mégalodons ou accéder à certaines ressources.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Crétacé",
+      "size": 10,
+      "stats": {
+        "level": 1,
+        "life": 400,
+        "lifePerLevelSavage": 80,
+        "stamina": 450,
+        "staminaPerLevelSavage": 45,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 300,
+        "weightPerLevelSavage": 6,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 400,
+        "torporPerLevelSavage": 24,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette exceptionnelle"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande de poisson crue supérieure"},
+            {"name": "Viande crue supérieure"}
+          ]
+        }
+      }
     },
     {
-      "name": "Stegosaurus"
+      "name": "Spino",
+      "description": "Parmi les quelques carnivores de l'île qui peuvent égaler les Tyrannosaures, Spinosaurus aquareliga n'égal pas sa férocité. Les quatre pattes du Spinosaurus et sa grande voile le rendent assez rapide sur terre et incroyablement rapide dans l'eau. Il est capable de changer de position en passant du quadrupède au bipède. La créature est visuellement distinguée par sa voile spectaculaire. Dans mes voyages j'ai vu beaucoup de voiles différentes et colorées, car chaque Spinosaurus semble avoir une palette légèrement différente. Le seul fait réconfortant à propos de Spinosaurus est qu'il semble plus à la maison près de l'eau. Bien que la créature soit plus puissante, plus rapide, agile et insatiable lorsqu'elle est dans l'eau, elle tend à devenir moins hostile à mesure qu'elle s'en éloigne. À une occasion, je n'ai échappé à un Spinosaurus qu'en m'éloignant suffisamment de son lac pour qu'il se désintéresse.",
+      "utility": "Spinosaurus est un grand carnivore incroyablement bien équilibré. Plus rapide qu'un Tyrannosaure dans l'eau et capable de voyager sur terre contrairement à un Megalodon, sa polyvalence tout-terrain peut être inégalée. Bien que sa vitesse de déplacement soit plus lente dans une position de bipède, il acquiert une force d'attaque et une mobilité considérables sous cette forme. Pour les chasseurs qui souhaitent avoir une monture bien équilibrée, Spinosaurus peut être le choix idéal, s'ils arrivent à en acquérir un.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Crétacé inférieur",
+      "size": 5.4,
+      "stats": {
+        "level": 1,
+        "life": 700,
+        "lifePerLevelSavage": 140,
+        "stamina": 350,
+        "staminaPerLevelSavage": 35,
+        "oxygen": 650,
+        "oxygenPerLevelSavage": 65,
+        "food": 2600,
+        "foodPerLevelSavage": 260,
+        "weight": 300,
+        "weightPerLevelSavage": 6,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 850,
+        "torporPerLevelSavage": 51,
+        "torporDrain": 2.1
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette exceptionnelle"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande de poisson crue supérieure"},
+            {"name": "Viande crue supérieure"}
+          ]
+        }
+      }
     },
     {
-      "name": "Tapejara"
+      "name": "Stegosaurus",
+      "description": "Le Phiomia ignavus est un autre des animaux de troupeau généralement dociles de l'île. Ils sont suffisamment petits pour que presque tous les prédateurs puissent les abattre, mais suffisamment grands pour fournir beaucoup de viande. Sans la protection du troupeau et son instinct de fuir tout prédateur, ceux-ci seraient presque certainement chassés jusqu'à l'extinction. Les défenses et le tronc du Phiomia le rendent particulièrement adapté à la récupération de la flore du sol. Il utilise ses défenses pour déterrer la végétation, puis utilise son tronc pour ramasser le feuillage dans sa bouche. Les Phiomias adultes déterrent souvent de la nourriture pour leurs petits, et regarder un bébé Phiomia essayer d'utiliser sa trompe peut être assez amusant.",
+      "utility": "Bien qu'il soit tout à fait possible de conduire un Phiomia, ils sont un maigre choix. Ils fonctionnent très bien, cependant, en tant que mules. Si vous nourrissez le Phiomia avec un stimberry, il sert de laxatif dans le système digestif de la créature. Sachant cela, les communautés tribales en gardent souvent un troupeau comme bétail pour produire des quantités massives d'engrais.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "period": "Éocène",
+      "size": 1.3,
+      "stats": {
+        "level": 1,
+        "life": 650,
+        "lifePerLevelSavage": 130,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 6000,
+        "foodPerLevelSavage": 600,
+        "weight": 500,
+        "weightPerLevelSavage": 10,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 500,
+        "torporPerLevelSavage": 30,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Terror Bird"
+      "name": "Tapejara",
+      "description": "Le Tapejara Imperator est une merveille à regarder dans la nature. Il a une agilité étonnante par rapport à d'autres dinosaures volants de l'île en grande partie grâce à sa crête qui lui sert de gouvernail. Sa crête est en fait une sorte d'organe sensoriel. Elle lui fait non seulement, diminuer le rayon de braquage du Tapejara mais aussi lui fait prendre des vitesses élevées. Elle fournit également au Tapejara des informations supplémentaires pour l'aider à voler dans les airs avec une grâce incomparable. Ses griffes acérées lui permettent de s'accrocher aux troncs de grands Séquoia par exemple.",
+      "utility": "Les tribus semblent considérer le Tapejara comme l'équivalent d'un avion à réaction polyvalent, capable de changer de position rapidement et avec une agilité remarquable. Lorsqu'il est domestiqué, le Tapejara est généralement équipé d'une selle unique à double passager, ce qui permet à un passager de manier des armes alors que le pilote prend les rênes. Et quand le Tapejara est accroché, à la fois le passager et le pilote sont en mesure de tirer. En revanche, il manque fortement d'endurance et ne peut porter de lourdes charges de par sa constitution.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Crétacé",
+      "size": 3,
+      "stats": {
+        "level": 1,
+        "life": 325,
+        "lifePerLevelSavage": 55.25,
+        "stamina": 250,
+        "staminaPerLevelSavage": 12.5,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1600,
+        "foodPerLevelSavage": 160,
+        "weight": 280,
+        "weightPerLevelSavage": 5.6,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 450,
+        "torporPerLevelSavage": 27,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette supérieure"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"}
+          ]
+        }
+      }
     },
     {
-      "name": "Therizinosaur"
+      "name": "Terror Bird",
+      "description": "Pouvant faire une taille allant de 2,5 mètres à 3,5 mètres, le Phorusrhacidae Rapidesultor est un volatile très agressif qui est tout juste capable de planer très brièvement. En contrepartie, il utilise ses ailes pour s'équilibrer lorsqu'il sprinte très vite. Le vole du Phorusrhacidae est en fait plus proche d'un saut prolongé ou d'un vol plané qu'il prolonge en battant des ailes. Le Phorusrhacidae montre d'intéressants traits communs avec les théropodes tels que l'Utahraptor, le Carnotaurus et le Tyranosaurus. Il possède des traits similaires tels que la forme générale et les marques de prédation, mais ses attaques se résument à de légères frappes et à des coups avec élan.",
+      "utility": "Le Phorusrhacidae est une excellente monture de combat, plus particulièrement pour harceler et faire de la reconnaissance. Les cavaliers de Phorusrhacidae ont l'avantage d'un théropode rapide, mobile au sol tout en ayant une certaine liberté de mouvement dans les airs, en supposant que le cavalier puisse amadouer le Phorusrhacidae afin qu'il reste dans les airs pendant un long vol plané.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Paléocène",
+      "size": 3,
+      "stats": {
+        "level": 1,
+        "life": 270,
+        "lifePerLevelSavage": 54,
+        "stamina": 160,
+        "staminaPerLevelSavage": 16,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 120,
+        "weightPerLevelSavage": 2.4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 300,
+        "torporPerLevelSavage": 18,
+        "torporDrain": 2.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"}
+          ]
+        }
+      }
     },
     {
-      "name": "Thylaceo"
+      "name": "Therizinosaur",
+      "description": "Pouvant faire une taille allant de 2,5 mètres à 3,5 mètres, le Phorusrhacidae Rapidesultor est un volatile très agressif qui est tout juste capable de planer très brièvement. En contrepartie, il utilise ses ailes pour s'équilibrer lorsqu'il sprinte très vite. Le vole du Phorusrhacidae est en fait plus proche d'un saut prolongé ou d'un vol plané qu'il prolonge en battant des ailes. Le Phorusrhacidae montre d'intéressants traits communs avec les théropodes tels que l'Utahraptor, le Carnotaurus et le Tyranosaurus. Il possède des traits similaires tels que la forme générale et les marques de prédation, mais ses attaques se résument à de légères frappes et à des coups avec élan.",
+      "utility": "Le Phorusrhacidae est une excellente monture de combat, plus particulièrement pour harceler et faire de la reconnaissance. Les cavaliers de Phorusrhacidae ont l'avantage d'un théropode rapide, mobile au sol tout en ayant une certaine liberté de mouvement dans les airs, en supposant que le cavalier puisse amadouer le Phorusrhacidae afin qu'il reste dans les airs pendant un long vol plané.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Paléocène",
+      "size": 3,
+      "stats": {
+        "level": 1,
+        "life": 870,
+        "lifePerLevelSavage": 174,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 3000,
+        "foodPerLevelSavage": 300,
+        "weight": 365,
+        "weightPerLevelSavage": 7.3,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 925,
+        "torporPerLevelSavage": 55.5,
+        "torporDrain": 2.8
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette exceptionnelle"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Titanoboa"
+      "name": "Thylaceo",
+      "description": "Le Thylacoleo Furtimorsus est un grand marsupial puissant qui peut souvent être trouvé en chasse autour des arbres. Ses longues griffes en font un grimpeur de qualité. Il les utilise également à son avantage pendant la chasse. Il grimpe aux arbres et attend, pour tendre une embuscade aux proies qui passent en se jetant sur eux. Lorsqu'une chose aussi grande saute sur eux, la cible devient abasourdie et n'a plus aucune chance. Le Thylacoleo est connu pour la qualité de ses combats et de ses mâchoires puissantes. Une fois qu'il mord sa proie, il verrouille sa mâchoire qui peut contenir la plupart des petites créatures en place. Le Thylacoleo va ensuite déchirer sa proie sauvagement avec ses griffes acérées. Si il a besoin de s'échapper d'un combat, le Thylacoleo utilise ses pattes postérieures pour revenir en sécurité dans les arbres.",
+      "utility": "Le Thylacoleo est une monture modérément forte, et sa capacité à grimper aux arbres. Les petits raids sont particulièrement favorables avec le Thylacoleo, car il est bien adapté à des embuscades et des combats injustes.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Pliocène",
+      "size": 1.5,
+      "stats": {
+        "level": 1,
+        "life": 700,
+        "lifePerLevelSavage": 140,
+        "stamina": 400,
+        "staminaPerLevelSavage": 40,
+        "oxygen": 200,
+        "oxygenPerLevelSavage": 20,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 400,
+        "weightPerLevelSavage": 8,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 700,
+        "torporPerLevelSavage": 42,
+        "torporDrain": 1.9
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette extraordinaire"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande cuite supérieure"}
+          ]
+        }
+      }
     },
     {
-      "name": "Titanomyrma"
+      "name": "Titanoboa",
+      "description": "Le Thylacoleo Furtimorsus est un grand marsupial puissant qui peut souvent être trouvé en chasse autour des arbres. Ses longues griffes en font un grimpeur de qualité. Il les utilise également à son avantage pendant la chasse. Il grimpe aux arbres et attend, pour tendre une embuscade aux proies qui passent en se jetant sur eux. Lorsqu'une chose aussi grande saute sur eux, la cible devient abasourdie et n'a plus aucune chance. Le Thylacoleo est connu pour la qualité de ses combats et de ses mâchoires puissantes. Une fois qu'il mord sa proie, il verrouille sa mâchoire qui peut contenir la plupart des petites créatures en place. Le Thylacoleo va ensuite déchirer sa proie sauvagement avec ses griffes acérées. Si il a besoin de s'échapper d'un combat, le Thylacoleo utilise ses pattes postérieures pour revenir en sécurité dans les arbres.",
+      "utility": "Le Thylacoleo est une monture modérément forte, et sa capacité à grimper aux arbres. Les petits raids sont particulièrement favorables avec le Thylacoleo, car il est bien adapté à des embuscades et des combats injustes.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Paléocène",
+      "size": 14,
+      "stats": {
+        "level": 1,
+        "life": 300,
+        "lifePerLevelSavage": 60,
+        "stamina": 150,
+        "staminaPerLevelSavage": 15,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1200,
+        "foodPerLevelSavage": 0,
+        "weight": 150,
+        "weightPerLevelSavage": 8,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 175,
+        "torporPerLevelSavage": 10.5,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Oeuf extraordinaire"},
+            {"name": "Oeuf exceptionnel"},
+            {"name": "Oeuf supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Titanosaur"
+      "name": "Titanomyrma",
+      "description": "Étant l'une des plus petites créatures de l'île, la Titanomyrma fait tout de même la taille d'un chien. Ce carnivore se déplace en groupe, n'attaquant que pour se défendre. Lorsqu'elle se sent menacée, elle dégage une substance chimique, alertant ainsi ses congénères aux alentours. On différencie 2 types de Titanomyrma : les ouvrières et les légionnaires. Les ouvrières sont petites, rapides et récoltent les ressources. Les légionnaires quant à elle sont plus grandes et plus lentes mais possèdent des ailes leur permettant de défendre le groupe. Il est fort probable que des reines Titanomyrma existent.",
+      "utility":"La Titanomyrma étant très soudée à son groupe, elle ne peut être apprivoisée. Sa petite taille en fait un cible facile et une bonne quantité de Chitine peut être récupérée sur sa carcasse, à condition de ne pas tomber sur un essaim.",
+      "zone": ["1","8"],
+      "type": ["1"],
+      "category": ["1"],
+      "tamable": false,
+      "ridable": false,
+      "behavior": "Aggressif",
+      "period": "Éocène moyen",
+      "size": 0.07
     },
     {
-      "name": "Triceratops"
+      "name": "Titanosaure",
+      "description": "Aujourd'hui, j'ai été le témoin d'une chose extraordinaire. J'ai aperçu le très rare Titanosaurus Vagacastrum. Une vraie montagne sur pattes, c'est un sauropode absolument énorme qui a développé des protubérances osseuses sur tout le corps faisant office d'armure. nEntre ces plaques et sa taille encore inégalée, le Titanosaure est extrêmement difficile à vaincre. En plus de cela, le Titanosaure semble être comme immunisé contre n'importe quelle sorte d'effet narcotique. Ils écrasent également souvent des créatures proches d'eux avec leurs pieds, à chaque pas qu'ils font. Tandis que la plupart des sauropodes ignorent les créatures non hostiles, le Titanosaure cause des soucis à toutes les créatures qui envahissent son espace personnel. Ceci provient probablement du fait qu'ils se goinfrent de toutes les plantes qu'ils peuvent trouver. Le Titanosaure se nourrit constamment, ce qui l'aide certainement à rapidement récupérer sa santé, même après un combat avec plusieurs carnivores comme le Giganotosaure.",
+      "utility":"Je présume qu'un Titanosaure, par rapport à sa taille, est excessif pour un seul cavalier. Au contraire, pour les tribus qualifiées qui sont assez puissantes pour contrôler un de ces titans, la créature épique peut être employée comme une super forteresse mobile, capable de convoyer des quantités astronomiques de structures, défenses, et de créatures à travers l'île. La plupart des tribus nomades ont même leur base principale sur le dos d'un Titanosaure!",
+      "zone": ["1", "8","5"],
+      "type": ["1"],
+      "category": ["1"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "period": "Crétacé",
+      "size": 30,
+      "stats": {
+        "level": 1,
+        "life": 230000,
+        "lifePerLevelSavage": 0,
+        "stamina": 2000,
+        "staminaPerLevelSavage": 0,
+        "oxygen": 600,
+        "oxygenPerLevelSavage": 0,
+        "food": 8640,
+        "foodPerLevelSavage": 0,
+        "weight": 150,
+        "weightPerLevelSavage": 8,
+        "damage": 500,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 25000,
+        "torporPerLevelSavage": 1500,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type": "K.O",
+        "rates": 1,
+        "Knock out":[
+          {"name":"Boulet de Canon"},
+          {"name":"M.S.C.M"},
+          {"name":"Fusée Grenade propulsée"},
+          {"name":"Rocher"}
+        ]
+      }
     },
     {
-      "name": "Trilobite"
+      "name": "Triceratops",
+      "description": "Apparemment, un croisement d'un Tricératops et d'un Styracosaure, le Triceratops styrax a à la fois la face caractéristique à trois cornes du Tricératops et l'arête cornue proéminente de Styracosaure. Normalement un animal de pâturage très docile, Tricératops devient agressif une fois en colère. Tricératops chassera les prédateurs potentiels (et les voleurs d'oeufs) avec des préjugés incroyables. Fuir les tricératops est plus difficile qu'il n'y paraît en raison de sa capacité à charger et à éperonner sa cible. J'ai vu le Tricératops avoir une réaction particulièrement hostile face au Tyrannosaure, avec des troupeaux attaquant en masse. Bien qu'ils ne soient pas très rapides, ils sont mortels en groupe.",
+      "utility": "Une monture commune pour ceux qui chevauchent des dinosaures, le Tricératops se double d'un animal de meute et d'un dinosaure de combat. La crête osseuse du Tricératops fonctionne parfaitement comme couverture contre une attaque frontale, et la charge du dinosaure est incroyablement dangereuse. Il est très protecteur de ses semblables s'il se sens en danger. En présence de carnivores plus gros qui apparaissent comme une menace, Le Tricératops devient plus fort et se joint à l'effort des autres herbivores. Il est également capable de récolter une quantité considérable de ressources avec ses cornes en déchiquetant les fruits des feuilles, ce qui en fait un compagnon de travail très utile pour les petites tribus.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "period": "Crétacé supérieur",
+      "size": 4,
+      "stats": {
+        "level": 1,
+        "life": 375,
+        "lifePerLevelSavage": 75,
+        "stamina": 150,
+        "staminaPerLevelSavage": 15,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 3000,
+        "foodPerLevelSavage": 300,
+        "weight": 365,
+        "weightPerLevelSavage": 7.3,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 250,
+        "torporPerLevelSavage": 15,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette simple"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Troodon"
+      "name": "Trilobite",
+      "description": "Le Trilobite Conchadurus est un carnivore opportuniste qui se nourrit de tout ce qui est plus petit que lui. Sa carapace incroyablement résistante semble être sa seule défense, ce qui est le cas chez la plupart des créatures assez lentes. Le Trilobite est trop petit pour être une source de nourriture viable, on ne trouve rien d'autre que des tripes sous sa carapace. C'est cependant une bonne chose pour lui car les prédateurs n'y prêtent pas attention.",
+      "utility": "Le Trilobite ne peut être apprivoisé mais ce n'est pas pour autant qu'il n'a pas d'utilité. C'est une bonne source de Chitine pour n'importe quel aventurier peu courageux.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": false,
+      "ridable": false,
+      "behavior": "Passif",
+      "period": "Crétacé supérieur",
+      "size": 4,
+      "taming": {
+        "type":"Passif",
+        "rates": 1
+      }
+    },
+    {
+      "name": "Troodon",
+      "description": "Sûrement la créature non humaine la plus intelligente de l'île, le Troodon Magnanimus apprend très vite. Il comprend les choses importantes beaucoup plus rapidement que les autres créatures (y compris les humains), et sa nature sociable signifie qu'il enseigne aussi à ses congénères, les rendant ainsi plus intelligents. Si l'habileté du Troodon n'est pas son atout principal, en revanche, ses tactiques et son anatomie le sont. Il chasse particulièrement de nuit quand nous sommes les plus vulnérables et voit l'homme comme sa principale proie. Son audace le rend particulièrement dangereux à cause du poison de ses crocs acérés, qui draine l'endurance de toute créature, et paralyse purement et simplement les humains. Heureusement, le Troodon est assez petit. S'il était plus grand, il pourrait bien devenir la créature dominante de son écosystème",
+      "utility":"J'ai toujours pensé que le Troodon ne pouvait simplement pas être apprivoisé, jusqu'à ce que je vois enfin une survivante solitaire en compagnie d'un. Elle m'a dit qu'elle a laissé \"Troody\" chasser quelques petites créatures de sa tribu pour le sport, et il a en fait commencé à la suivre partout. Il semble que, bien que le Troodon soit trop intelligent pour tomber dans la combine habituelle de la domestication classique, il peut à la place gagner petit à petit en loyauté par une approche sociable qui lui permet de chasser. Depuis ce jour, je me suis demandée quels étaient les avantages qu'une meute de Troodons ultra-intelligents nés pour la guerre pouvait apporter à une tribu assez courageuse pour gagner les faveurs de ces carnivores malins.",
+      "zone": ["1" ,"8"],
+      "type": ["1"],
+      "category": ["1"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "period": "Crétacé supérieur",
+      "size": 4,
+      "stats": {
+        "level": 1,
+        "life": 200,
+        "lifePerLevelSavage": 40,
+        "stamina": 150,
+        "staminaPerLevelSavage": 15,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 100,
+        "foodPerLevelSavage": 10,
+        "weight": 100,
+        "weightPerLevelSavage": 2.8,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 250,
+        "torporPerLevelSavage": 15,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Sacrifice",
+        "rates": 1
+      }
     },
     {
       "name": "Tusoteuthis"
