@@ -2256,10 +2256,10 @@
         "speedPerLevelSavage": 0,
         "torpor": 550,
         "torporPerLevelSavage": 33,
-        "torporDrain": 0.3
+        "torporDrain": 0
       },
       "taming": {
-        "type":"K.O",
+        "type":"Passif",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
@@ -2271,8 +2271,8 @@
     },
     {
       "name": "Megalania",
-      "description": "Un plus petit parent du Sarcosuchus, «Kaprosuchus paludentium» est un carnivore aquatique que l'on trouve principalement dans les marais de l'île. Coureur naturellement rapide et encore plus rapide dans l'eau, c'est un chasseur solitaire qui éloigne les créatures petites à moyennes, en particulier celles isolées de leur meute. Lorsqu'il attaque, le Kaprosuchus utilise deux tactiques principales. Tout d'abord, il attend patiemment sous la surface de l'eau et, lorsque la cible est suffisamment proche, effectuera un saut latéral qu'il utilise pour se rapprocher rapidement de sa proie et la traîner sous l'eau. Deuxièmement, il attaque les zones vitales de la proie spécifiquement pour drainer son endurance. Ces deux techniques empêchent efficacement la plupart des créatures d'échapper au Kaprosuchus une fois qu'un assaut a commencé.",
-      "utility": "Les survivants sont généralement partagés quant à l'utilité de Kaprosuchus. Certains aiment sa vitesse à la fois dans et hors de l'eau, ce qui en fait l'une des montures tout-terrain de petite taille les plus rapides lors de déplacements dans les zones humides. D'autres n'aiment pas à quel point le Kaprosuchus est relativement fragile et ne pensent pas que sa vitesse élevée et ses attaques captivantes compensent cette lacune.",
+      "description": "Le Megalania Muruspede fait partie des plus grosses créatures que l'on puisse trouver dans les réseaux compliqués de grottes de l'île. Pouvant atteindre trois mètres de long, il peut grimper sur les parois des grottes sans aucune difficulté en utilisant ses griffes telles des piolets. Par chance, la taille du Megalania ne lui permet pas de prendre quiconque par surprise. Malheureusement pour les spéléologues, cela reste une créature agressive et dangereuse. De même que les autres Varanidae, le Megalania est une créature venimeuse. Son poison agit lentement mais il va drainer la force et la vie de la victime jusqu'à sa mort, à moins qu'elle ne soit guérie par un antidote très rare. Il est dit que les proies de Megalania sont souvent déchiquetées bien avant qu'elles ne succombent aux effets du poison.",
+      "utility": "La capacité qu'a le Megalania à escalader certaines parois est impressionnante. Malgré le fait qu'il ne soit ni la plus rapide ni la plus forte des montures de l'île, de nombreuses tribus s'en servent pour gravir les sommets de montagne ou franchir les fossés présents dans les grottes.",
       "zone": ["0","0","0","0"],
       "type": ["0","0","0","0"],
       "category": ["0","0","0","0"],
@@ -2283,22 +2283,22 @@
       "size": 6,
       "stats": {
         "level": 1,
-        "life": 200,
-        "lifePerLevelSavage": 40,
-        "stamina": 350,
-        "staminaPerLevelSavage": 35,
-        "oxygen": 0,
-        "oxygenPerLevelSavage": 0,
-        "food": 1200,
-        "foodPerLevelSavage": 120,
-        "weight": 140,
-        "weightPerLevelSavage": 2.8,
+        "life": 480,
+        "lifePerLevelSavage": 96,
+        "stamina": 400,
+        "staminaPerLevelSavage": 40,
+        "oxygen": 200,
+        "oxygenPerLevelSavage": 20,
+        "food": 1500,
+        "foodPerLevelSavage": 150,
+        "weight": 400,
+        "weightPerLevelSavage": 8,
         "damage": 100,      //valeur en % //
         "speed": 100,
         "speedPerLevelSavage": 0,
-        "torpor": 200,
-        "torporPerLevelSavage": 12,
-        "torporDrain": 0.3
+        "torpor": 700,
+        "torporPerLevelSavage": 42,
+        "torporDrain": 3.6
       },
       "taming": {
         "type":"K.O",
@@ -2306,7 +2306,7 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette régulière"},
+            {"name": "Croquette extraordinaire"},
             {"name": "Viande de mouton crue"},
             {"name": "Viande crue supérieur"},
             {"name": "Viande de mouton cuite"},
@@ -2316,25 +2316,290 @@
       }
     },
     {
-      "name": "Megaloceros"
+      "name": "Megaloceros",
+      "description": "Il est toujours étrange de voir Mammuthus Steincaput parmi les autres dinosaures. Ce géant domine la plupart des créatures de l'île et ne semble craindre que le Tyrannosaurus. On trouve beaucoup de Mammouths se déplaçant en troupeau dans les montagnes enneigées. Je ne saurais dire comme les troupeaux de Mammouths survivent dans les montagnes. Ils passent la plupart de leur temps à faire des allers-retours entre les sommets enneigés des montagnes et leurs plaines luxuriantes. Ils sont peut-être la cause de l'absence d'arbre sur les flancs des montagnes.",
+      "utility": "Le Mammuthus Steincaput ne se laisse pas apprivoiser facilement. Non pas parce qu'il est têtu, mais parce que sa grande taille le rend résistant aux tranquillisants. Une fois apprivoisé, il s'avère être très efficace à déraciner les arbres sans les transformer en branchages.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Passif",
+      "period": "Holocène",
+      "size": 3.5,
+      "stats": {
+        "level": 1,
+        "life": 300,
+        "lifePerLevelSavage": 60,
+        "stamina": 280,
+        "staminaPerLevelSavage": 28,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 1200,
+        "foodPerLevelSavage": 120,
+        "weight": 220,
+        "weightPerLevelSavage": 4.4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 175,
+        "torporPerLevelSavage": 10.5,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette simple"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Megalodon"
+      "name": "Megalodon",
+      "description": "Si ce n'était pas un dinosaure marin, le Carcharodon Ultramegalodon ferait partie des créatures les plus dangereuses de l'île. Il est l'équivalent aquatique du Tyrannosaurus. De plus, il est beaucoup plus rapide que n'importe quelle créature terrestre. Les Mégalodons nécessite de grandes quantités de nourriture, c'est pourquoi ils attaquent à vue. Les petits poissons n'ont par contre rien à craindre d'eux. Ils ne valent pas la peine de se fatiguer pour si peu.",
+      "utility": "Pour autant que je sache, personne n'a été en mesure d'apprivoiser un Carcharodon Ultramegalodon. En posséder un serait un atout majeur pour accéder à certaines ressources en plus d'avoir à ses cotés un féroce guerrier.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Miocène",
+      "size": 16,
+      "stats": {
+        "level": 1,
+        "life": 600,
+        "lifePerLevelSavage": 120,
+        "stamina": 320,
+        "staminaPerLevelSavage": 32,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 2000,
+        "foodPerLevelSavage": 200,
+        "weight": 250,
+        "weightPerLevelSavage": 5,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 800,
+        "torporPerLevelSavage": 48,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette supérieure"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Megalosaurus"
+      "name": "Megalosaurus",
+      "description": "Si ce n'était pas un dinosaure marin, le Carcharodon Ultramegalodon ferait partie des créatures les plus dangereuses de l'île. Il est l'équivalent aquatique du Tyrannosaurus. De plus, il est beaucoup plus rapide que n'importe quelle créature terrestre. Les Mégalodons nécessite de grandes quantités de nourriture, c'est pourquoi ils attaquent à vue. Les petits poissons n'ont par contre rien à craindre d'eux. Ils ne valent pas la peine de se fatiguer pour si peu.",
+      "utility": "Pour autant que je sache, personne n'a été en mesure d'apprivoiser un Carcharodon Ultramegalodon. En posséder un serait un atout majeur pour accéder à certaines ressources en plus d'avoir à ses cotés un féroce guerrier.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Jurassique moyen",
+      "size": 6,
+      "stats": {
+        "level": 1,
+        "life": 1025,
+        "lifePerLevelSavage": 205,
+        "stamina": 300,
+        "staminaPerLevelSavage": 30,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 2000,
+        "foodPerLevelSavage": 200,
+        "weight": 300,
+        "weightPerLevelSavage": 6,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 775,
+        "torporPerLevelSavage": 46.5,
+        "torporDrain": 0.3
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette supérieure"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Meganuera"
+      "name": "Méganeura",
+      "description": "La Meganeura Quatpenna est une espèce de libellule particulièrement grande. Bien qu'elle soit carnivore la Méganeura n'est pas agressif à moins d'être provoquée. Elle vie dans les zones humides et boisées de l'île, comme les marécages et les forêts tropicales, où elle y chasse de petits insectes. La Méganeura peut devenir agressive lorsque de la nourriture est dans les parages ou lorsqu'elle est dérangée pendant son festin. Elles se déplacent en essaim et attaquent les victimes inconscientes des Pulmonoscorpius, sans pour autant s'en prendre au Pulmonoscorpius lui-même.",
+      "utility": "Les insectes de l'île ont une taille démesurée. La quantité de dioxygène dans l'air devrait limiter la taille de la Méganeura (entre autres), mais cela ne semble pas être le cas. Peut-être que l'air est plus chargé en dioxygène que ce qu'on pensait.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": false,
+      "ridable": false,
+      "behavior": "Agressif",
+      "period": "Permien",
+      "size": 0.3
     },
     {
-      "name": "Mesopithecus"
+      "name": "Mesopithecus",
+      "description": "Le Mesopithecus Amicufur est une espèce de singe omnivore vivant principalement dans les jungles de l'île. Il est plus petit mais tout aussi rapide qu'un humain. Il est d'une nature curieuse mais peut devenir agressif lorsqu'il est entouré de ses congénères. Attention à ne rien laisser traîner près de lui, il chaparde tout ce qui tombe au sol. Le Mésopithèque ne semble pas être dérangé par les humains. Bien au contraire, il tend à être attiré par leur présence. Étant très joueur, le Mésopithèque jette parfois des excréments sur les humains. Certains le prennent plutôt mal, mais je suis sur que c'est purement amical.",
+      "utility": "Le régime alimentaire du Mésopithèque est très varié, bien qu'il ait une préférence pour les fruits. Le Mésopithèque est un compagnon fidèle qui n'hésitera pas à jeter des excréments aux visages d'intrus malveillants. Il est cependant trop petit pour servir de monture ou de mule.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Passif",
+      "period": "Inconnue",
+      "size": 3.5,
+      "stats": {
+        "level": 1,
+        "life": 115,
+        "lifePerLevelSavage": 23,
+        "stamina": 100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 450,
+        "foodPerLevelSavage": 45,
+        "weight": 70,
+        "weightPerLevelSavage": 1.4,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 60,
+        "torporPerLevelSavage": 3.6,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette basique"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Microraptor"
+      "name": "Microraptor",
+      "description": "Si ce n'était pas un dinosaure marin, le Carcharodon Ultramegalodon ferait partie des créatures les plus dangereuses de l'île. Il est l'équivalent aquatique du Tyrannosaurus. De plus, il est beaucoup plus rapide que n'importe quelle créature terrestre. Les Mégalodons nécessite de grandes quantités de nourriture, c'est pourquoi ils attaquent à vue. Les petits poissons n'ont par contre rien à craindre d'eux. Ils ne valent pas la peine de se fatiguer pour si peu.",
+      "utility": "Pour autant que je sache, personne n'a été en mesure d'apprivoiser un Carcharodon Ultramegalodon. En posséder un serait un atout majeur pour accéder à certaines ressources en plus d'avoir à ses cotés un féroce guerrier.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Jurassique moyen",
+      "size": 6,
+      "stats": {
+        "level": 1,
+        "life": 130,
+        "lifePerLevelSavage": 26,
+        "stamina": 100,
+        "staminaPerLevelSavage": 10,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 450,
+        "foodPerLevelSavage": 45,
+        "weight": 45,
+        "weightPerLevelSavage": 0.9,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 75,
+        "torporPerLevelSavage": 4.5,
+        "torporDrain": 0.8
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Fleur rare"},
+            {"name": "Champignon rare"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande crue supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Mosasaurus"
+      "name": "Mosasaure",
+      "description": "Si ce n'était pas un dinosaure marin, le Carcharodon Ultramegalodon ferait partie des créatures les plus dangereuses de l'île. Il est l'équivalent aquatique du Tyrannosaurus. De plus, il est beaucoup plus rapide que n'importe quelle créature terrestre. Les Mégalodons nécessite de grandes quantités de nourriture, c'est pourquoi ils attaquent à vue. Les petits poissons n'ont par contre rien à craindre d'eux. Ils ne valent pas la peine de se fatiguer pour si peu.",
+      "utility": "Pour autant que je sache, personne n'a été en mesure d'apprivoiser un Carcharodon Ultramegalodon. En posséder un serait un atout majeur pour accéder à certaines ressources en plus d'avoir à ses cotés un féroce guerrier.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Agressif",
+      "period": "Jurassique moyen",
+      "size": 6,
+      "stats": {
+        "level": 1,
+        "life": 3600,
+        "lifePerLevelSavage": 432,
+        "stamina": 400,
+        "staminaPerLevelSavage": 40,
+        "oxygen": 0,
+        "oxygenPerLevelSavage": 0,
+        "food": 8000,
+        "foodPerLevelSavage": 800,
+        "weight": 1300,
+        "weightPerLevelSavage": 26,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 3000,
+        "torporPerLevelSavage": 180,
+        "torporDrain": 12.8
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette exceptionnelle"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
       "name": "Moschops"
