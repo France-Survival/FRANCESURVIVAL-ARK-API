@@ -47,7 +47,7 @@
     {
       "name": "Achatina",
       "description": "L'Achatina Limusegnis est un mollusque terrestre trouvé principalement dans les jungles et marécages. Étant très lent, il constitue probablement la source de viande et de chitine la plus facile à récolter. Le système digestif de l'Achatina est très différent des autres créatures. Il rejette ses excréments sous la forme d'une substance collante et épaisse, que l'on peut apercevoir derrière lui pendant un court instant.",
-      "utility": "La substance gluante que sécrète l'Achatina est très similaire au ciment et au polymère organique utilisés pour les constructions. De nombreuses tribus les apprivoisent pour pouvoir la récolter naturellement à leur guise. La légende raconte que l'Achatina pourrait être apprivoisé avec un \"gâteau\" confectionné à partir de légumes.",
+      "utility": "La substance gluante que sécrète l'Achatina est très similaire au ciment et au polymère organique utilisés pour les constructions. De nombreuses tribus les apprivoisent pour pouvoir la récolter naturellement à leur guise. La légende raconte que l'Achatina pourrait être apprivoisé avec un \"gâteau\" confectionné à partir de Légumess.",
       "zone": ["1", "2", "3"],
       "type": ["1"],
       "category": ["1"],
@@ -68,7 +68,7 @@
           "food": {
             "useSanguineElixir": false,
             "items": [
-              {"name": "Délicieux gâteau aux légumes","effectiveness": 100}
+              {"name": "Délicieux gâteau aux Légumess"}
             ]
           }
         }
@@ -97,10 +97,10 @@
           "food": {
             "useSanguineElixir": false,
             "items": [
-              {"name": "Croquette supérieure","effectiveness": 99.8},
-              {"name": "Viande de mouton crue","effectiveness": 99},
-              {"name": "Viande crue supérieur","effectiveness": 98.5},
-              {"name": "Côtelette d’agneau cuite","effectiveness": 96.8}
+              {"name": "Croquette supérieure"},
+              {"name": "Viande de mouton crue"},
+              {"name": "Viande crue supérieur"},
+              {"name": "Côtelette d’agneau cuite"}
             ]
           }
         }
@@ -147,10 +147,10 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette régulière","effectiveness": 99.7},
-            {"name": "Viande de mouton crue","effectiveness": 99},
-            {"name": "Viande crue supérieur","effectiveness": 98.4},
-            {"name": "Côtelette d’agneau cuite","effectiveness": 97}
+            {"name": "Croquette régulière"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Côtelette d’agneau cuite"}
           ]
         }
       }
@@ -179,10 +179,10 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette régulière","effectiveness": 100},
-            {"name": "Viande de mouton crue","effectiveness": 97.6},
-            {"name": "Viande crue supérieur","effectiveness": 95.7},
-            {"name": "Côtelette d’agneau cuite","effectiveness": 90.9}
+            {"name": "Croquette régulière"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
           ]
         }
       }
@@ -210,9 +210,9 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Viande Avariée","effectiveness": 89.6},
-            {"name": "Viande crue","effectiveness": 16.9},
-            {"name": "Viande de poisson crue","effectiveness": 3.2}
+            {"name": "Viande Avariée"},
+            {"name": "Viande crue"},
+            {"name": "Viande de poisson crue"}
           ]
         }
       }
@@ -241,9 +241,9 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette Simple","effectiveness": 99.9},
-            {"name": "Chitine","effectiveness": 98},
-            {"name": "Viande de poisson crue","effectiveness": 3.2}
+            {"name": "Croquette simple"},
+            {"name": "Chitine"},
+            {"name": "Viande de poisson crue"}
           ]
         }
       }
@@ -272,10 +272,10 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette supérieure","effectiveness": 99.8},
-            {"name": "Viande de mouton crue","effectiveness": 99.3},
-            {"name": "Viande crue supérieur","effectiveness": 98.8},
-            {"name": "Côtelette d’agneau cuite","effectiveness": 97.3}
+            {"name": "Croquette supérieure"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Côtelette d’agneau cuite"}
           ]
         }
       }
@@ -303,9 +303,9 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Bouillon de connaissance","effectiveness": 100},
-            {"name": "Viande avariée","effectiveness": 98.1},
-            {"name": "Viande crue","effectiveness": 53.3}
+            {"name": "Bouillon de connaissance"},
+            {"name": "Viande avariée"},
+            {"name": "Viande crue"}
           ]
         }
       }
@@ -334,10 +334,10 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette régulière","effectiveness": 99.8},
-            {"name": "Viande de poisson crue supérieure","effectiveness": 89.6},
-            {"name": "Viande de poisson cuite supérieure","effectiveness": 68.2},
-            {"name": "Viande de poisson crue","effectiveness": 48.7}
+            {"name": "Croquette régulière"},
+            {"name": "Viande de poisson crue supérieure"},
+            {"name": "Viande de poisson cuite supérieure"},
+            {"name": "Viande de poisson crue"}
           ]
         }
       }
@@ -365,10 +365,10 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette exceptionnelle","effectiveness": 99.8},
-            {"name": "Viande de mouton crue","effectiveness": 98.8},
-            {"name": "Viande crue supérieur","effectiveness": 98},
-            {"name": "Viande de poisson crue","effectiveness": 95.9}
+            {"name": "Croquette exceptionnelle"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de poisson crue"}
           ]
         }
       }
@@ -397,10 +397,10 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette régulière","effectiveness": 100},
-            {"name": "Viande de mouton crue","effectiveness": 98.8},
-            {"name": "Viande crue supérieur","effectiveness": 99.7},
-            {"name": "Viande de mouton cuite","effectiveness": 99.5}
+            {"name": "Croquette régulière"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"}
           ]
         }
       }
@@ -429,10 +429,10 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette Exceptionnelle","effectiveness": 100},
-            {"name": "Légume","effectiveness": 97.6},
-            {"name": "Mejoberry","effectiveness": 95.8},
-            {"name": "Berries","effectiveness": 91}
+            {"name": "Croquette Exceptionnelle"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
           ]
         }
       }
@@ -461,10 +461,10 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette régulière","effectiveness": 100},
-            {"name": "Légume","effectiveness": 97.6},
-            {"name": "Mejoberry","effectiveness": 95.7},
-            {"name": "Berries","effectiveness": 90.9}
+            {"name": "Croquette régulière"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
           ]
         }
       }
@@ -493,10 +493,10 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette régulière","effectiveness": 99.8},
-            {"name": "Viande de mouton crue","effectiveness": 99.3},
-            {"name": "Viande crue supérieur","effectiveness": 98.8},
-            {"name": "Viande de mouton cuite","effectiveness": 97.3}
+            {"name": "Croquette régulière"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"}
           ]
         }
       }
@@ -525,10 +525,10 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette supérieure","effectiveness": 100},
-            {"name": "Légume","effectiveness": 97.4},
-            {"name": "Mejoberry","effectiveness": 95.7},
-            {"name": "Berries","effectiveness": 90.8}
+            {"name": "Croquette supérieure"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
           ]
         }
       }
@@ -556,8 +556,8 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Pinte de bière","effectiveness": 100},
-            {"name": "Stimberry","effectiveness": 9.8}
+            {"name": "Pinte de bière"},
+            {"name": "Stimberry"}
           ]
         }
       }
@@ -617,9 +617,9 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Viande de mouton crue","effectiveness": 99.7},
-            {"name": "Viande crue supérieur","effectiveness": 99.7},
-            {"name": "Viande de poisson crue supérieure","effectiveness": 99.1}
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de poisson crue supérieure"}
           ]
         }
       }
@@ -632,44 +632,193 @@
       "type": ["0","0","0","0"],
       "category": ["0","0","0","0"],
       "tamable": true,
-      "ridable": false,
+      "ridable": true,
       "behavior": "Agressif",
       "period": "Miocène inférieur",
       "size": 2.2,
       "stats": {
         "level": 1,
-        "torpor": 25,
+        "torpor": 800,
         "torporDrain": 1.8,
-        "torporPerLevel": 1.5
+        "torporPerLevel": 48
       },
       "taming": {
-        "type":"Passif",
+        "type":"K.O",
         "rates": 1,
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette supérieure","effectiveness": 100},
-            {"name": "Viande de mouton crue","effectiveness": 98.4},
-            {"name": "Viande de mouton cuite","effectiveness": 94.9},
-            {"name": "Viande crue supérieur","effectiveness": 98.2}
+            {"name": "Croquette supérieure"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande crue supérieur"}
           ]
         }
       }
     },
     {
-      "name": "Dilophosaur"
+      "name": "Dilophosaure",
+      "description": "Le Dilophosaurus sputatrix est une créature étrange. Il fait un peu plus de la moitié de la taille des dilophosaures connus et fuit les agresseurs aussi souvent qu'il les combat. Le Dilophosaurus sputatrix a quelques traits peu communs dans le genre Dilophosaurus. Il a un appel très aigu et une crête de peau décorative sur son cou. Je crois que ceux-ci sont utilisés pour attirer des partenaires, ainsi que pour intimider les proies et les prédateurs potentiels. Au lieu d'attaquer sa proie carrément, le Dilophosaurus sputatrix crache du venin pour l'affaiblir et la paralyser avant de se déplacer pour la tuer.",
+      "utility": "En raison de leur cri aigu et de leur capacité à attaquer les intrus à distance, le Dilophosaurus semble le plus adapté comme «chien de garde». En raison de leur petite taille, ils ne conviennent pas comme montures.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Agressif",
+      "period": "Jurassique inférieur",
+      "size": 2,
+      "stats": {
+        "level": 1,
+        "torpor": 75,
+        "torporDrain": 0.3,
+        "torporPerLevel": 4.5
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette basique"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Dimetrodon"
+      "name": "Dimetrodon",
+      "description": "Le Dimetrodon Calorector fait partie des quelques carnivores passifs de l'île. Se nourrissant de petites proies, il ne s'attaquera à rien de plus gros qu'un Coelacanthe. La crête dorsale du Dimétrodon lui permet de réguler sa température d'une manière fascinante. Le Dimétrodon est l'un des rares carnivores sur l'île qui pourrait être classé comme plutôt amical à l'état sauvage. Il va tantôt s'incliner pour créer une zone d'ombre, tantôt contracter ses vaisseaux pour dégager de la chaleur. Ses deux caractéristiques lui permettent de vivre n'importe où, bien qu'il ait une préférence pour les marécages et leur nourriture abondante.",
+      "utility": "A cause de sa crête et de sa petite taille, le Dimétrodon ne peut pas être utilisé comme une monture. Sa crête permet cependant de survivre aux pires conditions lorsqu'on est à proximité. C'est grâce à elle que j'ai pu affronter plus d'un blizzard lors de mes expéditions au Nord de l'île!",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Neutre",
+      "period": "Permien",
+      "size": 1,
+      "stats": {
+        "level": 1,
+        "torpor": 750,
+        "torporDrain": 5,
+        "torporPerLevel": 45
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Dimorphodon"
+      "name": "Dimorphodon",
+      "description": "Le Dimorphodon Equesica fait partie de ses créatures possédant une double personnalité. Il est la plupart du temps passif mais se défendra sans hésiter une seconde. Il chassera son agresseur sans relâche, même si celui-ci est bien plus grand que lui. Il peut venir à bout de petites proies en un rien de temps grâce à ses dents aiguisés comme des rasoirs. Bien qu'il ne dépasse que rarement le mètre, le Dimorphodon est des plus dangereux, particulièrement lorsqu'il est accompagné de ses congénères.",
+      "utility": "Leur rapidité et leur morsure dévastatrice permettent aux hordes de Dimorphodons de venir à bout de proies faisant plusieurs fois leur taille. Mieux vaut donc ne pas chasser près d'eux. Le Dimorphodon est à la fois un compagnon facilement apprivoisé et un guerrier des plus féroces. Au combat, il attaquera directement l'ennemi plutôt que sa monture, ne lui laissant ainsi pas de répit.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Neutre",
+      "period": "Jurassique inférieur",
+      "size": 1,
+      "stats": {
+        "level": 1,
+        "torpor": 750,
+        "torporDrain": 5,
+        "torporPerLevel": 45
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"},
+            {"name": "Viande de poisson crue supérieure"}
+          ]
+        }
+      }
     },
     {
-      "name": "Diplocaulus"
+      "name": "Diplocaulus",
+      "description": "Présidant presque exclusivement dans les marais de l'île, le Diplocaulus Natatorinutrix est un petit amphibien. Il se nourrit principalement de petits poissons et fait office d'amuse-bouche pour les plus grands carnivores. Parce qu'il est la proie de beaucoup de créatures, le Diplocaulus est devenu très peureux et privilégiera la fuite au combat. Sa capacité à retenir son souffle pendant de longues périodes lui permet d'échapper à la plupart des prédateurs.",
+      "utility": "Les plongeurs avérés se servent du Diplocaulus comme d'une bouteille d'oxygène naturelle : la poche d'air situé dans le crane de ce dernier permet de respirer sous l'eau pendant de longues minutes, favorisant ainsi l'exploration sous-marine. Le Diplocaulus est également un fin chasseur en ce qui concerne les Trilobites.",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": false,
+      "behavior": "Passif",
+      "period": "Permien",
+      "size": 1,
+      "stats": {
+        "level": 1,
+        "torpor": 750,
+        "torporDrain": 5,
+        "torporPerLevel": 45
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette simple"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieur"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieur"}
+          ]
+        }
+      }
     },
     {
-      "name": "Diplodocus"
+      "name": "Diplodocus",
+      "description": "Bien qu'il soit l'une des plus grandes créatures de l'île, le Diplodocus insulaprincep fait partie des plus petits sauropodes de l'île. Au lieu de taille et d'intelligence, le Diplodocus a développé une vitesse maximale plus rapide et une plus grande endurance. À pleine maturité, il n'atteint généralement qu'environ la moitié de la taille du brontosaure plutôt énorme. Le Diplodocus est une autre créature dont la survie continue sur l'île me déroute. C'est un animal à la tête très épaisse et confiant, souvent à son détriment mortel. Il ne fuit jamais les prédateurs qu'après l'avoir attaqué à plusieurs reprises, préférant faire de nombreuses tentatives infructueuses d'amitié. Pour une raison étrange, le Diplodocus fait tellement confiance aux humains qu'il ne semble pas se battre contre eux… jamais!",
+      "utility": "En raison du cadre plus petit de Diplodocus, il ne peut pas supporter le type de selle «plate-forme» que d'autres grandes créatures peuvent. Pour compenser cela, de nombreuses tribus utilisent à la place une selle passager à onze places qui permet au Diplodocus de transporter en toute sécurité dix cavaliers supplémentaires. Ces passagers utilisent souvent des armes à distance pour protéger la créature ou pour attaquer les ennemis proches lors de leurs déplacements!",
+      "zone": ["0","0","0","0"],
+      "type": ["0","0","0","0"],
+      "category": ["0","0","0","0"],
+      "tamable": true,
+      "ridable": true,
+      "behavior": "Neutre",
+      "period": "Jurassique supérieur",
+      "size": 8,
+      "stats": {
+        "level": 1,
+        "torpor": 3000,
+        "torporDrain": 0.8,
+        "torporPerLevel": 180
+      },
+      "taming": {
+        "type":"K.O",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette régulière"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
       "name": "Dire Bear"
