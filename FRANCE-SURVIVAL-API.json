@@ -4091,7 +4091,7 @@
       "ridable": true,
       "behavior": "Neutre",
       "period": "Crétacé supérieur",
-      "size": 4,
+      "size": 7.9,
       "stats": {
         "level": 1,
         "life": 375,
@@ -4136,7 +4136,7 @@
       "ridable": false,
       "behavior": "Passif",
       "period": "Crétacé supérieur",
-      "size": 4,
+      "size": 0.7,
       "taming": {
         "type":"Passif",
         "rates": 1
@@ -4151,9 +4151,9 @@
       "category": ["1"],
       "tamable": true,
       "ridable": true,
-      "behavior": "Neutre",
+      "behavior": "Aggressif",
       "period": "Crétacé supérieur",
-      "size": 4,
+      "size": 2.4,
       "stats": {
         "level": 1,
         "life": 200,
@@ -4179,14 +4179,140 @@
       }
     },
     {
-      "name": "Tusoteuthis"
+      "name": "Tusoteuthis",
+      "description": "Le Tusoteuthis Vampyrus est un prédateur aquatique très agressif. Mesurant environ 9 mètres, le Tusoteuthis est une terreur des profondeurs. Lorsqu'il chasse, il écrase sa proie avec ses tentacules tout en siphonnant son sang à l'aide de ses deux crochets. Le Tusoteuthis est un adversaire terrifiant pour plusieurs raisons. Tout d'abord, son étreinte rend lentement sa victime inconsciente. Ensuite, il régénère sa santé lorsqu'il absorbe le sang de celle-ci. Et enfin, si le Tusoteuthis se sent en position de faiblesse, il envoie un nuage d'encre couvrant ainsi sa fuite.",
+      "utility":"L'un des plus grands avantages à apprivoiser un Tusoteuthis est la récolte de son encre. Contrairement à l'encre normale, l'encre du Tusoteuthis est très grasse et peut être raffinée en essence. Entre ça et ses capacités de combat, le Tusoteuthis est une excellente créature aquatique, malgré sa faible vitesse.",
+      "zone": ["6"],
+      "type": ["3"],
+      "category": ["1"],
+      "tamable": true,
+      "ridable":true,
+      "behavior": "Aggressif",
+      "period": "Crétacé supérieur",
+      "size": 7.5,
+      "stats": {
+        "level": 1,
+        "life": 200,
+        "lifePerLevelSavage": 40,
+        "stamina": 150,
+        "staminaPerLevelSavage": 15,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 100,
+        "foodPerLevelSavage": 10,
+        "weight": 100,
+        "weightPerLevelSavage": 2.8,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 250,
+        "torporPerLevelSavage": 15,
+        "torporDrain": 0
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Perle Noire"},
+            {"name": "Viande cuite supérieur"},
+            {"name": "Viande crue"},
+            {"name": "Viande de poisson cuite supérieure"}
+          ]
+        }
+      }
     },
     {
-      "name": "Woolly Rhino"
+      "name": "Rhinocéros laineux",
+      "description": "Le Coelodonta utiliserro est un herbivore amical, familier de la toundra et des régions herbeuses de l'île. C'est une créature imposante et dangereuse même s'il semble plutôt confiant de la faune autour de lui. Une fois qu'il est attaqué, le Coelodonta fonce tout droit sur son ennemi. Sa puissance augmente quand il charge, et dépendant de sa vitesse à l'impact, le résultat peut être terrifiant. Avec suffisamment d'espace pour charger, il peut même embrocher la plus grosse des créatures avec un seul coup de corne ! Malgré la puissance du Coelodonta, beaucoup de tribus le chassent intensivement pour ses ressources uniques. Ses cornes peuvent être moulues en une poutre très stimulante, et son épaisse fourrure peut habiller de nombreux équipements isolants, faisant du Coelodonta une créature très recherchée. Même les tribus les moins évoluées chassent en groupe pour les abattre, à leurs plus grands risques.",
+      "utility":"Quand il n'est pas chassé pour ses cornes, le Coelodonta fait une excellente bête de somme. Sa capacité à affronter des ennemis bien plus gros que lui ainsi que sa capacité à porter du poids assez considérable en font un plus pour tout échange commercial ou expédition de récolte.",
+      "zone": ["5"],
+      "type": ["1"],
+      "category": ["1"],
+      "tamable": true,
+      "ridable":true,
+      "behavior": "Neutre",
+      "period": "Crétacé supérieur",
+      "size": 7.5,
+      "stats": {
+        "level": 1,
+        "life": 500,
+        "lifePerLevelSavage": 100,
+        "stamina": 120,
+        "staminaPerLevelSavage": 12,
+        "oxygen": 100,
+        "oxygenPerLevelSavage": 10,
+        "food": 3000,
+        "foodPerLevelSavage": 300,
+        "weight": 750,
+        "weightPerLevelSavage": 15,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 600,
+        "torporPerLevelSavage": 36,
+        "torporDrain": 0.9
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette supérieure"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Berries"}
+          ]
+        }
+      }
     },
     {
-      "name": "Yutryannus"
+      "name": "Yutyrannus",
+      "description": "Le Coelodonta utiliserro est un herbivore amical, familier de la toundra et des régions herbeuses de l'île. C'est une créature imposante et dangereuse même s'il semble plutôt confiant de la faune autour de lui. Une fois qu'il est attaqué, le Coelodonta fonce tout droit sur son ennemi. Sa puissance augmente quand il charge, et dépendant de sa vitesse à l'impact, le résultat peut être terrifiant. Avec suffisamment d'espace pour charger, il peut même embrocher la plus grosse des créatures avec un seul coup de corne ! Malgré la puissance du Coelodonta, beaucoup de tribus le chassent intensivement pour ses ressources uniques. Ses cornes peuvent être moulues en une poutre très stimulante, et son épaisse fourrure peut habiller de nombreux équipements isolants, faisant du Coelodonta une créature très recherchée. Même les tribus les moins évoluées chassent en groupe pour les abattre, à leurs plus grands risques.",
+      "utility":"Quand il n'est pas chassé pour ses cornes, le Coelodonta fait une excellente bête de somme. Sa capacité à affronter des ennemis bien plus gros que lui ainsi que sa capacité à porter du poids assez considérable en font un plus pour tout échange commercial ou expédition de récolte.",
+      "zone": ["5"],
+      "type": ["1"],
+      "category": ["1"],
+      "tamable": true,
+      "ridable":true,
+      "behavior": "Neutre",
+      "period": "Crétacé supérieur",
+      "size": 7.5,
+      "stats": {
+        "level": 1,
+        "life": 1100,
+        "lifePerLevelSavage": 220,
+        "stamina": 420,
+        "staminaPerLevelSavage": 42,
+        "oxygen": 150,
+        "oxygenPerLevelSavage": 15,
+        "food": 3000,
+        "foodPerLevelSavage": 300,
+        "weight": 500,
+        "weightPerLevelSavage": 10,
+        "damage": 100,      //valeur en % //
+        "speed": 100,
+        "speedPerLevelSavage": 0,
+        "torpor": 1550,
+        "torporPerLevelSavage": 93,
+        "torporDrain": 0.7
+      },
+      "taming": {
+        "type":"Passif",
+        "rates": 1,
+        "food": {
+          "useSanguineElixir": false,
+          "items": [
+            {"name": "Croquette exceptionnelle"},
+            {"name": "Viande de mouton crue"},
+            {"name": "Viande crue supérieure"},
+            {"name": "Viande de mouton cuite"},
+            {"name": "Viande cuite supérieure"}
+          ]
+        }
+      }
     }
   ]
 }
-
