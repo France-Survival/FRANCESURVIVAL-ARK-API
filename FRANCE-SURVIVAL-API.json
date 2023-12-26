@@ -54,7 +54,7 @@
         "Sweet Vegetable Cake": {
           "amount": 5,
           "time": "unknown",
-          "effectivness": "unknown"
+          : "unknown"
         }
       },
       "category": "Herbivore",
@@ -1741,11 +1741,11 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette Exceptionnelle","effectiveness": 99.7},
-            {"name": "Viande de Mouton Crue","effectiveness": 98.8},
-            {"name": "Viande crue supérieure","effectiveness": 98.2},
-            {"name": "Côtelette d’agneau cuite","effectiveness": 96},
-            {"name": "Viande cuite supérieure","effectiveness": 93}
+            {"name": "Croquette Exceptionnelle"},
+            {"name": "Viande de Mouton Crue"},
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -1774,11 +1774,10 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette Simple","effectiveness": 99.8},
-            {"name": "Viande de Mouton Crue","effectiveness": 99.2},
-            {"name": "Viande crue supérieure","effectiveness": 98.5},
-            {"name": "Côtelette d’agneau cuite","effectiveness": 97},
-            {"name": "Viande cuite supérieure","effectiveness": 95}
+            {"name": "Croquette Simple"},
+            {"name": "Viande de Mouton Crue"},
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"}
           ]
         }
       }
@@ -1807,11 +1806,11 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette Exceptionnelle","effectiveness": 99.8},
-            {"name": "Viande de Mouton Crue","effectiveness": 99.2},
-            {"name": "Viande crue supérieure","effectiveness": 98.8},
-            {"name": "Côtelette d’agneau cuite","effectiveness": 97.3},
-            {"name": "Viande cuite supérieure","effectiveness": 95.2}
+            {"name": "Croquette Exceptionnelle"},
+            {"name": "Viande de Mouton Crue"},
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -1859,11 +1858,11 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name": "Croquette Réguliere","effectiveness": 99.8},
-            {"name": "Viande de Mouton Crue","effectiveness": 99.2},
-            {"name": "Viande crue supérieure","effectiveness": 98.5},
-            {"name": "Côtelette d’agneau cuite","effectiveness": 97},
-            {"name": "Viande cuite supérieure","effectiveness": 95}
+            {"name": "Croquette Réguliere"},
+            {"name": "Viande de Mouton Crue"},
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -1908,11 +1907,11 @@
       "food": {
         "useSanguineElixir": false,
         "items":[
-        {"name":"Croquette Réguliere","effectivness": 99.7}, 
-        {"name":"Poisson de Qualité supérieure crue","effectivness": 98.4},
-        {"name":"Viande de mouton" ,"effectivness": 98.4},
-        {"name":"Viande crue supérieure" ,"effectivness": 97.4},
-        {"name":"Côtelette d’agneau cuite" ,"effectivness": 94.8}
+        {"name":"Croquette Réguliere"}, 
+        {"name":"Poisson de Qualité supérieure crue"},
+        {"name":"Viande de mouton" },
+        {"name":"Viande crue supérieure" },
+        {"name":"Côtelette d’agneau cuite"}
       ]}
   },
     {
@@ -1940,11 +1939,11 @@
       "food": {
         "useSanguineElixir": false,
         "items":[
-        {"name":"Croquette Exceptionnelle","effectivness": 100}, 
-        {"name":"Viande de mouton","effectivness": 99.8},
-        {"name":"Poisson de Qualité supérieure crue","effectivness": 99.8},
-        {"name":"Viande crue supérieure","effectivness": 99.7},
-        {"name":"Côtelette d’agneau cuite","effectivness": 99.4}
+        {"name":"Croquette Exceptionnelle"}, 
+        {"name":"Viande de mouton"},
+        {"name":"Poisson de Qualité supérieure crue"},
+        {"name":"Viande crue supérieure"},
+        {"name":"Côtelette d’agneau cuite"}
       ]}
     }
   },
@@ -1971,10 +1970,10 @@
         "food": {
           "useSanguineElixir": false,
           "items":[
-            {"name": "Croquette Réguliere","effectivness": 100},
-            {"name": "Légumes","effectivness": 97.6},
-            {"name": "Mejoberry","effectivness": 95.8},
-            {"name": "Baies","effectivness": 91}
+            {"name": "Croquette Réguliere"},
+            {"name": "Légumes"},
+            {"name": "Mejoberry"},
+            {"name": "Baies"}
         ]}
       }      
   },
@@ -2002,11 +2001,11 @@
         "food": {
           "useSanguineElixir": false,
           "items":[
-          {"name":"Croquette Supérieure","effectivness": 99.6}, 
-          {"name":"Viande de mouton","effectivness": 98.8},
-          {"name":"Viande crue supérieure","effectivness": 97.9},
-          {"name":"Côtelette d’agneau cuite","effectivness": 95.5},
-          {"name":" Viande cuite supérieure","effectivness": 92.2}
+          {"name":"Croquette Supérieure"}, 
+          {"name":"Viande de mouton"},
+          {"name":"Viande crue supérieure"},
+          {"name":"Côtelette d’agneau cuite"},
+          {"name":" Viande cuite supérieure"}
         ]}
       }
   },
@@ -2034,11 +2033,11 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-            {"name":"Croquette Réguliere","effectivness": 99.7 },
-            {"name": "Viande de mouton","effectivness": 99},
-            {"name":"Viande crue supérieure","effectivness": 98.8},
-            {"name":"Côtelette d’agneau cuite","effectivness": 97 },
-            {"name":" Viande cuite supérieure","effectivness": 95.2}
+            {"name":"Croquette Réguliere"},
+            {"name": "Viande de mouton"},
+            {"name":"Viande crue supérieure"},
+            {"name":"Côtelette d’agneau cuite" },
+            {"name":" Viande cuite supérieure"}
           ]
         }
       }
@@ -2067,10 +2066,10 @@
         "food": {
         "useSanguineElixir": false,
         "items":[
-        {"name":"Croquette Exceptionnelle","effectivness": 100},
-        {"name":"Légumes","effectivness": 98.4},
-        {"name":"Mejoberry","effectivness": 97.2},
-        {"name":"Baies","effectivness": 93.9}
+        {"name":"Croquette Exceptionnelle"},
+        {"name":"Légumes"},
+        {"name":"Mejoberry"},
+        {"name":"Baies"}
       ]}
       }
   },
@@ -2098,11 +2097,11 @@
         "food": {
           "useSanguineElixir": false,
           "items":[
-          {"name":"Croquette Extraordinaire","effectivness": 99.6},
-          {"name":"Viande de mouton Cuite","effectivness": 82.1},
-          {"name":" Viande cuite supérieure","effectivness": 56.6},
-          {"name":"Viande de mouton Crue","effectivness": 72.1},
-          {"name":"Viande Cuite","effectivness": 46.2}
+          {"name":"Croquette Extraordinaire"},
+          {"name":"Viande de mouton Cuite"},
+          {"name":" Viande cuite supérieure"},
+          {"name":"Viande de mouton Crue"},
+          {"name":"Viande Cuite"}
         ]}
     }
   },
@@ -2130,10 +2129,10 @@
         "food": {
           "useSanguineElixir": false,
           "items":[
-          {"name":"Oeuf de Tricératops","effectivness": 96.5},
-          {"name":"Oeuf d'Argentavis","effectivness": 85.1},
-          {"name":"Oeuf de pteranodon","effectivness": 78.28},
-          {"name":"Oeuf de dodo","effectivness": 72.3}
+          {"name":"Oeuf de Tricératops"},
+          {"name":"Oeuf d'Argentavis"},
+          {"name":"Oeuf de pteranodon"},
+          {"name":"Oeuf de dodo"}
         ]
         }   
       }
@@ -2210,10 +2209,10 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-          {"name":"Croquette Simple","effectivness": 100},
-          {"name":"Légumes","effectivness": 97.6},
-          {"name":"Mejoberry","effectivness": 95.7},
-          {"name":"Baies","effectivness": 90.9}
+          {"name":"Croquette Simple"},
+          {"name":"Légumes"},
+          {"name":"Mejoberry"},
+          {"name":"Baies"}
         ]
       }
     }
@@ -2278,11 +2277,11 @@
         "food": {
           "useSanguineElixir": false,
           "items":[
-          {"name":"50 Perle Noire","effectivness": 100},
-          {"name":"30 Viande de Qualité Cuite","effectivness": 98.8},
-          {"name":"20 Viande Crue" ,"effectivness": 94.3},
-          {"name":"30 Poisson de Qualité Cuite","effectivness": 93},
-          {"name":"30 Viande Cuite","effectivness": 90.3}
+          {"name":"50 Perle Noire"},
+          {"name":"30 Viande de Qualité Cuite"},
+          {"name":"20 Viande Crue" },
+          {"name":"30 Poisson de Qualité Cuite"},
+          {"name":"30 Viande Cuite"}
         ]}
     }    
   },
@@ -2310,10 +2309,10 @@
         "food": {
           "useSanguineElixir": false,
           "items":[
-          {"name":"Croquette Supérieure","effectivness": 99.8},
-          {"name" :"Légumes","effectivness": 84.7},
-          {"name" :"Mejoberry","effectivness": 76},
-          {"name" :"Baies","effectivness": 58.4}
+          {"name":"Croquette Supérieure"},
+          {"name" :"Légumes"},
+          {"name" :"Mejoberry"},
+          {"name" :"Baies"}
         ]}        
       }
   },
@@ -2341,11 +2340,11 @@
         "food": {
           "useSanguineElixir": false,
           "items": [
-          {"name":"Croquette Extraordinaire","effectivness": 99.8},
-          { "name":"Viande de mouton","effectivness": 99},
-          {"name":"Viande crue supérieure","effectivness": 98.4},
-          {  "name":"Côtelette d’agneau cuite","effectivness": 96.7},
-          {"name":" Viande cuite supérieure","effectivness": 94.1}
+          {"name":"Croquette Extraordinaire"},
+          { "name":"Viande de mouton"},
+          {"name":"Viande crue supérieure"},
+          {"name":"Côtelette d’agneau cuite"},
+          {"name":" Viande cuite supérieure"}
         ]
         }
       }        
