@@ -1,5 +1,29 @@
 {
-  "DINOSAURS_SPAWNS_ZONES": {
+"SERVER_TAMING_MULTIPLIER": {
+  "1": 1,
+  "2": 2,
+  "3": 3,
+  "4": 4,
+  "5": 5
+},
+
+"SERVER_FOOD_DRAIN_MULTIPLIER": {
+  "1": 1,
+  "2": 2,
+  "3": 3,
+  "4": 4,
+  "5": 5
+},
+
+"DINOSAURS_LEVEL": {
+  "1": 1,
+  "2": 2,
+  "3": 3,
+  "4": 4,
+  "5": 5
+},
+
+"DINOSAURS_SPAWNS_ZONES": {
   "0": "N/A",
   "1": "Forêt",
   "2": "Marais",
@@ -10,6 +34,7 @@
   "7": "Rivière",
   "8": "Plaine"
 },
+
 "DINOSAURS_TYPES": {
   "0": "N/A",
   "1": "Terrestre",
@@ -26,48 +51,45 @@
   "6": "Charognard"
 },
 "DINOSAURS_FOOD": {
-  "Berries": {"food": 1.5},
-  "Biotoxine": {"food": 1.5},
-  "Bouillon de connaissance": {"food": 1.5},
-  "Champignon rare": {"food": 1.5},
-  "Chitine": {"food": 1.5},
-  "Croquette basique": {"food": 1.5},
-  "Croquette exceptionnelle": {"food": 1.5},
-  "Croquette extraordinaire": {"food": 1.5},
-  "Croquette régulière": {"food": 1.5},
-  "Croquette simple": {"food": 1.5},
-  "Croquette supérieure": {"food": 1.5},
-  "Côtelette d’agneau cuite": {"food": 1.5},
-  "Délicieux gâteau aux Légumes": {"food": 1.5},
-  "Excréments (grand)": {"food": 1.5},
-  "Excréments (moyen)": {"food": 1.5},
-  "Excréments (petit)": {"food": 1.5},
-  "Fleur rare": {"food": 1.5},
+  "Berries": {"food": 20},
+  "Biotoxine": {"food": 45},
+  "Bouillon de connaissance": {"food": 60},
+  "Champignon rare": {"food": 75},
+  "Chitine": {"food": 50},
+  "Croquette basique": {"food": 80},
+  "Croquette exceptionnelle": {"food": 85.2},
+  "Croquette extraordinaire": {"food": 85.2},
+  "Croquette régulière": {"food": 85.2},
+  "Croquette simple": {"food": 80},
+  "Croquette supérieure": {"food": 85.2},
+  "Côtelette d’agneau cuite": {"food": 49.9},
+  "Délicieux gâteau aux Légumes": {"food": 180},
+  "Excréments (grand)": {"food": 37.5},
+  "Excréments (moyen)": {"food": 25},
+  "Excréments (petit)": {"food": 12.5},
+  "Fleur rare": {"food": 75},
   "Gelée de Baudroie abyssale": {"food": 1.5},
-  "Légumes": {"food": 1.5},
-  "Mejoberry": {"food": 1.5},
-  "Miel d'abeille géante": {"food": 1.5},
-  "Oeuf exceptionnel": {"food": 1.5},
-  "Oeuf extraordinaire": {"food": 1.5},
-  "Oeuf supérieur": {"food": 1.5},
+  "Légumes": {"food": 40},
+  "Mejoberry": {"food": 30},
+  "Miel d'abeille géante": {"food": 80},
+  "Oeuf exceptionnel": {"food": 200},
+  "Oeuf extraordinaire": {"food": 200},
+  "Oeuf supérieur": {"food": 137.5},
   "Perle Noire": {"food": 1.5},
-  "Pinte de bière": {"food": 1.5},
-  "Répulsif à insecte": {"food": 1.5},
-  "Sabertooth Salmon(1x)": {"food": 1.5},
-  "Sabertooth Salmon(1x5)": {"food": 1.5},
-  "Stimberry": {"food": 1.5},
-  "Viande avariée": {"food": 1.5},
-  "Viande crue": {"food": 1.5},
-  "Viande crue supérieur": {"food": 1.5},
-  "Viande crue supérieure": {"food": 1.5},
-  "Viande cuite": {"food": 1.5},
-  "Viande cuite supérieur": {"food": 1.5},
-  "Viande cuite supérieure": {"food": 1.5},
-  "Viande de mouton crue": {"food": 1.5},
-  "Viande de mouton cuite": {"food": 1.5},
-  "Viande de poisson crue": {"food": 1.5},
-  "Viande de poisson crue supérieure": {"food": 1.5},
-  "Viande de poisson cuite supérieure": {"food": 1.5}
+  "Pinte de bière": {"food": 45},
+  "Répulsif à insecte": {"food": 25},
+  "Sabertooth Salmon(1x)": {"food": 20},
+  "Sabertooth Salmon(1x5)": {"food": 20},
+  "Stimberry": {"food": 1},
+  "Viande avariée": {"food": 2.5},
+  "Viande crue": {"food": 50},
+  "Viande crue supérieure": {"food": 50},
+  "Viande cuite": {"food": 25},
+  "Viande cuite supérieure": {"food": 50},
+  "Viande de mouton crue": {"food": 50},
+  "Viande de poisson crue": {"food": 25},
+  "Viande de poisson crue supérieure": {"food": 25},
+  "Viande de poisson cuite supérieure": {"food": 25.7}
 },
 
 
@@ -247,7 +269,7 @@
           "items": [
             {"name": "Croquette régulière"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
+            {"name": "Viande crue supérieure"},
             {"name": "Côtelette d’agneau cuite"}
           ]
         }
@@ -425,7 +447,7 @@
           "items": [
             {"name": "Croquette supérieure"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
+            {"name": "Viande crue supérieure"},
             {"name": "Côtelette d’agneau cuite"}
           ]
         }
@@ -559,7 +581,7 @@
           "items": [
             {"name": "Croquette exceptionnelle"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
+            {"name": "Viande crue supérieure"},
             {"name": "Viande de poisson crue"}
           ]
         }
@@ -604,8 +626,8 @@
           "items": [
             {"name": "Croquette régulière"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"}
           ]
         }
       }
@@ -739,8 +761,8 @@
           "items": [
             {"name": "Croquette régulière"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"}
           ]
         }
       }
@@ -916,7 +938,7 @@
           "useSanguineElixir": false,
           "items": [
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
+            {"name": "Viande crue supérieure"},
             {"name": "Viande de poisson crue supérieure"}
           ]
         }
@@ -961,8 +983,8 @@
           "items": [
             {"name": "Croquette supérieure"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande crue supérieur"}
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande crue supérieure"}
           ]
         }
       }
@@ -1006,9 +1028,9 @@
           "items": [
             {"name": "Croquette basique"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -1052,9 +1074,9 @@
           "items": [
             {"name": "Croquette régulière"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -1097,9 +1119,9 @@
           "useSanguineElixir": false,
           "items": [
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"},
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"},
             {"name": "Viande de poisson crue supérieure"}
           ]
         }
@@ -1144,9 +1166,9 @@
           "items": [
             {"name": "Croquette simple"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -1236,7 +1258,7 @@
             {"name": "Croquette supérieure"},
             {"name": "Miel d'abeille géante"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"}
+            {"name": "Viande crue supérieure"}
           ]
         }
       }
@@ -1280,9 +1302,9 @@
           "items": [
             {"name": "Croquette supérieure"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -1461,9 +1483,9 @@
           "items": [
             {"name": "Croquette supérieure"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -1507,9 +1529,9 @@
           "items": [
             {"name": "Biotoxine"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -1677,7 +1699,7 @@
             {"name": "Croquette simple"},
             {"name": "Fleur rare"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande de mouton cuite"}
+            {"name": "Côtelette d’agneau cuite"}
           ]
         }
       }
@@ -1721,9 +1743,9 @@
           "items": [
             {"name": "Croquette exceptionnelle"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -1883,9 +1905,9 @@
           "items": [
             {"name": "Croquette simple"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -1975,9 +1997,9 @@
           "items": [
             {"name": "Croquette basique"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -2021,9 +2043,9 @@
           "items": [
             {"name": "Croquette régulière"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -2353,9 +2375,9 @@
           "items": [
             {"name": "Croquette extraordinaire"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -2444,9 +2466,9 @@
           "items": [
             {"name": "Croquette supérieure"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -2490,9 +2512,9 @@
           "items": [
             {"name": "Croquette supérieure"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -2594,8 +2616,8 @@
             {"name": "Fleur rare"},
             {"name": "Champignon rare"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande crue supérieur"}
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande crue supérieure"}
           ]
         }
       }
@@ -2639,9 +2661,9 @@
           "items": [
             {"name": "Croquette exceptionnelle"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -2720,9 +2742,9 @@
           "useSanguineElixir": false,
           "items": [
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -3244,9 +3266,9 @@
           "items": [
             {"name": "Croquette supérieure"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -3332,9 +3354,9 @@
           "items": [
             {"name": "Croquette régulière"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -3422,9 +3444,9 @@
           "items": [
             {"name": "Croquette régulière"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -3468,9 +3490,9 @@
           "items": [
             {"name": "Croquette exceptionnelle"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -3514,9 +3536,9 @@
           "items": [
             {"name": "Croquette simple"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -3560,9 +3582,9 @@
           "items": [
             {"name": "Croquette exceptionnelle"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -3645,9 +3667,9 @@
           "items": [
             {"name": "Croquette régulière"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"},
-            {"name": "Viande cuite supérieur"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"},
+            {"name": "Viande cuite supérieure"}
           ]
         }
       }
@@ -3692,7 +3714,7 @@
             {"name": "Croquette régulière"},
             {"name": "Viande de mouton crue"},
             {"name": "Viande cuite supérieure"},
-            {"name": "Viande de mouton cuite"},
+            {"name": "Côtelette d’agneau cuite"},
             {"name": "Viande cuite supérieure"}
           ]
         }
@@ -3885,8 +3907,8 @@
           "items": [
             {"name": "Croquette supérieure"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"}
           ]
         }
       }
@@ -3930,8 +3952,8 @@
           "items": [
             {"name": "Croquette régulière"},
             {"name": "Viande de mouton crue"},
-            {"name": "Viande crue supérieur"},
-            {"name": "Viande de mouton cuite"}
+            {"name": "Viande crue supérieure"},
+            {"name": "Côtelette d’agneau cuite"}
           ]
         }
       }
@@ -4019,7 +4041,7 @@
           "useSanguineElixir": false,
           "items": [
             {"name": "Croquette extraordinaire"},
-            {"name": "Viande de mouton cuite"},
+            {"name": "Côtelette d’agneau cuite"},
             {"name": "Viande de mouton crue"},
             {"name": "Viande cuite supérieure"}
           ]
@@ -4261,7 +4283,7 @@
           "useSanguineElixir": false,
           "items": [
             {"name": "Perle Noire"},
-            {"name": "Viande cuite supérieur"},
+            {"name": "Viande cuite supérieure"},
             {"name": "Viande crue"},
             {"name": "Viande de poisson cuite supérieure"}
           ]
@@ -4353,7 +4375,7 @@
             {"name": "Croquette exceptionnelle"},
             {"name": "Viande de mouton crue"},
             {"name": "Viande crue supérieure"},
-            {"name": "Viande de mouton cuite"},
+            {"name": "Côtelette d’agneau cuite"},
             {"name": "Viande cuite supérieure"}
           ]
         }
